@@ -1,0 +1,650 @@
+[
+  {
+    "slug": "#common-assult",
+    "term": "Data Definitions",
+    "definition": "Understand the metrics and data points we use across our property reports and analysis tools. 109 Definitions A-Z Alphabetically Sorted ### % Renters The percentage of dwellings which are rental properties, intended to be leased out to tenants on a rental agreement. A high value indicates a higher proportion of renters in the suburb, which may suggest a more transient population or a lack of affordable housing options for home ownership. Learn more### Addiction Levels Index The Addiction Index measures the prevalence of addictive behaviors in a given area. It takes into account factors such as substance abuse, gambling, and other compulsive behaviors. A high value indicates a higher risk of addiction-related issues in the area. Areas with high substance abuse can often also suffer from high crime rates. Learn more### Affluence Score The overall wealth and affluence of the area, with a higher score representing a more well-to-do, upper class area. Lower scores reflect greater rates of poverty and a more sizeable underclass. It is measured as a score out of 100. Learn more### Alienation Levels Index The frequency of feelings of detachment from society or community for people, measured as a score. A high alienation score can reflect poorly on the strength of the community in the region. Learn more### Australian Aboriginal Population The proportion of people living in Australia who reported to having Indigenous Australian heritage on the 2021 Australian Census. It is important to note that Indigenous Australian communities often experience greater levels of socioeconomic disadvantage, and suffer from reduced life expectancy and a lower quality of life. Learn more### Average Childcare Centre Rating A numerical ranking, on a scale of 0-100, which indicates, on average, the overall quality of all childcare centres within the region, with a higher score indicating a higher quality of childcare. Learn more### Average Number of Bedrooms The average number of bedrooms for all homes as of the 10th of August for the 2021 Australian Census. This is a reflection of the size of the home, but is also a measure of latent supply, particularly in regards to empty nesters with large 3-4 bedroom homes. A higher average number of bedrooms in a suburb indicates a capacity to take in more people and families, as well as the potential for people to convert bedrooms to studies for Work From Home opportunities Learn more### Average Welfare Payments The average government payments and allowances received for each recipient, including, but not limited to, Age Pension, JobSeeker Payment, and Youth Allowance. It is important to note the varying types of people which receive welfare, from unemployed people to disabled people. Also note that high rates of welfare payments in a region can inadvertently create an income growth ceiling. Learn more### Bicycle Commuters The proportion of people (aged 15 and over) who reported that they rode a bicycle to commute to work. Learn more### Bushfire Prone Area Bushfire prone areas are those where there is a relatively high likelihood of a bushfire burning through the region. There are 3 important aspects to this. The first is a safety aspect; there is a greater degree of risk and danger associated with living in a area with high bushfire risk. The second aspect is that of development restrictions; when an area is at risk of bushfire, often houses must be constructed in a certain manner, and from certain materials, in order to accomodate the higher risk of bushfire. The final aspect is that of insurance; home insurance is more expensive for those dwellings which reside in a bushfire prone area. Learn more### Business Activity Index The overall level of business activity occurring in the region, measured by observing per capita rates of business entries and exits. A higher score indicates a higher rate of business activity, as well as a greater prevalence of entrepreneurship in the area. Learn more### Capital Growth Forecast The projected annualised growth of properties over the next four years. Learn more### Car Commuters The proportion of people (aged 15 and over) who reported that they drove to work in a car to commute to work. Learn more### Catchment Area of Primary School Australian public schools all have a geographical zone, known as a catchment. If your place of residence falls within this catchment then, with exceptions, your child must attend that local public school (depending on the age and gender specifications of the school). Note that these catchment zones do not apply to private schools. Learn more### Catchment Area of Primary School Australian public schools all have a geographical zone, known as a catchment. If your place of residence falls within this catchment then, with exceptions, your child must attend that local public school (depending on the age and gender specifications of the school). Note that these catchment zones do not apply to private schools. Learn more### Catchment Areas for Public Schools Australian public schools all have a geographical zone, known as a catchment. If your place of residence falls within this catchment then, with exceptions, your child must attend that local public school (depending on the age and gender specifications of the school). Note that these catchment zones do not apply to private schools. Learn more### Climate Score The environmental conditions of a suburb. A high value indicates a favourable climate for living, with good air quality, low pollution, and comfortable temperatures, whilst a low value indicates the prevalence of adverse or non-favourable weather conditions. It is measured as a score out of 100. Learn more### Closest River The distance to the nearest river. Rivers can enhance an area's tranquility, whilst also encouraging an outdoor lifestyle. Learn more### Comercially Zoned Land in Suburb The total commercial land area in the suburb. Commercial zoning can have many purposes, from offices to retail stores. Whilst retail stores help to serve the community, offices can contirbute to high density levels and disturbances. Learn more### Common Assault The use of intentional and unwanted physical force, whether direct or indirect, used against a victim, which is not severe enough to constitute a form of aggravated assault. The force must be non-sexual in nature. Impacts people's feelings of safety in the area. Learn more 123456",
+    "url": "https://www.microburbs.com.au/definitions/#common-assult"
+  },
+  {
+    "slug": "Average Childcare Centre Rating",
+    "term": "Average Childcare Centre Rating",
+    "definition": "A numerical ranking, on a scale of 0-100, which indicates, on average, the overall quality of all childcare centres within the region, with a higher score indicating a higher quality of childcare. Previous Australian Aboriginal Population Next Average Number of Bedrooms Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Average Childcare Centre Rating"
+  },
+  {
+    "slug": "Bicycle Commuters",
+    "term": "Bicycle Commuters",
+    "definition": "The proportion of people (aged 15 and over) who reported that they rode a bicycle to commute to work. Previous Average Welfare Payments Next Bushfire Prone Area Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Bicycle Commuters"
+  },
+  {
+    "slug": "Car Commuters",
+    "term": "Car Commuters",
+    "definition": "The proportion of people (aged 15 and over) who reported that they drove to work in a car to commute to work. Previous Capital Growth Forecast Next Catchment Area of Primary School Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Car Commuters"
+  },
+  {
+    "slug": "Diversity of Population",
+    "term": "Diversity of Population",
+    "definition": "The proportion of different ethnicities and cultures within a suburb. A high value indicates a diverse community with a range of backgrounds and perspectives. Previous Distance to Nearest Hub Next Domestic Violence Related Assaults Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Diversity of Population"
+  },
+  {
+    "slug": "Family Households",
+    "term": "Family Households",
+    "definition": "The proportion of households who reported that they had at least one family in the dwelling on the 10th of August for the 2021 Australian Census. A family is defined as two or more people, one of whom is at least 15 years old, who are related by blood, marriage, adoption, step, or fostering. Previous Elevation Next Family Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Family Households"
+  },
+  {
+    "slug": "Healthcare Coverage Index",
+    "term": "Healthcare Coverage Index",
+    "definition": "Average access to healthcare services, scored as an index out of 100. A higher score indicates a greater availability of healthcare and specialised health services in the area. Previous Gross Yield Next Heritage Zoning Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Healthcare Coverage Index"
+  },
+  {
+    "slug": "Mortgage as a Percentage of Income",
+    "term": "Mortgage as a Percentage of Income",
+    "definition": "The average proportion of a household's monthly income which is allocated to mortgage repayments. A higher value indicates a lower availability of disposable income to spend. Previous Months of Inventory Next Mortgage Stress Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Mortgage as a Percentage of Income"
+  },
+  {
+    "slug": "Multilingual with Good English Speakers",
+    "term": "Multilingual with Good English Speakers",
+    "definition": "The proportion of people who reported that they speak English well or very well and another language at home. Previous Mortgage Stress Next Nearby Recent DAs Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Multilingual with Good English Speakers"
+  },
+  {
+    "slug": "People in Suburb Within Walking Distance of Public Transport",
+    "term": "People in Suburb Within Walking Distance of Public Transport",
+    "definition": "Proportion of people within walking distance to Public transport Previous Parkland Proportion Next Personal Income Less Than $300 Per Week Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/People in Suburb Within Walking Distance of Public Transport"
+  },
+  {
+    "slug": "Proportion of Unemployed People",
+    "term": "Proportion of Unemployed People",
+    "definition": "The propotion of the population above 15 who do not have a job, but are actively looking for work. A high value indicates a higher number of individuals in the suburb who are currently unemployed and receiving government assistance for jobseekers. This may suggest a weaker job market in the area, and serves as a reflection of the demand for labour. High rates of unemployment are fine in the short term; this reflects the cyclical economic conditions which rise and fall. However, if an area has a continually high rate of unemployment over-time, then this is more concerning, as it speaks to a potentially underskilled population whose talents do not match those demanded by the region. This can lead to entrenched disadvantage. Previous Proportion of Days with Nice Temperatures Next Proportion of Unemployed People Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Proportion of Unemployed People"
+  },
+  {
+    "slug": "Speaks Poor English",
+    "term": "Speaks Poor English",
+    "definition": "The proportion of people who reported that they cannot speak English well or at all. Previous Smart Median Rent Next Stock on Market Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Speaks Poor English"
+  },
+  {
+    "slug": "Walk Commuters",
+    "term": "Walk Commuters",
+    "definition": "The proportion of people (aged 15 and over) who reported that they walked the entire way or partly to commute to work. Previous Vacancy Rate Next Welfare Dependency Index Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/Walk Commuters"
+  },
+  {
+    "slug": "addiction-level",
+    "term": "Addiction Levels Index",
+    "definition": "The Addiction Index measures the prevalence of addictive behaviors in a given area. It takes into account factors such as substance abuse, gambling, and other compulsive behaviors. A high value indicates a higher risk of addiction-related issues in the area. Areas with high substance abuse can often also suffer from high crime rates. Previous % Renters Next Affluence Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/addiction-level"
+  },
+  {
+    "slug": "affluence-score",
+    "term": "Affluence Score",
+    "definition": "The overall wealth and affluence of the area, with a higher score representing a more well-to-do, upper class area. Lower scores reflect greater rates of poverty and a more sizeable underclass. It is measured as a score out of 100. Previous Addiction Levels Index Next Alienation Levels Index Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/affluence-score"
+  },
+  {
+    "slug": "alienation-level",
+    "term": "Alienation Levels Index",
+    "definition": "The frequency of feelings of detachment from society or community for people, measured as a score. A high alienation score can reflect poorly on the strength of the community in the region. Previous Affluence Score Next Australian Aboriginal Population Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/alienation-level"
+  },
+  {
+    "slug": "australian-aboriginal-population",
+    "term": "Australian Aboriginal Population",
+    "definition": "The proportion of people living in Australia who reported to having Indigenous Australian heritage on the 2021 Australian Census. It is important to note that Indigenous Australian communities often experience greater levels of socioeconomic disadvantage, and suffer from reduced life expectancy and a lower quality of life. Previous Alienation Levels Index Next Average Childcare Centre Rating Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/australian-aboriginal-population"
+  },
+  {
+    "slug": "average-number-of-bedrooms",
+    "term": "Average Number of Bedrooms",
+    "definition": "The average number of bedrooms for all homes as of the 10th of August for the 2021 Australian Census. This is a reflection of the size of the home, but is also a measure of latent supply, particularly in regards to empty nesters with large 3-4 bedroom homes. A higher average number of bedrooms in a suburb indicates a capacity to take in more people and families, as well as the potential for people to convert bedrooms to studies for Work From Home opportunities Previous Average Childcare Centre Rating Next Average Welfare Payments Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/average-number-of-bedrooms"
+  },
+  {
+    "slug": "average-welfare-payments",
+    "term": "Average Welfare Payments",
+    "definition": "The average government payments and allowances received for each recipient, including, but not limited to, Age Pension, JobSeeker Payment, and Youth Allowance. It is important to note the varying types of people which receive welfare, from unemployed people to disabled people. Also note that high rates of welfare payments in a region can inadvertently create an income growth ceiling. Previous Average Number of Bedrooms Next Bicycle Commuters Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/average-welfare-payments"
+  },
+  {
+    "slug": "bushfire-prone-area",
+    "term": "Bushfire Prone Area",
+    "definition": "Bushfire prone areas are those where there is a relatively high likelihood of a bushfire burning through the region. There are 3 important aspects to this. The first is a safety aspect; there is a greater degree of risk and danger associated with living in a area with high bushfire risk. The second aspect is that of development restrictions; when an area is at risk of bushfire, often houses must be constructed in a certain manner, and from certain materials, in order to accomodate the higher risk of bushfire. The final aspect is that of insurance; home insurance is more expensive for those dwellings which reside in a bushfire prone area. Previous Bicycle Commuters Next Business Activity Index Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/bushfire-prone-area"
+  },
+  {
+    "slug": "business-activity-index",
+    "term": "Business Activity Index",
+    "definition": "The overall level of business activity occurring in the region, measured by observing per capita rates of business entries and exits. A higher score indicates a higher rate of business activity, as well as a greater prevalence of entrepreneurship in the area. Previous Bushfire Prone Area Next Capital Growth Forecast Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/business-activity-index"
+  },
+  {
+    "slug": "capital growth forecast",
+    "term": "Capital Growth Forecast",
+    "definition": "The projected annualised growth of properties over the next four years. Previous Business Activity Index Next Car Commuters Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/capital growth forecast"
+  },
+  {
+    "slug": "catchment-area-of-primary-school",
+    "term": "Catchment Area of Primary School",
+    "definition": "Australian public schools all have a geographical zone, known as a catchment. If your place of residence falls within this catchment then, with exceptions, your child must attend that local public school (depending on the age and gender specifications of the school). Note that these catchment zones do not apply to private schools. Previous Catchment Area of Primary School Next Catchment Areas for Public Schools Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/catchment-area-of-primary-school"
+  },
+  {
+    "slug": "catchment-area-of-primary-schools",
+    "term": "Catchment Area of Primary School",
+    "definition": "Australian public schools all have a geographical zone, known as a catchment. If your place of residence falls within this catchment then, with exceptions, your child must attend that local public school (depending on the age and gender specifications of the school). Note that these catchment zones do not apply to private schools. Previous Car Commuters Next Catchment Area of Primary School Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/catchment-area-of-primary-schools"
+  },
+  {
+    "slug": "catchment-areas-for-public-schools",
+    "term": "Catchment Areas for Public Schools",
+    "definition": "Australian public schools all have a geographical zone, known as a catchment. If your place of residence falls within this catchment then, with exceptions, your child must attend that local public school (depending on the age and gender specifications of the school). Note that these catchment zones do not apply to private schools. Previous Catchment Area of Primary School Next Climate Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/catchment-areas-for-public-schools"
+  },
+  {
+    "slug": "climate-score",
+    "term": "Climate Score",
+    "definition": "The environmental conditions of a suburb. A high value indicates a favourable climate for living, with good air quality, low pollution, and comfortable temperatures, whilst a low value indicates the prevalence of adverse or non-favourable weather conditions. It is measured as a score out of 100. Previous Catchment Areas for Public Schools Next Closest River Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/climate-score"
+  },
+  {
+    "slug": "closest-river",
+    "term": "Closest River",
+    "definition": "The distance to the nearest river. Rivers can enhance an area's tranquility, whilst also encouraging an outdoor lifestyle. Previous Climate Score Next Comercially Zoned Land in Suburb Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/closest-river"
+  },
+  {
+    "slug": "comercially-zoned-land-in-suburb",
+    "term": "Comercially Zoned Land in Suburb",
+    "definition": "The total commercial land area in the suburb. Commercial zoning can have many purposes, from offices to retail stores. Whilst retail stores help to serve the community, offices can contirbute to high density levels and disturbances. Previous Closest River Next Common Assault Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/comercially-zoned-land-in-suburb"
+  },
+  {
+    "slug": "community-score",
+    "term": "Community Score",
+    "definition": "The overall liveability and strength of the community in a suburb. A high Community Score indicates a desirable area with good amenities, low crime rates, good schools, and a strong sense of community. A low score may indicate a lack of amenities, high crime rates, poor schools, and a lack of community engagement. It is measured as a score out of 100. Previous Common Assault Next Conservatism Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/community-score"
+  },
+  {
+    "slug": "conservatism-score",
+    "term": "Conservatism Score",
+    "definition": "The political leaning of residents in a suburb. A high value indicates a higher proportion of residents who identify as conservative or right-leaning in their political views, whilst a lower value indicates a more progressive and left-leaning set of residents. It is measured as a score out of 100. Previous Community Score Next Convenience Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/conservatism-score"
+  },
+  {
+    "slug": "convenience-score",
+    "term": "Convenience Score",
+    "definition": "The level of ease and accessibility of amenities and services in a given area. A high value indicates that necessary services and amenities are easily accessible in a reasonable timeframe, whether that be by car or public transport, while a low value suggests a lack of convenience and accessibility. For example, rural areas often have lower convenience scores as it usually takes longer for residents to get to core amenities and services, such as a supermarket. It is measured as a score out of 100. Previous Conservatism Score Next Countries of Origin Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/convenience-score"
+  },
+  {
+    "slug": "countries-of-origin",
+    "term": "Countries of Origin",
+    "definition": "The most common regions of origin of the inhabitants of a suburb. Previous Convenience Score Next Current Population Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/countries-of-origin"
+  },
+  {
+    "slug": "current-population",
+    "term": "Current Population",
+    "definition": "The total population as of the 10th of August on the 2021 Australian Census. The total population includes everyone in Australia on Census night. This figure on its own is not necessarily extremely useful, but it is often a critical figure when looking at the longevity and vibrancy of regional areas, which need a minimum threshold of people to feasibly maintain access to a breadth of necessary goods and services. Previous Countries of Origin Next Days on Market Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/current-population"
+  },
+  {
+    "slug": "days on market",
+    "term": "Days on Market",
+    "definition": "The median number of days a property is on the market for before it sells Previous Current Population Next Development Restrictions Index Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/days on market"
+  },
+  {
+    "slug": "development-restrictions-index",
+    "term": "Development Restrictions Index",
+    "definition": "The ease with which developments, such as renovations and creation of new dwellings, can be carried out, based on the zoning regulations and council regulation of the areas, measured on a scale of 0-1. A higher score indicates a greater prevalence of development restrictions in the area, such as environmental zoning laws. Previous Days on Market Next Distance to Beach Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/development-restrictions-index"
+  },
+  {
+    "slug": "distance-to-beach",
+    "term": "Distance to Beach",
+    "definition": "The distance to the nearest beach. Note that beaches often serve as community focal points, whilst encouraging an outdoors lifestyle. Depending on the beach, there could also be lots of traffic in the area, and large numbers of non-locals passing through, which may weaken the sense of local community. Previous Development Restrictions Index Next Distance to CBD Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/distance-to-beach"
+  },
+  {
+    "slug": "distance-to-nearest-hub",
+    "term": "Distance to Nearest Hub",
+    "definition": "The straight line distance, in kilometres, to the nearest large hub, whether this be a city or large town. Due to trends of people moving from small towns to large hubs, a long distance to the nearest hub can be a sign of lower access to goods and services, and a higher degree of isolation. Previous Distance to CBD Next Diversity of Population Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/distance-to-nearest-hub"
+  },
+  {
+    "slug": "distance to cbd",
+    "term": "Distance to CBD",
+    "definition": "The proximity of a suburb to the nearest capital city centre. A shorter distance indicates that the suburb is located closer to a city, making it more accessible and potentially more desirable for those who want to live near urban amenities. Previous Distance to Beach Next Distance to Nearest Hub Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/distance to cbd"
+  },
+  {
+    "slug": "domestic-violence-related-assaults",
+    "term": "Domestic Violence Related Assaults",
+    "definition": "Crimes committed by any domestic relative, including one's children, partner, and ex-partner. Not limited to violence, also includes stalking and harassment. Crimes of this nature often speak to lots of kinds of systemic disadvantage. Previous Diversity of Population Next Education Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/domestic-violence-related-assaults"
+  },
+  {
+    "slug": "education-score",
+    "term": "Education Score",
+    "definition": "A score which reflects how well-educated the population of the area is, and the quality of the area's educational offerings, with a higher score reflecting a more educated populace buoyed by higher quality schools. It is measured as a score out of 100. Previous Domestic Violence Related Assaults Next Elevation Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/education-score"
+  },
+  {
+    "slug": "elevation",
+    "term": "Elevation",
+    "definition": "Elevation provides an indication of the steepness of the terrain in a suburb. A high elevation can inidcate a hilly suburb, while a low value can inidcate a flat suburb. A hillier property can be harder to develop, but a hillier suburb overall will often have greater amounts of green space due to development constraints. Elevation also contributes to the flooding risk (or lack thereof) in a suburb. In a suburb with a high hilliness index, there is often large fluctuations in housing prices, due to changes in the views and outlooks of different places. Resultantly in hilly suburbs, market segementation into high, medium and low segments is all the more important for understanding the market in the suburb. Previous Education Score Next Family Households Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/elevation"
+  },
+  {
+    "slug": "family-score",
+    "term": "Family Score",
+    "definition": "The level of family-friendliness in a suburb, determined by factors such as access to schools, parks, and community services. A high value indicates a suburb with a strong sense of community and amenities that cater to families. It is measured as a score out of 100. Previous Family Households Next Future Population Projections (10 year growth total) Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/family-score"
+  },
+  {
+    "slug": "future-population-projections-10-year-growth-total",
+    "term": "Future Population Projections (10 year growth total)",
+    "definition": "The total predicted percentage growth (or decline) in the population over the next ten years. High population growth drives high demand for housing, and if this is coupled with low housing supply, then this can lead to large housing price increases. Previous Family Score Next Gross Yield Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/future-population-projections-10-year-growth-total"
+  },
+  {
+    "slug": "gross yield",
+    "term": "Gross Yield",
+    "definition": "The growth in the price to rent a property over the past year. Previous Future Population Projections (10 year growth total) Next Healthcare Coverage Index Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/gross yield"
+  },
+  {
+    "slug": "heritage-zoning",
+    "term": "Heritage Zoning",
+    "definition": "Heritage zoned areas are those that, for historical or cultural reasons, have a high degree of development and building restrictions imposed, in order to maintain the overall aesthetic of the area. These development limitations often apply to the exterior facade of these buildings, and also mean that the floor space ratio of a building may not grow in-line with non heritage zoned buildings in the suburb, which face less development restrictions. Previous Healthcare Coverage Index Next Hilliness Index Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/heritage-zoning"
+  },
+  {
+    "slug": "hilliness-index",
+    "term": "Hilliness Index",
+    "definition": "The Hilliness index measures the steepness of the terrain in a suburb. A high value indicates a hilly suburb, while a low value indicates a flat suburb. A hillier property can be harder to develop, but a hillier suburb overall will often have greater amounts of green space due to development constraints. Elevation also contributes to the flooding risk (or lack thereof) in a suburb. In a suburb with a high hilliness index, there is often large fluctuations in housing prices, due to changes in the views and outlooks of different places. Resultantly in hilly suburbs, market segementation into high, medium and low segments is all the more important for understanding the market in the suburb. Previous Heritage Zoning Next Hip Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/hilliness-index"
+  },
+  {
+    "slug": "hip-score",
+    "term": "Hip Score",
+    "definition": "The level of trendiness within a suburb, examining things like the prevalence of bars, nightclubs, young populations and overall hipness. A high value indicates an area with a vibrant, trendy culture and hip amenities. It is measured as a score out of 100. Previous Hilliness Index Next Hip Venues Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/hip-score"
+  },
+  {
+    "slug": "hip-venues",
+    "term": "Hip Venues",
+    "definition": "The total number of hip and trendy venues present in the region. A high amount of hip venues can indiciate a process of gentrification, whereby young people have moved into a formerly undesirable area and rendered it 'hip'. Previous Hip Score Next Historical Population Growth Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/hip-venues"
+  },
+  {
+    "slug": "historical-population-growth",
+    "term": "Historical Population Growth",
+    "definition": "The rate of change in the number of residents in a suburb over the past 5 years. A high value indicates a significant increase in the number of residents, which may result in increased demand for housing, infrastructure, and services. It may also indicate a growing economy and job opportunities. However, a very high population growth rate may lead to overcrowding and strain on resources. Historical population growth is helpful to keep in mind when analysing market trends. Previous Hip Venues Next Homelessness Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/historical-population-growth"
+  },
+  {
+    "slug": "homelessness",
+    "term": "Homelessness",
+    "definition": "The proportion of people receiving homelessness services from specialist homelessness agencies, ranging from general support to crisis accommodation. This speaks to levels of disadvantage in the area, and can be an off-putting factor for some buyers. It is important to note that these homelessness statistics are measured on a broad SA2 level, and that it is likely that homeless individuals will tend to concentrate around support services, instead of residential streets. Previous Historical Population Growth Next Income in bottom 25% of Australian earners Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/homelessness"
+  },
+  {
+    "slug": "income-in-bottom-25-of-australian-earners",
+    "term": "Income in bottom 25% of Australian earners",
+    "definition": "The percentage of the populace which fall within the category of the bottom 25% of income earners in Australia. It is important to note that Australia still has a high minimum wage. Previous Homelessness Next Income in top 25% of Australian earners Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/income-in-bottom-25-of-australian-earners"
+  },
+  {
+    "slug": "income-in-top-25-of-australian-earners",
+    "term": "Income in top 25% of Australian earners",
+    "definition": "The percentage of the populace which fall within the category of the top 25% of income earners in Australia. Previous Income in bottom 25% of Australian earners Next Industrially Zoned Land in Suburb Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/income-in-top-25-of-australian-earners"
+  },
+  {
+    "slug": "industrially-zoned-land-in-suburb",
+    "term": "Industrially Zoned Land in Suburb",
+    "definition": "The total industrial land area in the suburb. Previous Income in top 25% of Australian earners Next Industry Diversity Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/industrially-zoned-land-in-suburb"
+  },
+  {
+    "slug": "industry-diversity-score",
+    "term": "Industry Diversity Score",
+    "definition": "The variety in the types of industries present in the region. A high index indicates a large number of different industries, suggesting a diversity of job types, whilst a low score suggests an over-reliance on some core industries. Previous Industrially Zoned Land in Suburb Next Inequality Using Gini Coefficient Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/industry-diversity-score"
+  },
+  {
+    "slug": "inequality-using-gini-coefficient",
+    "term": "Inequality Using Gini Coefficient",
+    "definition": "The income inequality represented between 0 and 1 using the Gini coefficient. A higher value indicates greater income inequality. Note rural communities will tend to have high inequality, due to there being wealthier farmers and poorer townspeople. Previous Industry Diversity Score Next Jobseeker Recipients in Postcode Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/inequality-using-gini-coefficient"
+  },
+  {
+    "slug": "jobseeker-recipients-in-postcode",
+    "term": "Jobseeker Recipients in Postcode",
+    "definition": "Recipients of government assistance for jobseekers. A high value indicates a higher number of individuals in the suburb who are currently unemployed and receiving government assistance for jobseekers. This may suggest a weaker job market in the area, and serves as a reflection of the demand for labour. High numbers of Jobseeker recipients is fine in the short term; this reflects the cyclical economic conditions which rise and fall. However, if an area has a continually high number of Jobseeker recipients over-time, then this is more concerning, as it speaks to a potentially underskilled population whose talents do not match those demanded by the region. This can lead to entrenched disadvantage. Previous Inequality Using Gini Coefficient Next Land Value per Square Metre Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/jobseeker-recipients-in-postcode"
+  },
+  {
+    "slug": "land value per square metre",
+    "term": "Land Value per Square Metre",
+    "definition": "The median ratio of the value of land to value of the property on the land, indicating the median value of the property per square metre. Previous Jobseeker Recipients in Postcode Next Lifestyle Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/land value per square metre"
+  },
+  {
+    "slug": "median-monthly-mortgage",
+    "term": "Median Monthly Mortgage",
+    "definition": "The median monthly mortgage repayments as of the 10th of August for the 2021 Australian Census. This value is a reflection of both house price and how recently people purchased their dwelling. Whilst this is a useful indicator, it is more beneficial to observe mortgage stress rates in an area, as well as to assess whether mortgage payers have other sources of income. Previous Lifestyle Score Next Median Weekly Household Income Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/median-monthly-mortgage"
+  },
+  {
+    "slug": "median-weekly-household-income",
+    "term": "Median Weekly Household Income",
+    "definition": "The median total pre-tax income of a household based on the reported personal income of all members (aged 15 and over) as of the 10th of August for the 2021 Australian Census. Whilst this has historically been viewed as a core deterimnant of capital growth in an area, it actually tends not to have a strong correlation. Previous Median Monthly Mortgage Next Middle Class Proportion Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/median-weekly-household-income"
+  },
+  {
+    "slug": "middle-class-proportion",
+    "term": "Middle Class Proportion",
+    "definition": "The proportion of residents who fall under the socioeconomic group consisting of white-collar professionals, with potenially a small pool of investments and relatively high income and socioeconomic status. Previous Median Weekly Household Income Next Mobile Blackspots Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/middle-class-proportion"
+  },
+  {
+    "slug": "mobile-blackspots",
+    "term": "Mobile Blackspots",
+    "definition": "Areas where there is sporadic or no mobile phone reception. This poses a practical issue, particularly as landlines are phased out. Previous Middle Class Proportion Next Months of Inventory Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/mobile-blackspots"
+  },
+  {
+    "slug": "months of supply",
+    "term": "Months of Inventory",
+    "definition": "The number of months it would take to sell all properties currently on the market, at the current rate of property sales. Previous Mobile Blackspots Next Mortgage as a Percentage of Income Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/months of supply"
+  },
+  {
+    "slug": "mortgage stress",
+    "term": "Mortgage Stress",
+    "definition": "The proportion of households whose mortgage repayments are more than 30% of their household income. Previous Mortgage as a Percentage of Income Next Multilingual with Good English Speakers Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/mortgage stress"
+  },
+  {
+    "slug": "nearby-recent-das",
+    "term": "Nearby Recent DAs",
+    "definition": "Recent development applications in the vicinity of the property. This is a measure of the relative ease with which one can apply for a DA. Lots of nearby DAs indicates a vote of confidence in the area, whereby people are spending money on development. Creation of new dwellings and subdivisions also works to increase housing supply in the area. This can slow capital growth, but encourage the development of new amenities for residents. Previous Multilingual with Good English Speakers Next Nearest Flooding Prone Area Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/nearby-recent-das"
+  },
+  {
+    "slug": "nearest-flooding-prone-area",
+    "term": "Nearest Flooding Prone Area",
+    "definition": "Flooding prone areas are those where there is a relatively high likelihood of flooding occuring in region. There are 3 important aspects to this. The first is a safety aspect; there is a greater degree of risk and danger associated with living in a area with high flood risk. The second aspect is that of development restrictions; when an area is at risk of flood, often houses must be constructed in a certain manner, and from certain materials, in order to accomodate the higher risk. The final aspect is that of insurance; home insurance is more expensive for those dwellings which reside in a flood prone area. The risk of flood is also important to take note of as climate change and weather extremes become more prominent issues. Previous Nearby Recent DAs Next Net Internal Migration Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/nearest-flooding-prone-area"
+  },
+  {
+    "slug": "net-internal-migration",
+    "term": "Net Internal Migration",
+    "definition": "The average net change in population caused by people migrating to and from this suburb, from and to other areas of Australia. Note that high levels of net internal migration reflects a hub for other Australians. Often this is caused, in part, by a regional to metropolitan migratory wave, for example when young people from regional areas move for university. Previous Nearest Flooding Prone Area Next Net Overseas Migration Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/net-internal-migration"
+  },
+  {
+    "slug": "net-overseas-migration",
+    "term": "Net Overseas Migration",
+    "definition": "The average net change in population caused by people migrating to and from this suburb, from and to countries other than Australia. Note that large cities and metro hubs tend to have high rates of overseas migration, as new migrants often tend to move to places which are more convenient to access and have high levels of employment opportunities. Previous Net Internal Migration Next Night Time Safety Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/net-overseas-migration"
+  },
+  {
+    "slug": "night-time-safety",
+    "term": "Night Time Safety",
+    "definition": "The proportion of people (aged 18 and over) who feel safe or very safe walking alone after dark. This is a modelled estimate from Torrens University based on responses from the General Social Survey. A higher sense of night time safety can contribute to a better quality of life, particularly for women. Previous Net Overseas Migration Next Noise Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/night-time-safety"
+  },
+  {
+    "slug": "noise-score",
+    "term": "Noise Score",
+    "definition": "Level of noise pollution in the area. A high value indicates a high level of noise pollution, which can negatively impact quality of life and potentially lead to health issues such as hearing loss and sleep disturbance. Previous Night Time Safety Next Non-Family Assault Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/noise-score"
+  },
+  {
+    "slug": "non-family-assault",
+    "term": "Non-Family Assault",
+    "definition": "Total number of reported assaults involving non-family members. A high value indicates a higher risk of non-domestic violence in the area. Impacts people's feelings of safety in the area. Previous Noise Score Next Number of People on Pensions in Postcode Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/non-family-assault"
+  },
+  {
+    "slug": "number-of-people-on-pensions-in-postcode",
+    "term": "Number of People on Pensions in Postcode",
+    "definition": "The number of people receiving Age Pension payments provided by Centrelink. The pension is paid to people over the qualifying age of 67 years if the value of their income and assets is under the threshold specified by Centrelink. High-pension receiving areas often have older populations and less capital to develop housing. Previous Non-Family Assault Next Overseas Born Parents Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/number-of-people-on-pensions-in-postcode"
+  },
+  {
+    "slug": "overseas-born-parents",
+    "term": "Overseas Born Parents",
+    "definition": "The proportion of people who reported that both of their parents were born overseas on the 2021 Australian Census. This is largely a reflection of an area's diversity. Previous Number of People on Pensions in Postcode Next Parkland Proportion Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/overseas-born-parents"
+  },
+  {
+    "slug": "parkland-proportion",
+    "term": "Parkland Proportion",
+    "definition": "The proportion of parkland, including parks, nature reserves, protected or conserved areas, sporting facilities, and stadiums, as a percentage of the total land area. More parkland allows for residents to engage in more outdoor recreation and exercise, and can often facilitate strong community ties by acting as a meeting place. Previous Overseas Born Parents Next People in Suburb Within Walking Distance of Public Transport Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/parkland-proportion"
+  },
+  {
+    "slug": "personal-income-less-than-300-per-week",
+    "term": "Personal Income Less Than $300 Per Week",
+    "definition": "The proportion of people who reported that they had a total personal income less than $300 per week (before tax deductions) from all sources on the 10th of August for the 2021 Australian Census. It is important to note that on this date, Victoria was in lockdown, whilst NSW and ACT would follow in the next fortnight. People in this scenario will have no money for property upkeep or mortgage repayments. Previous People in Suburb Within Walking Distance of Public Transport Next Persons per Bedroom Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/personal-income-less-than-300-per-week"
+  },
+  {
+    "slug": "persons-per-bedroom",
+    "term": "Persons per Bedroom",
+    "definition": "The average number of residents for each bedroom in a home as of the 10th of August for the 2021 Australian Census. This is often high in communities with low socioeconomic status, and is often low for regions with lots of elderly people and empty nesters. This value can also be a good indicator of overcrowding in the area, as well as a measure of the strain on housing supply (for example, a high value could reflect a prevalence of individuals in their 20s still living at home). Previous Personal Income Less Than $300 Per Week Next Proportion Blue Collar Workers Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/persons-per-bedroom"
+  },
+  {
+    "slug": "proportion-blue-collar-workers",
+    "term": "Proportion Blue Collar Workers",
+    "definition": "The proportion of people (aged 15 and over) who reported that they work as blue collar workers, including technicians and trades workers, machinery operators and drivers, and labourers, for their main job in the week prior to the 10th of August for the 2021 Australian Census. If there is too large a blue collar worker proportion in a region, this can be an indicator that the area is over-reliant on 1 or 2 core labour-based industries, for example, mining. Previous Persons per Bedroom Next Proportion of Days with Comfortable Humidity Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/proportion-blue-collar-workers"
+  },
+  {
+    "slug": "proportion-of-days-with-comfortable-humidity",
+    "term": "Proportion of Days with Comfortable Humidity",
+    "definition": "The frequency of days with optimal humidity levels. A high value indicates a comfortable living environment with reduced risk of respiratory issues, while a low value may cause discomfort and health problems. Previous Proportion Blue Collar Workers Next Proportion of Days with Nice Temperatures Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/proportion-of-days-with-comfortable-humidity"
+  },
+  {
+    "slug": "proportion-of-days-with-nice-temperatures",
+    "term": "Proportion of Days with Nice Temperatures",
+    "definition": "The percentage of days with comfortable temperatures. A high value indicates a desirable climate for outdoor activities and living. Previous Proportion of Days with Comfortable Humidity Next Proportion of Unemployed People Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/proportion-of-days-with-nice-temperatures"
+  },
+  {
+    "slug": "proportion-of-unemployed-people",
+    "term": "Proportion of Unemployed People",
+    "definition": "The propotion of the population above 15 who do not have a job, but are actively looking for work. A high value indicates a higher number of individuals in the suburb who are currently unemployed and receiving government assistance for jobseekers. This may suggest a weaker job market in the area, and serves as a reflection of the demand for labour. High rates of unemployment are fine in the short term; this reflects the cyclical economic conditions which rise and fall. However, if an area has a continually high rate of unemployment over-time, then this is more concerning, as it speaks to a potentially underskilled population whose talents do not match those demanded by the region. This can lead to entrenched disadvantage. Previous Proportion of Unemployed People Next Proportion Speaking Only English Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/proportion-of-unemployed-people"
+  },
+  {
+    "slug": "proportion-speaking-only-english",
+    "term": "Proportion Speaking Only English",
+    "definition": "The proportion of people who reported that they do not use a language other than English at home on the 10th of August for the 2021 Australian Census. A high proportion can indicate a less diverse area, or an area where migrants are less connected to their home country and mother tongue. Previous Proportion of Unemployed People Next Proportion White Collar Workers Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/proportion-speaking-only-english"
+  },
+  {
+    "slug": "proportion-white-collar-workers",
+    "term": "Proportion White Collar Workers",
+    "definition": "The proportion of people (aged 15 and over) who reported that they work as white collar workers, including managers, professionals, community and personal service workers, clerical and administrative workers, and sales workers, for their main job in the week prior to the 10th of August for the 2021 Australian Census. Previous Proportion Speaking Only English Next Public Housing Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/proportion-white-collar-workers"
+  },
+  {
+    "slug": "public-housing",
+    "term": "Public Housing",
+    "definition": "The proportion of total dwellings that are social housing, as of the 10th of August for the 2021 Australian Census. This includes public housing, community housing, and Indigenous community housing provided by states and territories. High amounts of public housing have been shown to limit the capital growth potential of an area. Previous Proportion White Collar Workers Next Publically Accessible EV Chargers in Suburb Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/public-housing"
+  },
+  {
+    "slug": "publically-accessible-ev-chargers-in-suburb",
+    "term": "Publically Accessible EV Chargers in Suburb",
+    "definition": "The total number of electric vehicle chargers which the public can access in a suburb. Previous Public Housing Next Relgious Beliefs Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/publically-accessible-ev-chargers-in-suburb"
+  },
+  {
+    "slug": "relgious-beliefs",
+    "term": "Relgious Beliefs",
+    "definition": "The breakdown of the most believed in religions within the area, including atheism. Previous Publically Accessible EV Chargers in Suburb Next Rental Turnover Rate Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/relgious-beliefs"
+  },
+  {
+    "slug": "rental-turnover-rate",
+    "term": "Rental Turnover Rate",
+    "definition": "The average duration that a tenant remains in a rental property before moving out. It indicates how frequently a property cycles through tenants. A turnover rate of 4.7 years suggests that, on average, each tenant stays in the property for 4.7 years before leaving, after which the property becomes available for a new tenant. Landlords, property managers, and investors use this figure to gauge stability in occupancy and the frequency at which they must find new tenants, handle associated maintenance, and incur vacancy costs. Previous Relgious Beliefs Next Resident Retention Index Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/rental-turnover-rate"
+  },
+  {
+    "slug": "renters",
+    "term": "% Renters",
+    "definition": "The percentage of dwellings which are rental properties, intended to be leased out to tenants on a rental agreement. A high value indicates a higher proportion of renters in the suburb, which may suggest a more transient population or a lack of affordable housing options for home ownership.",
+    "url": "https://www.microburbs.com.au/definitions/renters"
+  },
+  {
+    "slug": "resident-retention-index",
+    "term": "Resident Retention Index",
+    "definition": "An index that represents the long-term viability and attractiveness of a suburb. It is a metric which primarily looks at the number of a suburb's residents who have lived at their address for 5 years or more. The higher the resident retention score, the more likely it is that people are choosing to stay in the suburb long-term. The score reflects in part people's confidence in the area and the community. Inherently, some areas which cater for younger demographics, such as areas near universities, will have lower resident retention indices. Previous Rental Turnover Rate Next Residential Density Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/resident-retention-index"
+  },
+  {
+    "slug": "residential-density",
+    "term": "Residential Density",
+    "definition": "The square metres of residential land per resident. This can be used as a metric for overcrowding; the greater the score, the more space people have, the less overcrowded the region. A low score can indicate overcrowding, but it can also indicate a dense population that supports lots of services and businesses. Previous Resident Retention Index Next Risk of Coastal Erosion Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/residential-density"
+  },
+  {
+    "slug": "risk-of-coastal-erosion",
+    "term": "Risk of Coastal Erosion",
+    "definition": "Coastal erosion prone areas are those where there is a relatively high likelihood of water and wind-induced erosion occuring in region. There are 3 important aspects to this. The first is a safety aspect; there is a greater degree of risk and danger associated with living in a area with high erosion risk, as your house may be less stucturally sound. The second aspect is that of development restrictions; when an area is at risk of erosion, often houses must be constructed in a certain manner, and from certain materials, in order to accomodate the higher risk. The final aspect is that of insurance; home insurance is more expensive for those dwellings which reside in an erosion prone area. Previous Residential Density Next Safety Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/risk-of-coastal-erosion"
+  },
+  {
+    "slug": "safety-score",
+    "term": "Safety Score",
+    "definition": "An indicator of the levels of crime or danger in a given area. A high safety score indicates a low likelihood of crime or danger, while a low safety score indicates a higher likelihood of crime or danger. Factors that contribute to a high safety score may include low crime rates, well-lit streets, and a visible police presence. It is measured as a score out of 100. Previous Risk of Coastal Erosion Next Sale Turnover Rate Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/safety-score"
+  },
+  {
+    "slug": "sale-turnover-rate",
+    "term": "Sale Turnover Rate",
+    "definition": "The frequency with which properties in a given market or portfolio change hands. A sale turnover rate of 6.9 years means that on average, a property is held by an owner for about 6.9 years before it is sold. This figure helps investors and market analysts understand how quickly properties appreciate, how long owners typically wait before exiting their investment, and how frequently inventory cycles through the market. It can be a key indicator of market activity, liquidity, and potential buyer or seller leverage. Previous Safety Score Next Single Parents Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/sale-turnover-rate"
+  },
+  {
+    "slug": "single parents",
+    "term": "Single Parents",
+    "definition": "The proportion of people who reported themselves as a lone parent in a one parent family on the 2021 Australian Census. A person is considered a lone parent if they reported that they have no spouse or partner who usually resides in the household. Previous Sale Turnover Rate Next Smart Median Property Price Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/single parents"
+  },
+  {
+    "slug": "smart-median-price",
+    "term": "Smart Median Property Price",
+    "definition": "The median sale price of a property calculated by Microburbs using machine learning to infer prices even at low volumes. Previous Single Parents Next Smart Median Rent Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/smart-median-price"
+  },
+  {
+    "slug": "smart-median-rent",
+    "term": "Smart Median Rent",
+    "definition": "The median rental price per week of a property calculated by Microburbs using machine learning to infer prices even at low volumes. Previous Smart Median Property Price Next Speaks Poor English Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/smart-median-rent"
+  },
+  {
+    "slug": "stock on market",
+    "term": "Stock on Market",
+    "definition": "The number of properties currently publicly listed as being available for purchase. Previous Speaks Poor English Next Top 3 Professions Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/stock on market"
+  },
+  {
+    "slug": "top-3-professions",
+    "term": "Top 3 Professions",
+    "definition": "The top 3 professions of employment in the region, calculated from the 2021 Census. Previous Stock on Market Next Top 5 Languages Spoken Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/top-3-professions"
+  },
+  {
+    "slug": "top-5-languages-spoken",
+    "term": "Top 5 Languages Spoken",
+    "definition": "The top 5 languages spoken in a region. Ethnic communities which speak more in their mother tongue often maintain a strong sense of community connection. Previous Top 3 Professions Next Top Industries of Employment Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/top-5-languages-spoken"
+  },
+  {
+    "slug": "top-industries-of-employment",
+    "term": "Top Industries of Employment",
+    "definition": "The top 3 industries of employment in the region, calculated from the 2021 Census. Previous Top 5 Languages Spoken Next Total Drug Offences Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/top-industries-of-employment"
+  },
+  {
+    "slug": "total-drug-offences",
+    "term": "Total Drug Offences",
+    "definition": "The rate at which the sum total of drug-related offences occur, which details all possessing, selling, dealing, trafficking, importing, manufacturing or cultivating illicit drugs. Towns can rapidly get overwhelmed my high rates of drug crime and usage, contributing to mental health issues and a lack of a feeling of safety. Previous Top Industries of Employment Next Total Family Violence Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/total-drug-offences"
+  },
+  {
+    "slug": "total-family-violence",
+    "term": "Total Family Violence",
+    "definition": "The rate at which the sum total of violent crimes within a familial setting occur, including mistreatment, neglect, assault (physical, verbal, sexual, financial) and the breaching of a family violence order. Crimes of this nature often speak to lots of kinds of systemic disadvantage. Previous Total Drug Offences Next Total Violent Crime Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/total-family-violence"
+  },
+  {
+    "slug": "total-violent-crime",
+    "term": "Total Violent Crime",
+    "definition": "The rate at which the sum total of violent criminal offences occur, which includes murder, attempted murder, manslaughter, harassment, abduction and kidnapping. This can tie directly to how safe people feel in an area. Previous Total Family Violence Next Tranquility Score Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/total-violent-crime"
+  },
+  {
+    "slug": "tranquility-score",
+    "term": "Tranquility Score",
+    "definition": "The level of peacefulness and calmness in a suburb. A high Tranquility Score indicates a low level of noise pollution, low crime rates, a high prevalence of green spaces and a lack of disruptive activities. It suggests a peaceful and serene environment. It is measured as a score out of 100. Previous Total Violent Crime Next Under Class Proportion Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/tranquility-score"
+  },
+  {
+    "slug": "under-class-proportion",
+    "term": "Under Class Proportion",
+    "definition": "The proportion of residents who fall under the most disadvantaged socio-economic group, often facing poverty, limited opportunities, and social exclusion. When there is a growing underclass in a region, there is a greater dampening of property growth. However, it is important to note that the existence of a stable proportion of under class citizens does not prohibit growth opportunities. Previous Tranquility Score Next Vacancy Rate Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/under-class-proportion"
+  },
+  {
+    "slug": "vacancy rate",
+    "term": "Vacancy Rate",
+    "definition": "The proportion of currently unoccupied rental properties on the market Previous Under Class Proportion Next Walk Commuters Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/vacancy rate"
+  },
+  {
+    "slug": "welfare-dependency-index",
+    "term": "Welfare Dependency Index",
+    "definition": "The proportion of residents receiving government welfare payments. A high value indicates a higher level of welfare dependency in the area, potentially impacting the local economy and social services. It is important to note the varying types of people which receive welfare, from unemployed people to disabled people. Also note that high rates of welfare dependency in a region can inadvertently create an income growth ceiling. Previous Walk Commuters Next Welfare Dependent Families Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/welfare-dependency-index"
+  },
+  {
+    "slug": "welfare-dependent-families",
+    "term": "Welfare Dependent Families",
+    "definition": "The proportion of families, with children, who are low-income and financially dependent upon welfare payment. This is an important indicator of long-term entrenched disadvantage in a community. A high value can dampen capital growth in the area and lead to child behavioural issues. Previous Welfare Dependency Index Next Working Class Proportion Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/welfare-dependent-families"
+  },
+  {
+    "slug": "working-class-proportion",
+    "term": "Working Class Proportion",
+    "definition": "The socioeconomic group consisting of blue-collar labourers, usually with a relatively lower income and degree of socioeconomic advantage. If there is too large a working class proportion in a region, this can be an indicator that the area is over-reliant on 1 or 2 core labour-based industries, for example, mining. Previous Welfare Dependent Families Next Zone of The Property Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/working-class-proportion"
+  },
+  {
+    "slug": "zone-of-the-property",
+    "term": "Zone of The Property",
+    "definition": "The property zoning restricts and impacts how the properly may be developed and used. Previous Working Class Proportion Back to all definitions",
+    "url": "https://www.microburbs.com.au/definitions/zone-of-the-property"
+  }
+]

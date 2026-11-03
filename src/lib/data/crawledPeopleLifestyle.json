@@ -1,0 +1,403 @@
+[
+  {
+    "slug": "Dulwich-Hill",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Dulwich-Hill",
+    "population": 13100,
+    "medianAge": 38,
+    "householdIncome": 2100,
+    "familiesPct": 59.1,
+    "uniGraduatesPct": 24.3,
+    "diversityPct": 47.1
+  },
+  {
+    "slug": "Frankston",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Frankston",
+    "population": 34000,
+    "medianAge": 39,
+    "householdIncome": 1390,
+    "familiesPct": 62.1,
+    "uniGraduatesPct": 10.5,
+    "diversityPct": 30.9
+  },
+  {
+    "slug": "Glen-Waverley",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Glen-Waverley",
+    "population": 40800,
+    "medianAge": 40,
+    "householdIncome": 1920,
+    "familiesPct": 78.3,
+    "uniGraduatesPct": 22.3,
+    "diversityPct": 74.2
+  },
+  {
+    "slug": "Hurstville",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Hurstville",
+    "population": 30000,
+    "medianAge": 33,
+    "householdIncome": 1800,
+    "familiesPct": 73.4,
+    "uniGraduatesPct": 20.7,
+    "diversityPct": 87.1
+  },
+  {
+    "slug": "Kensington",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Kensington",
+    "population": 9820,
+    "medianAge": 32,
+    "householdIncome": 2120,
+    "familiesPct": 59.8,
+    "uniGraduatesPct": 24.6,
+    "diversityPct": 57.2
+  },
+  {
+    "slug": "Liverpool",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Liverpool",
+    "population": 28000,
+    "medianAge": 34,
+    "householdIncome": 1300,
+    "familiesPct": 67.5,
+    "uniGraduatesPct": 11.0,
+    "diversityPct": 82.3
+  },
+  {
+    "slug": "Manly",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Manly",
+    "population": 15000,
+    "medianAge": 38,
+    "householdIncome": 3160,
+    "familiesPct": 61.0,
+    "uniGraduatesPct": 32.2,
+    "diversityPct": 38.4
+  },
+  {
+    "slug": "Marrickville",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Marrickville",
+    "population": 24700,
+    "medianAge": 37,
+    "householdIncome": 2170,
+    "familiesPct": 60.8,
+    "uniGraduatesPct": 24.5,
+    "diversityPct": 50.6
+  },
+  {
+    "slug": "Mascot",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Mascot",
+    "population": 20500,
+    "medianAge": 30,
+    "householdIncome": 2250,
+    "familiesPct": 65.3,
+    "uniGraduatesPct": 25.0,
+    "diversityPct": 72.2
+  },
+  {
+    "slug": "Mbmap",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Mbmap",
+    "population": 2850,
+    "medianAge": 47,
+    "householdIncome": 4680,
+    "familiesPct": 88.5,
+    "uniGraduatesPct": 29.0,
+    "diversityPct": 37.6
+  },
+  {
+    "slug": "Mosman",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Mosman",
+    "population": 26500,
+    "medianAge": 45,
+    "householdIncome": 2890,
+    "familiesPct": 66.0,
+    "uniGraduatesPct": 29.2,
+    "diversityPct": 37.3
+  },
+  {
+    "slug": "Northcote",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Northcote",
+    "population": 23800,
+    "medianAge": 37,
+    "householdIncome": 2290,
+    "familiesPct": 60.6,
+    "uniGraduatesPct": 26.9,
+    "diversityPct": 36.6
+  },
+  {
+    "slug": "Orange",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Orange",
+    "population": 38000,
+    "medianAge": 36,
+    "householdIncome": 1640,
+    "familiesPct": 67.2,
+    "uniGraduatesPct": 11.3,
+    "diversityPct": 23.1
+  },
+  {
+    "slug": "Parramatta",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Parramatta",
+    "population": 28100,
+    "medianAge": 32,
+    "householdIncome": 2090,
+    "familiesPct": 63.7,
+    "uniGraduatesPct": 26.9,
+    "diversityPct": 83.7
+  },
+  {
+    "slug": "Robina",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Robina",
+    "population": 23900,
+    "medianAge": 39,
+    "householdIncome": 1760,
+    "familiesPct": 74.5,
+    "uniGraduatesPct": 14.4,
+    "diversityPct": 38.0
+  },
+  {
+    "slug": "Ryde",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Ryde",
+    "population": 30400,
+    "medianAge": 36,
+    "householdIncome": 2020,
+    "familiesPct": 68.3,
+    "uniGraduatesPct": 23.4,
+    "diversityPct": 65.0
+  },
+  {
+    "slug": "Willoughby",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/Willoughby",
+    "medianAge": 40
+  },
+  {
+    "slug": "mbmap_auburn_(nsw)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_auburn_(nsw)"
+  },
+  {
+    "slug": "mbmap_bankstown",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_bankstown"
+  },
+  {
+    "slug": "mbmap_baulkham_hills",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_baulkham_hills"
+  },
+  {
+    "slug": "mbmap_bentleigh",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_bentleigh"
+  },
+  {
+    "slug": "mbmap_blacktown",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_blacktown"
+  },
+  {
+    "slug": "mbmap_bondi_beach",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_bondi_beach"
+  },
+  {
+    "slug": "mbmap_bondi",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_bondi"
+  },
+  {
+    "slug": "mbmap_brighton_(vic.)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_brighton_(vic.)"
+  },
+  {
+    "slug": "mbmap_brunswick_(vic.)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_brunswick_(vic.)"
+  },
+  {
+    "slug": "mbmap_buderim",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_buderim"
+  },
+  {
+    "slug": "mbmap_cabramatta",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_cabramatta"
+  },
+  {
+    "slug": "mbmap_campsie",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_campsie"
+  },
+  {
+    "slug": "mbmap_carlton_(vic.)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_carlton_(vic.)"
+  },
+  {
+    "slug": "mbmap_castle_hill_(nsw)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_castle_hill_(nsw)"
+  },
+  {
+    "slug": "mbmap_castlecrag",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_castlecrag"
+  },
+  {
+    "slug": "mbmap_chatswood",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_chatswood"
+  },
+  {
+    "slug": "mbmap_coburg",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_coburg"
+  },
+  {
+    "slug": "mbmap_coffs_harbour",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_coffs_harbour"
+  },
+  {
+    "slug": "mbmap_cronulla",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_cronulla"
+  },
+  {
+    "slug": "mbmap_dee",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_dee"
+  },
+  {
+    "slug": "mbmap_dee_why",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_dee_why"
+  },
+  {
+    "slug": "mbmap_doncaster",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_doncaster"
+  },
+  {
+    "slug": "mbmap_dubbo",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_dubbo"
+  },
+  {
+    "slug": "mbmap_dulwich_hill",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_dulwich_hill"
+  },
+  {
+    "slug": "mbmap_dulwich",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_dulwich"
+  },
+  {
+    "slug": "mbmap_frankston",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_frankston"
+  },
+  {
+    "slug": "mbmap_glen_waverley",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_glen_waverley"
+  },
+  {
+    "slug": "mbmap_hawthorn_(vic.)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_hawthorn_(vic.)"
+  },
+  {
+    "slug": "mbmap_hornsby",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_hornsby"
+  },
+  {
+    "slug": "mbmap_hurstville",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_hurstville"
+  },
+  {
+    "slug": "mbmap_kensington_(nsw)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_kensington_(nsw)"
+  },
+  {
+    "slug": "mbmap_kew_(vic.)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_kew_(vic.)"
+  },
+  {
+    "slug": "mbmap_liverpool",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_liverpool"
+  },
+  {
+    "slug": "mbmap_macquarie",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_macquarie"
+  },
+  {
+    "slug": "mbmap_manly_(nsw)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_manly_(nsw)"
+  },
+  {
+    "slug": "mbmap_maroubra",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_maroubra"
+  },
+  {
+    "slug": "mbmap_marrickville",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_marrickville"
+  },
+  {
+    "slug": "mbmap_mascot",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_mascot"
+  },
+  {
+    "slug": "mbmap_melbourne",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_melbourne"
+  },
+  {
+    "slug": "mbmap_mosman",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_mosman"
+  },
+  {
+    "slug": "mbmap_newtown_(nsw)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_newtown_(nsw)"
+  },
+  {
+    "slug": "mbmap_northcote",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_northcote"
+  },
+  {
+    "slug": "mbmap_orange",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_orange"
+  },
+  {
+    "slug": "mbmap_paddington_(nsw)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_paddington_(nsw)"
+  },
+  {
+    "slug": "mbmap_parramatta",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_parramatta"
+  },
+  {
+    "slug": "mbmap_people",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_people"
+  },
+  {
+    "slug": "mbmap_port_macquarie",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_port_macquarie"
+  },
+  {
+    "slug": "mbmap_preston_(vic.)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_preston_(vic.)"
+  },
+  {
+    "slug": "mbmap_randwick",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_randwick"
+  },
+  {
+    "slug": "mbmap_redfern",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_redfern"
+  },
+  {
+    "slug": "mbmap_reservoir_(vic.)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_reservoir_(vic.)"
+  },
+  {
+    "slug": "mbmap_richmond_(vic.)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_richmond_(vic.)"
+  },
+  {
+    "slug": "mbmap_robina",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_robina"
+  },
+  {
+    "slug": "mbmap_ryde",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_ryde"
+  },
+  {
+    "slug": "mbmap_south_yarra",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_south_yarra"
+  },
+  {
+    "slug": "mbmap_st_kilda_(vic.)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_st_kilda_(vic.)"
+  },
+  {
+    "slug": "mbmap_surry_hills",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_surry_hills"
+  },
+  {
+    "slug": "mbmap_willoughby_(nsw)",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_willoughby_(nsw)"
+  },
+  {
+    "slug": "mbmap_yarra",
+    "url": "https://www.microburbs.com.au/People-Lifestyle/mbmap_yarra"
+  }
+]
