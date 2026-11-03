@@ -13,6 +13,7 @@ import PlanningZoningCard from "../../../components/PlanningZoningCard";
 import InvestmentCalculator from "../../../components/InvestmentCalculator";
 import InteractiveMap from "../../../components/InteractiveMap";
 import ReportActionBar from "../../../components/ReportActionBar";
+import SuburbHeroImage from "../../../components/SuburbHeroImage";
 
 interface PageProps {
   params: {
@@ -47,6 +48,9 @@ export default function SuburbReportPage({ params }: PageProps) {
         <span>/</span>
         <span className="text-[#3c3a39] font-medium">{suburb.name} {suburb.state}</span>
       </div>
+
+      {/* Hero Editorial Suburb Cover Photography */}
+      <SuburbHeroImage suburb={suburb} />
 
       {/* Suburb Header Banner */}
       <div className="card-editorial p-6 lg:p-8 mb-8">
@@ -150,20 +154,20 @@ export default function SuburbReportPage({ params }: PageProps) {
           {/* Module 1: Price Trajectory Chart */}
           <PriceChart series={suburb.market.priceSeries} suburbName={suburb.name} />
 
-          {/* Module 2: Livability Radar & ABS Demographics */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <ScoreRadar scores={suburb.scores} />
-            <DemographicBreakdown demographics={suburb.demographics} suburbName={suburb.name} />
-          </div>
+          {/* Module 2: Livability Radar & Lifestyle Diagnostic */}
+          <ScoreRadar scores={suburb.scores} />
 
-          {/* Module 3: Education & Catchments */}
+          {/* Module 3: ABS Census Demographics & Socioeconomic Profile */}
+          <DemographicBreakdown demographics={suburb.demographics} suburbName={suburb.name} />
+
+          {/* Module 4: Education & Catchments */}
           <SchoolCatchmentList schools={suburb.schools} suburbName={suburb.name} />
 
-          {/* Module 4: Planning & Hazards Due Diligence */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <PlanningZoningCard planning={suburb.planning} suburbName={suburb.name} />
-            <HazardRiskMatrix hazards={suburb.hazards} suburbName={suburb.name} />
-          </div>
+          {/* Module 5: Planning Controls & Development Pipeline */}
+          <PlanningZoningCard planning={suburb.planning} suburbName={suburb.name} />
+
+          {/* Module 6: Due Diligence & Environmental Risk Overlays */}
+          <HazardRiskMatrix hazards={suburb.hazards} suburbName={suburb.name} />
 
           {/* Module 5: Interactive Investment Cash Flow Calculator */}
           <InvestmentCalculator

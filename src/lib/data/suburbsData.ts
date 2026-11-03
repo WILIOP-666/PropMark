@@ -996,11 +996,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Manly",
     "state": "NSW",
     "postcode": "2095",
-    "lga": "Manly Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Northern Beaches Council",
+    "region": "Sydney Northern Beaches",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.7995,
+      "lng": 151.2845
     },
     "summary": {
       "description": "Established suburban centre in NSW (2095) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",

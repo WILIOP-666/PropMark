@@ -3,7 +3,13 @@
 import { useEffect, useRef, useState } from "react";
 import { formatCurrency, formatPercent } from "../lib/utils";
 import { SuburbSchool } from "../lib/types";
-import { OFFICIAL_BELMONT_NORTH_BOUNDARY, OFFICIAL_NEIGHBOURING_BOUNDARIES, generateDetailedBoundary } from "../lib/data/boundaryGeoData";
+import {
+  OFFICIAL_BELMONT_NORTH_BOUNDARY,
+  OFFICIAL_NEIGHBOURING_BOUNDARIES,
+  OFFICIAL_MANLY_BOUNDARY,
+  OFFICIAL_MANLY_NEIGHBOURS,
+  generateDetailedBoundary,
+} from "../lib/data/boundaryGeoData";
 
 interface InteractiveMapProps {
   center: { lat: number; lng: number };
@@ -73,10 +79,16 @@ export default function InteractiveMap({
         shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
       });
 
+      const isManly = suburbName.toLowerCase().includes("manly");
+      const initialCenter: [number, number] = isManly
+        ? [-33.8060, 151.2880]
+        : [center.lat, center.lng];
+      const initialZoom = isManly ? 13 : zoom;
+
       // Map container matching inspected Microburbs DOM
       const map = L.map(mapContainerRef.current, {
-        center: [center.lat, center.lng],
-        zoom: zoom,
+        center: initialCenter,
+        zoom: initialZoom,
         zoomControl: true, // Native Leaflet zoom (+ and − in top-left)
         attributionControl: true,
       });
@@ -95,7 +107,34 @@ export default function InteractiveMap({
       const isBelmont = suburbName.toLowerCase().includes("belmont");
 
       // 1. Surrounding Neighbouring Suburbs (Exact Microburbs Cadastral Mosaic)
-      if (isBelmont) {
+      if (isManly) {
+        neighbourLayersRef.current = OFFICIAL_MANLY_NEIGHBOURS.map((nb) => {
+          const nbPoly = L.polygon(nb.coords, {
+            color: "#94a3b8",
+            weight: 1.2,
+            opacity: 1,
+            fillColor: "#e2e8f0",
+            fillOpacity: 0.35,
+            lineCap: "round",
+            lineJoin: "round",
+            className: "leaflet-interactive",
+          }).addTo(map);
+
+          nbPoly.bindTooltip(`<b>${nb.name.toUpperCase()}</b>`, {
+            sticky: true,
+            direction: "top",
+          });
+
+          nbPoly.on("mouseover", function (this: any) {
+            this.setStyle({ fillOpacity: 0.55, weight: 1.8 });
+          });
+          nbPoly.on("mouseout", function (this: any) {
+            this.setStyle({ fillOpacity: 0.35, weight: 1.2 });
+          });
+
+          return nbPoly;
+        });
+      } else if (isBelmont) {
         neighbourLayersRef.current = OFFICIAL_NEIGHBOURING_BOUNDARIES.map((coords, idx) => {
           const nbName = surroundingSuburbs[idx % surroundingSuburbs.length] || `Neighbouring Suburb #${idx + 1}`;
           const nbPoly = L.polygon(coords, {
@@ -169,8 +208,10 @@ export default function InteractiveMap({
         });
       }
 
-      // 2. Target Main Suburb Boundary (95-Point Intricate Cadastral Boundary directly from Microburbs)
-      const targetCoords = isBelmont
+      // 2. Target Main Suburb Boundary (Exact Cadastral Boundary)
+      const targetCoords = isManly
+        ? OFFICIAL_MANLY_BOUNDARY
+        : isBelmont
         ? OFFICIAL_BELMONT_NORTH_BOUNDARY
         : generateDetailedBoundary(center.lat, center.lng, 48);
 
