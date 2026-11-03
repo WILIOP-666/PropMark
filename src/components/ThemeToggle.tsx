@@ -43,21 +43,32 @@ export default function ThemeToggle() {
     <button
       type="button"
       onClick={toggleTheme}
-      title={theme === "light" ? "Switch to Dark Editorial" : "Switch to Light Paper"}
-      aria-label="Toggle dark/light theme"
-      className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-full border border-ink-10 bg-surface text-[#3c3a39] hover:border-ink-40 transition-colors text-xs font-mono"
+      role="switch"
+      aria-checked={theme === "dark"}
+      title={theme === "light" ? "Switch to Dark Mode" : "Switch to Light Mode"}
+      aria-label="Toggle Dark / Light Mode"
+      className="relative inline-flex h-8 w-14 shrink-0 cursor-pointer items-center rounded-full border border-ink-10 bg-surface-light p-1 transition-colors duration-300 focus:outline-none hover:border-ink-40"
     >
-      {theme === "light" ? (
-        <>
-          <Moon className="w-3.5 h-3.5 text-accent-lavender" />
-          <span className="hidden sm:inline">Dark</span>
-        </>
-      ) : (
-        <>
-          <Sun className="w-3.5 h-3.5 text-accent-gold" />
-          <span className="hidden sm:inline">Light</span>
-        </>
-      )}
+      {/* Background Icons in track */}
+      <span className="absolute inset-0 flex items-center justify-between px-1.5 pointer-events-none">
+        <Sun className="w-3.5 h-3.5 text-accent-gold opacity-70" />
+        <Moon className="w-3.5 h-3.5 text-accent-lavender opacity-70" />
+      </span>
+
+      {/* Sliding Knob */}
+      <span
+        className={`pointer-events-none relative flex h-6 w-6 items-center justify-center rounded-full bg-surface shadow-sm border border-ink-10 transition-transform duration-300 ease-in-out ${
+          theme === "dark"
+            ? "translate-x-6 text-accent-lavender"
+            : "translate-x-0 text-accent-gold"
+        }`}
+      >
+        {theme === "dark" ? (
+          <Moon className="w-3.5 h-3.5" />
+        ) : (
+          <Sun className="w-3.5 h-3.5" />
+        )}
+      </span>
     </button>
   );
 }
