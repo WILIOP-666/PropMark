@@ -3,7 +3,7 @@ import { ArrowUpRight, TrendingUp, ShieldCheck, Database, Layers, MapPin, Buildi
 import HeroSearch from "../components/HeroSearch";
 import SuburbCard from "../components/SuburbCard";
 import InteractiveMap from "../components/InteractiveMap";
-import { SUBURBS_DATABASE } from "../lib/data/suburbsData";
+import { SUBURBS_DATABASE } from "../lib/data/enrichedSuburbs";
 import { formatCurrency, formatPercent } from "../lib/utils";
 
 export default function HomePage() {

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { SUBURBS_DATABASE } from "../../../lib/data/suburbsData";
+import { SUBURBS_DATABASE } from "../../../lib/data/enrichedSuburbs";
 import { PROPERTIES_DATABASE } from "../../../lib/data/propertiesData";
 
 export async function GET(request: NextRequest) {

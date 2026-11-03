@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Search, MapPin, ArrowRight, TrendingUp } from "lucide-react";
-import { SUBURBS_DATABASE } from "../lib/data/suburbsData";
+import { SUBURBS_DATABASE } from "../lib/data/enrichedSuburbs";
 import { formatCurrency, formatPercent } from "../lib/utils";
 
 export default function HeroSearch() {

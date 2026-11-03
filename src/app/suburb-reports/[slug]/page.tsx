@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, MapPin, Users, TrendingUp, DollarSign, Calendar, ArrowUpRight, Share2, Printer, CheckCircle } from "lucide-react";
-import { SUBURBS_DATABASE } from "../../../lib/data/suburbsData";
+import { SUBURBS_DATABASE } from "../../../lib/data/enrichedSuburbs";
 import { PROPERTIES_DATABASE } from "../../../lib/data/propertiesData";
 import { formatCurrency, formatPercent, getScoreColor } from "../../../lib/utils";
 import PriceChart from "../../../components/PriceChart";

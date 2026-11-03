@@ -18,7 +18,7 @@ import {
   Volume2
 } from "lucide-react";
 import { PROPERTIES_DATABASE } from "../../../lib/data/propertiesData";
-import { SUBURBS_DATABASE } from "../../../lib/data/suburbsData";
+import { SUBURBS_DATABASE } from "../../../lib/data/enrichedSuburbs";
 import { formatCurrency, formatPercent } from "../../../lib/utils";
 import InvestmentCalculator from "../../../components/InvestmentCalculator";
 

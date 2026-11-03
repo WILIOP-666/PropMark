@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Check, Award, TrendingUp, ShieldAlert, Users, Building, Scale } from "lucide-react";
-import { SUBURBS_DATABASE } from "../../lib/data/suburbsData";
+import { SUBURBS_DATABASE } from "../../lib/data/enrichedSuburbs";
 import { formatCurrency, formatPercent, getScoreColor } from "../../lib/utils";
 
 export default function CompareSuburbsPage() {

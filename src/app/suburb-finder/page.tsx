@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Search, Filter, ArrowUpRight, TrendingUp, SlidersHorizontal, MapPin } from "lucide-react";
-import { SUBURBS_DATABASE } from "../../lib/data/suburbsData";
+import { SUBURBS_DATABASE } from "../../lib/data/enrichedSuburbs";
 import { formatCurrency, formatPercent, getScoreColor } from "../../lib/utils";
 import SuburbCard from "../../components/SuburbCard";
 import MultiSuburbMap from "../../components/MultiSuburbMap";

@@ -19,7 +19,7 @@ import {
   Layers,
   ShieldAlert
 } from "lucide-react";
-import { SUBURBS_DATABASE } from "../../../lib/data/suburbsData";
+import { SUBURBS_DATABASE } from "../../../lib/data/enrichedSuburbs";
 import { PROPERTIES_DATABASE } from "../../../lib/data/propertiesData";
 import { formatCurrency, formatPercent, getScoreColor } from "../../../lib/utils";
 import PriceChart from "../../../components/PriceChart";
