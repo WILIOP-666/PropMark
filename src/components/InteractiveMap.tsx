@@ -9,6 +9,7 @@ import {
   OFFICIAL_MANLY_BOUNDARY,
   OFFICIAL_MANLY_NEIGHBOURS,
   OFFICIAL_RICHMOND_VIC_BOUNDARY,
+  OFFICIAL_GOSFORD_BOUNDARY,
   generateDetailedBoundary,
 } from "../lib/data/boundaryGeoData";
 
@@ -69,7 +70,7 @@ export default function InteractiveMap({
 
     let isMounted = true;
 
-    import("leaflet").then((L) => {
+    import("leaflet").then(async (L) => {
       if (!isMounted || !mapContainerRef.current) return;
 
       // Fix icon issues in Next.js
@@ -210,15 +211,31 @@ export default function InteractiveMap({
       }
 
       const isRichmond = suburbName.toLowerCase().includes("richmond");
+      const isGosford = suburbName.toLowerCase().includes("gosford");
 
-      // 2. Target Main Suburb Boundary (Exact Cadastral Boundary)
-      const targetCoords = isManly
-        ? OFFICIAL_MANLY_BOUNDARY
-        : isRichmond
-        ? OFFICIAL_RICHMOND_VIC_BOUNDARY
-        : isBelmont
-        ? OFFICIAL_BELMONT_NORTH_BOUNDARY
-        : generateDetailedBoundary(center.lat, center.lng, 48);
+      // 2. Target Main Suburb Boundary (Exact Cadastral Boundary from OSM)
+      // Fetch real boundary from API
+      let targetCoords: [number, number][] = [];
+      try {
+        const slug = `${suburbName.toLowerCase().replace(/ /g, "-")}-${state.toLowerCase()}-${postcode}`;
+        const res = await fetch(`/api/shapes/${slug}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (data?.data?.geojson?.geometry?.coordinates?.[0]) {
+            targetCoords = data.data.geojson.geometry.coordinates[0].map((c: [number, number]) => [c[1], c[0]]);
+          }
+        }
+      } catch (e) {
+        console.error("Failed to fetch boundary:", e);
+      }
+
+      // Fallback to hardcoded real boundaries
+      if (targetCoords.length === 0) {
+        if (isManly) targetCoords = OFFICIAL_MANLY_BOUNDARY;
+        else if (isRichmond) targetCoords = OFFICIAL_RICHMOND_VIC_BOUNDARY;
+        else if (isGosford) targetCoords = OFFICIAL_GOSFORD_BOUNDARY;
+        else if (isBelmont) targetCoords = OFFICIAL_BELMONT_NORTH_BOUNDARY;
+      }
 
       const targetPolygon = L.polygon(targetCoords, {
         color: "#4475e6",

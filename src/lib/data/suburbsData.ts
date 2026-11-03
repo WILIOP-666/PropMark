@@ -2,228 +2,228 @@ import { SuburbProfile } from "../types";
 
 export const SUBURBS_DATABASE: SuburbProfile[] = [
   {
-  "id": "sub-richmond-vic-3121",
-  "slug": "richmond-vic-3121",
-  "name": "Richmond",
-  "state": "VIC",
-  "postcode": "3121",
-  "lga": "City of Yarra",
-  "region": "Greater Melbourne",
-  "coordinates": {
-    "lat": -37.8204,
-    "lng": 145.0025
-  },
-  "summary": {
-    "description": "Iconic inner-city cultural and commercial powerhouse on the eastern fringe of Melbourne CBD. Celebrated for historic Victorian workers cottages, converted warehouse lofts, bustling culinary precincts along Victoria St and Swan St, and unparalleled multimodal transit connectivity.",
-    "distanceToCbdKm": 3.2,
-    "areaSqKm": 3.8,
-    "population": 28587
-  },
-  "scores": {
-    "overallScore": 92,
-    "affluenceScore": 86,
-    "livabilityScore": 94,
-    "hipsterScore": 98,
-    "familyScore": 78,
-    "tranquillityScore": 68,
-    "convenienceScore": 96
-  },
-  "market": {
-    "medianHousePrice": 1425000,
-    "medianUnitPrice": 585000,
-    "medianHouseRentWeek": 750,
-    "medianUnitRentWeek": 520,
-    "grossHouseYieldPct": 3.2,
-    "grossUnitYieldPct": 4.8,
-    "capitalGrowth12MoPct": 4.6,
-    "capitalGrowth5YrPct": 26.8,
-    "daysOnMarketHouse": 32,
-    "daysOnMarketUnit": 38,
-    "vacancyRatePct": 1.4,
-    "auctionClearanceRatePct": 76.5,
-    "stockOnMarketPct": 2.1,
-    "transactionsLastYear": 418,
-    "priceSeries": [
+    "id": "sub-richmond-vic-3121",
+    "slug": "richmond-vic-3121",
+    "name": "Richmond",
+    "state": "VIC",
+    "postcode": "3121",
+    "lga": "Yarra Council",
+    "region": "Melbourne - Inner",
+    "coordinates": {
+      "lat": -37.823,
+      "lng": 144.998
+    },
+    "summary": {
+      "description": "Iconic inner-city cultural and commercial powerhouse on the eastern fringe of Melbourne CBD. Celebrated for historic Victorian workers cottages, converted warehouse lofts, bustling culinary precincts along Victoria St and Swan St, and unparalleled multimodal transit connectivity.",
+      "distanceToCbdKm": 3.2,
+      "areaSqKm": 3.8,
+      "population": 28587
+    },
+    "scores": {
+      "overallScore": 92,
+      "affluenceScore": 86,
+      "livabilityScore": 94,
+      "hipsterScore": 98,
+      "familyScore": 78,
+      "tranquillityScore": 68,
+      "convenienceScore": 96
+    },
+    "market": {
+      "medianHousePrice": 1425000,
+      "medianUnitPrice": 585000,
+      "medianHouseRentWeek": 750,
+      "medianUnitRentWeek": 520,
+      "grossHouseYieldPct": 3.2,
+      "grossUnitYieldPct": 4.8,
+      "capitalGrowth12MoPct": 4.6,
+      "capitalGrowth5YrPct": 26.8,
+      "daysOnMarketHouse": 32,
+      "daysOnMarketUnit": 38,
+      "vacancyRatePct": 1.4,
+      "auctionClearanceRatePct": 76.5,
+      "stockOnMarketPct": 2.1,
+      "transactionsLastYear": 418,
+      "priceSeries": [
+        {
+          "year": 2020,
+          "housePrice": 1210000,
+          "unitPrice": 525000
+        },
+        {
+          "year": 2021,
+          "housePrice": 1340000,
+          "unitPrice": 550000
+        },
+        {
+          "year": 2022,
+          "housePrice": 1390000,
+          "unitPrice": 560000
+        },
+        {
+          "year": 2023,
+          "housePrice": 1360000,
+          "unitPrice": 555000
+        },
+        {
+          "year": 2024,
+          "housePrice": 1425000,
+          "unitPrice": 585000
+        }
+      ],
+      "rentSeries": [
+        {
+          "year": 2020,
+          "houseRent": 650,
+          "unitRent": 440
+        },
+        {
+          "year": 2021,
+          "houseRent": 670,
+          "unitRent": 460
+        },
+        {
+          "year": 2022,
+          "houseRent": 700,
+          "unitRent": 480
+        },
+        {
+          "year": 2023,
+          "houseRent": 720,
+          "unitRent": 500
+        },
+        {
+          "year": 2024,
+          "houseRent": 750,
+          "unitRent": 520
+        }
+      ]
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianHouseholdIncomeWeekly": 2420,
+      "familyHouseholdsPct": 42.5,
+      "singleHouseholdsPct": 44.8,
+      "ancestry": [
+        {
+          "label": "English",
+          "pct": 26.2
+        },
+        {
+          "label": "Australian",
+          "pct": 19.8
+        },
+        {
+          "label": "Irish",
+          "pct": 12.4
+        },
+        {
+          "label": "Vietnamese",
+          "pct": 7.2
+        },
+        {
+          "label": "Scottish",
+          "pct": 6.8
+        }
+      ],
+      "educationTertiaryPct": 62.8,
+      "professionalOccupationPct": 58.4
+    },
+    "schools": [
       {
-        "year": 2020,
-        "housePrice": 1210000,
-        "unitPrice": 525000
+        "name": "Melbourne Girls College",
+        "type": "Secondary",
+        "sector": "Government",
+        "icsea": 1135,
+        "naplanRank": 42,
+        "distanceKm": 0.8,
+        "catchment": true
       },
       {
-        "year": 2021,
-        "housePrice": 1340000,
-        "unitPrice": 550000
+        "name": "Richmond Primary School",
+        "type": "Primary",
+        "sector": "Government",
+        "icsea": 1115,
+        "naplanRank": 68,
+        "distanceKm": 0.4,
+        "catchment": true
       },
       {
-        "year": 2022,
-        "housePrice": 1390000,
-        "unitPrice": 560000
-      },
-      {
-        "year": 2023,
-        "housePrice": 1360000,
-        "unitPrice": 555000
-      },
-      {
-        "year": 2024,
-        "housePrice": 1425000,
-        "unitPrice": 585000
+        "name": "Trinity Catholic Primary School",
+        "type": "Primary",
+        "sector": "Catholic",
+        "icsea": 1060,
+        "naplanRank": 145,
+        "distanceKm": 0.6,
+        "catchment": false
       }
     ],
-    "rentSeries": [
-      {
-        "year": 2020,
-        "houseRent": 650,
-        "unitRent": 440
-      },
-      {
-        "year": 2021,
-        "houseRent": 670,
-        "unitRent": 460
-      },
-      {
-        "year": 2022,
-        "houseRent": 700,
-        "unitRent": 480
-      },
-      {
-        "year": 2023,
-        "houseRent": 720,
-        "unitRent": 500
-      },
-      {
-        "year": 2024,
-        "houseRent": 750,
-        "unitRent": 520
-      }
-    ]
-  },
-  "demographics": {
-    "medianAge": 34,
-    "medianHouseholdIncomeWeekly": 2420,
-    "familyHouseholdsPct": 42.5,
-    "singleHouseholdsPct": 44.8,
-    "ancestry": [
-      {
-        "label": "English",
-        "pct": 26.2
-      },
-      {
-        "label": "Australian",
-        "pct": 19.8
-      },
-      {
-        "label": "Irish",
-        "pct": 12.4
-      },
-      {
-        "label": "Vietnamese",
-        "pct": 7.2
-      },
-      {
-        "label": "Scottish",
-        "pct": 6.8
-      }
+    "planning": {
+      "activeDaCount": 64,
+      "majorProjectsCount": 9,
+      "primaryZoning": "NRZ Neighbourhood Residential & C1Z Commercial",
+      "zoningBreakdown": [
+        {
+          "code": "NRZ",
+          "description": "Neighbourhood Residential Zone",
+          "pct": 44
+        },
+        {
+          "code": "C1Z",
+          "description": "Commercial 1 Zone (Swan & Bridge)",
+          "pct": 28
+        },
+        {
+          "code": "MUZ",
+          "description": "Mixed Use Zone (Warehouse redev)",
+          "pct": 16
+        },
+        {
+          "code": "PPRZ",
+          "description": "Public Park and Recreation",
+          "pct": 12
+        }
+      ]
+    },
+    "hazards": {
+      "floodRisk": "Low",
+      "bushfireRisk": "None",
+      "publicHousingPct": 3.8,
+      "noiseImpact": "Moderate",
+      "slopeTopography": "Gentle"
+    },
+    "commute": {
+      "trainTimeMins": 8,
+      "drivingTimeMins": 12,
+      "bikeTimeMins": 14,
+      "walkScore": 95
+    },
+    "surroundingSuburbs": [
+      "Cremorne",
+      "Burnley",
+      "East Melbourne",
+      "Abbotsford",
+      "South Yarra",
+      "Hawthorn"
     ],
-    "educationTertiaryPct": 62.8,
-    "professionalOccupationPct": 58.4
-  },
-  "schools": [
-    {
-      "name": "Melbourne Girls College",
-      "type": "Secondary",
-      "sector": "Government",
-      "icsea": 1135,
-      "naplanRank": 42,
-      "distanceKm": 0.8,
-      "catchment": true
-    },
-    {
-      "name": "Richmond Primary School",
-      "type": "Primary",
-      "sector": "Government",
-      "icsea": 1115,
-      "naplanRank": 68,
-      "distanceKm": 0.4,
-      "catchment": true
-    },
-    {
-      "name": "Trinity Catholic Primary School",
-      "type": "Primary",
-      "sector": "Catholic",
-      "icsea": 1060,
-      "naplanRank": 145,
-      "distanceKm": 0.6,
-      "catchment": false
-    }
-  ],
-  "planning": {
-    "activeDaCount": 64,
-    "majorProjectsCount": 9,
-    "primaryZoning": "NRZ Neighbourhood Residential & C1Z Commercial",
-    "zoningBreakdown": [
-      {
-        "code": "NRZ",
-        "description": "Neighbourhood Residential Zone",
-        "pct": 44
-      },
-      {
-        "code": "C1Z",
-        "description": "Commercial 1 Zone (Swan & Bridge)",
-        "pct": 28
-      },
-      {
-        "code": "MUZ",
-        "description": "Mixed Use Zone (Warehouse redev)",
-        "pct": 16
-      },
-      {
-        "code": "PPRZ",
-        "description": "Public Park and Recreation",
-        "pct": 12
-      }
+    "comparableSuburbs": [
+      "South Yarra",
+      "Fitzroy",
+      "Collingwood",
+      "Prahran",
+      "Brunswick"
     ]
   },
-  "hazards": {
-    "floodRisk": "Low",
-    "bushfireRisk": "None",
-    "publicHousingPct": 3.8,
-    "noiseImpact": "Moderate",
-    "slopeTopography": "Gentle"
-  },
-  "commute": {
-    "trainTimeMins": 8,
-    "drivingTimeMins": 12,
-    "bikeTimeMins": 14,
-    "walkScore": 95
-  },
-  "surroundingSuburbs": [
-    "Cremorne",
-    "Burnley",
-    "East Melbourne",
-    "Abbotsford",
-    "South Yarra",
-    "Hawthorn"
-  ],
-  "comparableSuburbs": [
-    "South Yarra",
-    "Fitzroy",
-    "Collingwood",
-    "Prahran",
-    "Brunswick"
-  ]
-},
   {
     "id": "sub-belmont-north-nsw-2280",
     "slug": "belmont-north-nsw-2280",
     "name": "Belmont North",
     "state": "NSW",
     "postcode": "2280",
-    "lga": "City of Lake Macquarie",
-    "region": "Hunter / Newcastle Coastal",
+    "lga": "Lake Macquarie Council",
+    "region": "Newcastle and Lake Macquarie",
     "coordinates": {
-      "lat": -32.9931,
-      "lng": 151.6688
+      "lat": -33.015,
+      "lng": 151.668
     },
     "summary": {
       "description": "Family-friendly coastal suburb on the eastern shores of Lake Macquarie, NSW. Renowned for scenic lakeside bushland, proximity to Belmont Golf Course, Redhead Beach, and relaxed coastal lifestyle.",
@@ -420,11 +420,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bondi Beach",
     "state": "NSW",
     "postcode": "2026",
-    "lga": "Bondi Beach Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Waverley Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.89102,
+      "lng": 151.27773
     },
     "summary": {
       "description": "Established suburban centre in NSW (2026) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -617,11 +617,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Chatswood",
     "state": "NSW",
     "postcode": "2067",
-    "lga": "Chatswood Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Ryde Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.79607,
+      "lng": 151.17805
     },
     "summary": {
       "description": "Established suburban centre in NSW (2067) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -814,11 +814,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bankstown",
     "state": "NSW",
     "postcode": "2200",
-    "lga": "Bankstown Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.91817,
+      "lng": 151.03497
     },
     "summary": {
       "description": "Established suburban centre in NSW (2200) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -1011,11 +1011,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Footscray",
     "state": "VIC",
     "postcode": "3011",
-    "lga": "Footscray Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Maribyrnong Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.7989,
+      "lng": 144.89236
     },
     "summary": {
       "description": "Established suburban centre in VIC (3011) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -1209,10 +1209,10 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "state": "NSW",
     "postcode": "2095",
     "lga": "Northern Beaches Council",
-    "region": "Sydney Northern Beaches",
+    "region": "Sydney - Northern Beaches",
     "coordinates": {
-      "lat": -33.7995,
-      "lng": 151.2845
+      "lat": -33.80602,
+      "lng": 151.29478
     },
     "summary": {
       "description": "Established suburban centre in NSW (2095) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -1405,11 +1405,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Dandenong",
     "state": "VIC",
     "postcode": "3175",
-    "lga": "Dandenong Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Casey Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.98478,
+      "lng": 145.21399
     },
     "summary": {
       "description": "Established suburban centre in VIC (3175) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -1602,11 +1602,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Frankston",
     "state": "VIC",
     "postcode": "3199",
-    "lga": "Frankston Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Frankston Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.14662,
+      "lng": 145.13572
     },
     "summary": {
       "description": "Established suburban centre in VIC (3199) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -1799,11 +1799,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Geelong",
     "state": "VIC",
     "postcode": "3220",
-    "lga": "Geelong Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Greater Geelong Council",
+    "region": "Geelong",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.14992,
+      "lng": 144.36172
     },
     "summary": {
       "description": "Established suburban centre in VIC (3220) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -1996,11 +1996,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hornsby",
     "state": "NSW",
     "postcode": "2077",
-    "lga": "Hornsby Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hornsby Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.70463,
+      "lng": 151.09871
     },
     "summary": {
       "description": "Established suburban centre in NSW (2077) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -2193,11 +2193,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Craigieburn",
     "state": "VIC",
     "postcode": "3064",
-    "lga": "Craigieburn Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Whittlesea Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.594,
+      "lng": 144.934
     },
     "summary": {
       "description": "Established suburban centre in VIC (3064) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -2390,11 +2390,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Glen Waverley",
     "state": "VIC",
     "postcode": "3150",
-    "lga": "Glen Waverley Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Monash Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.87435,
+      "lng": 145.16682
     },
     "summary": {
       "description": "Established suburban centre in VIC (3150) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -2587,11 +2587,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Marrickville",
     "state": "NSW",
     "postcode": "2204",
-    "lga": "Marrickville Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.90863,
+      "lng": 151.15488
     },
     "summary": {
       "description": "Established suburban centre in NSW (2204) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -2784,11 +2784,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "South Yarra",
     "state": "VIC",
     "postcode": "3141",
-    "lga": "South Yarra Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Melbourne Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.83857,
+      "lng": 144.99148
     },
     "summary": {
       "description": "Established suburban centre in VIC (3141) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -2981,11 +2981,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Surfers Paradise",
     "state": "QLD",
     "postcode": "4217",
-    "lga": "Surfers Paradise Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.0,
+      "lng": 153.41667
     },
     "summary": {
       "description": "Established suburban centre in QLD (4217) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -3178,11 +3178,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Werribee",
     "state": "VIC",
     "postcode": "3030",
-    "lga": "Werribee Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Wyndham Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.8998,
+      "lng": 144.66414
     },
     "summary": {
       "description": "Established suburban centre in VIC (3030) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -3375,11 +3375,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Broadmeadows",
     "state": "VIC",
     "postcode": "3047",
-    "lga": "Broadmeadows Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Hume Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.68609,
+      "lng": 144.92699
     },
     "summary": {
       "description": "Established suburban centre in VIC (3047) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -3572,11 +3572,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Burleigh Heads",
     "state": "QLD",
     "postcode": "4220",
-    "lga": "Burleigh Heads Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.09635,
+      "lng": 153.43312
     },
     "summary": {
       "description": "Established suburban centre in QLD (4220) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -3769,11 +3769,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coffs Harbour",
     "state": "NSW",
     "postcode": "2450",
-    "lga": "Coffs Harbour Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Clarence Valley Council",
+    "region": "Coffs Harbour - Grafton",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -30.29861,
+      "lng": 153.10939
     },
     "summary": {
       "description": "Established suburban centre in NSW (2450) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -3966,11 +3966,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cranbourne",
     "state": "VIC",
     "postcode": "3977",
-    "lga": "Cranbourne Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Frankston Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.105,
+      "lng": 145.279
     },
     "summary": {
       "description": "Established suburban centre in VIC (3977) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -4163,11 +4163,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cronulla",
     "state": "NSW",
     "postcode": "2230",
-    "lga": "Cronulla Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sutherland Council",
+    "region": "Sydney - Sutherland",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.05744,
+      "lng": 151.15219
     },
     "summary": {
       "description": "Established suburban centre in NSW (2230) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -4360,11 +4360,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Gosford",
     "state": "NSW",
     "postcode": "2250",
-    "lga": "Gosford Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Central Coast Council",
+    "region": "Central Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.42667,
+      "lng": 151.34167
     },
     "summary": {
       "description": "Established suburban centre in NSW (2250) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -4557,11 +4557,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hahndorf",
     "state": "SA",
     "postcode": "5245",
-    "lga": "Hahndorf Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Adelaide Hills Council",
+    "region": "Adelaide - Central and Hills",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.02586,
+      "lng": 138.80932
     },
     "summary": {
       "description": "Established suburban centre in SA (5245) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -4754,11 +4754,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hobart",
     "state": "TAS",
     "postcode": "7000",
-    "lga": "Hobart Local Government Area",
-    "region": "Greater TAS Region",
+    "lga": "Hobart Council",
+    "region": "Hobart",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -42.88214,
+      "lng": 147.32719
     },
     "summary": {
       "description": "Established suburban centre in TAS (7000) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -4951,11 +4951,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kogarah",
     "state": "NSW",
     "postcode": "2217",
-    "lga": "Kogarah Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Georges River Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.96435,
+      "lng": 151.13726
     },
     "summary": {
       "description": "Established suburban centre in NSW (2217) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -5148,11 +5148,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Maroubra",
     "state": "NSW",
     "postcode": "2035",
-    "lga": "Maroubra Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bayside (NSW) Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.9495,
+      "lng": 151.2437
     },
     "summary": {
       "description": "Established suburban centre in NSW (2035) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -5345,11 +5345,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Moonee Ponds",
     "state": "VIC",
     "postcode": "3039",
-    "lga": "Moonee Ponds Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Moonee Valley Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.76754,
+      "lng": 144.91989
     },
     "summary": {
       "description": "Established suburban centre in VIC (3039) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -5542,11 +5542,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Druitt",
     "state": "NSW",
     "postcode": "2770",
-    "lga": "Mount Druitt Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Blacktown Council",
+    "region": "Sydney - Blacktown",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.7722,
+      "lng": 150.8194
     },
     "summary": {
       "description": "Established suburban centre in NSW (2770) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -5739,11 +5739,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Oakleigh",
     "state": "VIC",
     "postcode": "3166",
-    "lga": "Oakleigh Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Monash Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.89902,
+      "lng": 145.09233
     },
     "summary": {
       "description": "Established suburban centre in VIC (3166) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -5936,11 +5936,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Douglas",
     "state": "QLD",
     "postcode": "4877",
-    "lga": "Port Douglas Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Douglas Council",
+    "region": "Cairns",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -16.48361,
+      "lng": 145.46528
     },
     "summary": {
       "description": "Established suburban centre in QLD (4877) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -6133,11 +6133,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Macquarie",
     "state": "NSW",
     "postcode": "2444",
-    "lga": "Port Macquarie Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Port Macquarie-Hastings Council",
+    "region": "Mid North Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -31.43333,
+      "lng": 152.9
     },
     "summary": {
       "description": "Established suburban centre in NSW (2444) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -6330,11 +6330,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Surry Hills",
     "state": "NSW",
     "postcode": "2010",
-    "lga": "Surry Hills Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sydney Council",
+    "region": "Sydney - City and Inner South",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.88611,
+      "lng": 151.21111
     },
     "summary": {
       "description": "Established suburban centre in NSW (2010) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -6527,11 +6527,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Airlie Beach",
     "state": "QLD",
     "postcode": "4802",
-    "lga": "Airlie Beach Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Whitsunday Council",
+    "region": "Mackay",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -20.2675,
+      "lng": 148.71694
     },
     "summary": {
       "description": "Established suburban centre in QLD (4802) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -6724,11 +6724,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Albert Park",
     "state": "VIC",
     "postcode": "3206",
-    "lga": "Albert Park Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Port Phillip Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.84386,
+      "lng": 144.95145
     },
     "summary": {
       "description": "Established suburban centre in VIC (3206) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -6921,11 +6921,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Chermside",
     "state": "QLD",
     "postcode": "4032",
-    "lga": "Chermside Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.38593,
+      "lng": 153.02948
     },
     "summary": {
       "description": "Established suburban centre in QLD (4032) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -7118,11 +7118,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Glenelg",
     "state": "SA",
     "postcode": "5045",
-    "lga": "Glenelg Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "West Torrens Council",
+    "region": "Adelaide - West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.982,
+      "lng": 138.516
     },
     "summary": {
       "description": "Established suburban centre in SA (5045) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -7315,11 +7315,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kiama",
     "state": "NSW",
     "postcode": "2533",
-    "lga": "Kiama Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Kiama Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.67382,
+      "lng": 150.84437
     },
     "summary": {
       "description": "Established suburban centre in NSW (2533) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -7512,11 +7512,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lakemba",
     "state": "NSW",
     "postcode": "2195",
-    "lga": "Lakemba Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.92004,
+      "lng": 151.07715
     },
     "summary": {
       "description": "Established suburban centre in NSW (2195) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -7709,11 +7709,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mandurah",
     "state": "WA",
     "postcode": "6210",
-    "lga": "Mandurah Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Mandurah Council",
+    "region": "Mandurah",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.54616,
+      "lng": 115.72201
     },
     "summary": {
       "description": "Established suburban centre in WA (6210) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -7906,11 +7906,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Margaret River",
     "state": "WA",
     "postcode": "6285",
-    "lga": "Margaret River Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Nannup Council",
+    "region": "Bunbury",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -33.96105,
+      "lng": 115.07674
     },
     "summary": {
       "description": "Established suburban centre in WA (6285) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -8103,11 +8103,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Barker",
     "state": "SA",
     "postcode": "5251",
-    "lga": "Mount Barker Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Mount Barker Council",
+    "region": "Adelaide - Central and Hills",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.0809,
+      "lng": 138.86347
     },
     "summary": {
       "description": "Established suburban centre in SA (5251) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -8300,11 +8300,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Point Cook",
     "state": "VIC",
     "postcode": "3030",
-    "lga": "Point Cook Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Wyndham Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.91781,
+      "lng": 144.74773
     },
     "summary": {
       "description": "Established suburban centre in VIC (3030) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -8497,11 +8497,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Porepunkah",
     "state": "VIC",
     "postcode": "3740",
-    "lga": "Porepunkah Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Alpine Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.69443,
+      "lng": 146.92641
     },
     "summary": {
       "description": "Established suburban centre in VIC (3740) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -8694,11 +8694,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Randwick",
     "state": "NSW",
     "postcode": "2031",
-    "lga": "Randwick Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Randwick Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.91315,
+      "lng": 151.24204
     },
     "summary": {
       "description": "Established suburban centre in NSW (2031) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -8891,11 +8891,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Revesby",
     "state": "NSW",
     "postcode": "2212",
-    "lga": "Revesby Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.94525,
+      "lng": 151.01803
     },
     "summary": {
       "description": "Established suburban centre in NSW (2212) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -9088,11 +9088,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Albury",
     "state": "NSW",
     "postcode": "2640",
-    "lga": "Albury Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Snowy Valleys Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -36.07373,
+      "lng": 146.91354
     },
     "summary": {
       "description": "Established suburban centre in NSW (2640) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -9285,11 +9285,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bundoora",
     "state": "VIC",
     "postcode": "3083",
-    "lga": "Bundoora Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Darebin Council",
+    "region": "Melbourne - North East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.6987,
+      "lng": 145.05485
     },
     "summary": {
       "description": "Established suburban centre in VIC (3083) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -9482,11 +9482,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Caroline Springs",
     "state": "VIC",
     "postcode": "3023",
-    "lga": "Caroline Springs Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.745,
+      "lng": 144.74
     },
     "summary": {
       "description": "Established suburban centre in VIC (3023) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -9679,11 +9679,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coogee",
     "state": "NSW",
     "postcode": "2034",
-    "lga": "Coogee Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Randwick Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.919,
+      "lng": 151.2555
     },
     "summary": {
       "description": "Established suburban centre in NSW (2034) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -9876,11 +9876,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Homebush",
     "state": "NSW",
     "postcode": "2140",
-    "lga": "Homebush Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canada Bay Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.85862,
+      "lng": 151.07916
     },
     "summary": {
       "description": "Established suburban centre in NSW (2140) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -10073,11 +10073,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ingleburn",
     "state": "NSW",
     "postcode": "2565",
-    "lga": "Ingleburn Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Liverpool Council",
+    "region": "Sydney - Outer South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.00441,
+      "lng": 150.86302
     },
     "summary": {
       "description": "Established suburban centre in NSW (2565) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -10270,11 +10270,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Katoomba",
     "state": "NSW",
     "postcode": "2780",
-    "lga": "Katoomba Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Blue Mountains Council",
+    "region": "Sydney - Outer West and Blue Mountains",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.7125,
+      "lng": 150.31194
     },
     "summary": {
       "description": "Established suburban centre in NSW (2780) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -10467,11 +10467,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Launceston",
     "state": "TAS",
     "postcode": "7250",
-    "lga": "Launceston Local Government Area",
-    "region": "Greater TAS Region",
+    "lga": "Meander Valley Council",
+    "region": "Launceston and North East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -41.43322,
+      "lng": 147.14409
     },
     "summary": {
       "description": "Established suburban centre in TAS (7250) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -10664,11 +10664,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Leichhardt",
     "state": "NSW",
     "postcode": "2040",
-    "lga": "Leichhardt Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Inner West Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.88372,
+      "lng": 151.15703
     },
     "summary": {
       "description": "Established suburban centre in NSW (2040) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -10861,11 +10861,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mildura",
     "state": "VIC",
     "postcode": "3500",
-    "lga": "Mildura Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Mildura Council",
+    "region": "North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -34.21512,
+      "lng": 142.11694
     },
     "summary": {
       "description": "Established suburban centre in VIC (3500) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -11058,11 +11058,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Waverley",
     "state": "VIC",
     "postcode": "3149",
-    "lga": "Mount Waverley Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Monash Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.87729,
+      "lng": 145.12655
     },
     "summary": {
       "description": "Established suburban centre in VIC (3149) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -11255,11 +11255,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Narre Warren",
     "state": "VIC",
     "postcode": "3805",
-    "lga": "Narre Warren Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Casey Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.03025,
+      "lng": 145.30329
     },
     "summary": {
       "description": "Established suburban centre in VIC (3805) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -11452,11 +11452,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Rowville",
     "state": "VIC",
     "postcode": "3178",
-    "lga": "Rowville Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Knox Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.92104,
+      "lng": 145.24249
     },
     "summary": {
       "description": "Established suburban centre in VIC (3178) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -11649,11 +11649,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Sunnybank",
     "state": "QLD",
     "postcode": "4109",
-    "lga": "Sunnybank Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.579,
+      "lng": 153.059
     },
     "summary": {
       "description": "Established suburban centre in QLD (4109) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -11846,11 +11846,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Thomastown",
     "state": "VIC",
     "postcode": "3074",
-    "lga": "Thomastown Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Whittlesea Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.68378,
+      "lng": 145.01076
     },
     "summary": {
       "description": "Established suburban centre in VIC (3074) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -12043,11 +12043,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Townsville City",
     "state": "QLD",
     "postcode": "4810",
-    "lga": "Townsville City Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Townsville Council",
+    "region": "Townsville",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -19.259,
+      "lng": 146.817
     },
     "summary": {
       "description": "Established suburban centre in QLD (4810) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -12240,11 +12240,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wetherill Park",
     "state": "NSW",
     "postcode": "2164",
-    "lga": "Wetherill Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Cumberland Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.84975,
+      "lng": 150.91101
     },
     "summary": {
       "description": "Established suburban centre in NSW (2164) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -12437,11 +12437,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Apollo Bay",
     "state": "VIC",
     "postcode": "3233",
-    "lga": "Apollo Bay Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Colac Otway Council",
+    "region": "Warrnambool and South West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.75515,
+      "lng": 143.66759
     },
     "summary": {
       "description": "Established suburban centre in VIC (3233) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -12634,11 +12634,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Artarmon",
     "state": "NSW",
     "postcode": "2064",
-    "lga": "Artarmon Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Willoughby Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.80863,
+      "lng": 151.18402
     },
     "summary": {
       "description": "Established suburban centre in NSW (2064) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -12831,11 +12831,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bacchus Marsh",
     "state": "VIC",
     "postcode": "3340",
-    "lga": "Bacchus Marsh Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Melton Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.67638,
+      "lng": 144.44632
     },
     "summary": {
       "description": "Established suburban centre in VIC (3340) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -13028,11 +13028,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Batemans Bay",
     "state": "NSW",
     "postcode": "2536",
-    "lga": "Batemans Bay Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Shoalhaven Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -35.71439,
+      "lng": 150.17947
     },
     "summary": {
       "description": "Established suburban centre in NSW (2536) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -13225,11 +13225,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Baulkham Hills",
     "state": "NSW",
     "postcode": "2153",
-    "lga": "Baulkham Hills Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Parramatta Council",
+    "region": "Sydney - Parramatta",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.76191,
+      "lng": 150.99293
     },
     "summary": {
       "description": "Established suburban centre in NSW (2153) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -13422,11 +13422,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Belgrave",
     "state": "VIC",
     "postcode": "3160",
-    "lga": "Belgrave Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Yarra Ranges Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.91207,
+      "lng": 145.3558
     },
     "summary": {
       "description": "Established suburban centre in VIC (3160) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -13619,11 +13619,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Caloundra",
     "state": "QLD",
     "postcode": "4551",
-    "lga": "Caloundra Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Sunshine Coast Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.799,
+      "lng": 153.133
     },
     "summary": {
       "description": "Established suburban centre in QLD (4551) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -13816,11 +13816,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Campbellfield",
     "state": "VIC",
     "postcode": "3061",
-    "lga": "Campbellfield Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Hume Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.66511,
+      "lng": 144.95568
     },
     "summary": {
       "description": "Established suburban centre in VIC (3061) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -14013,11 +14013,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Caringbah",
     "state": "NSW",
     "postcode": "2229",
-    "lga": "Caringbah Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sutherland Council",
+    "region": "Sydney - Sutherland",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.0452,
+      "lng": 151.1218
     },
     "summary": {
       "description": "Established suburban centre in NSW (2229) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -14210,11 +14210,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Carrum Downs",
     "state": "VIC",
     "postcode": "3201",
-    "lga": "Carrum Downs Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Frankston Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.09754,
+      "lng": 145.1707
     },
     "summary": {
       "description": "Established suburban centre in VIC (3201) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -14407,11 +14407,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Clyde North",
     "state": "VIC",
     "postcode": "3978",
-    "lga": "Clyde North Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Cardinia Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.10628,
+      "lng": 145.34843
     },
     "summary": {
       "description": "Established suburban centre in VIC (3978) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -14604,11 +14604,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cockburn Central",
     "state": "WA",
     "postcode": "6164",
-    "lga": "Cockburn Central Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Cockburn Council",
+    "region": "Perth - South West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.12133,
+      "lng": 115.84844
     },
     "summary": {
       "description": "Established suburban centre in WA (6164) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -14801,11 +14801,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Echuca",
     "state": "VIC",
     "postcode": "3564",
-    "lga": "Echuca Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Campaspe Council",
+    "region": "Shepparton",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.14595,
+      "lng": 144.7448
     },
     "summary": {
       "description": "Established suburban centre in VIC (3564) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -14998,11 +14998,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ferntree Gully",
     "state": "VIC",
     "postcode": "3156",
-    "lga": "Ferntree Gully Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Casey Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.88269,
+      "lng": 145.27761
     },
     "summary": {
       "description": "Established suburban centre in VIC (3156) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -15195,11 +15195,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Glenfield",
     "state": "NSW",
     "postcode": "2167",
-    "lga": "Glenfield Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Campbelltown (NSW) Council",
+    "region": "Sydney - Outer South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.96909,
+      "lng": 150.89292
     },
     "summary": {
       "description": "Established suburban centre in NSW (2167) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -15392,11 +15392,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hoppers Crossing",
     "state": "VIC",
     "postcode": "3029",
-    "lga": "Hoppers Crossing Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Melton Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.8629,
+      "lng": 144.68545
     },
     "summary": {
       "description": "Established suburban centre in VIC (3029) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -15589,11 +15589,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Indooroopilly",
     "state": "QLD",
     "postcode": "4068",
-    "lga": "Indooroopilly Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.50201,
+      "lng": 152.97589
     },
     "summary": {
       "description": "Established suburban centre in QLD (4068) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -15786,11 +15786,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Joondalup",
     "state": "WA",
     "postcode": "6027",
-    "lga": "Joondalup Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Wanneroo Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.73392,
+      "lng": 115.76573
     },
     "summary": {
       "description": "Established suburban centre in WA (6027) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -15983,11 +15983,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kangaroo Point",
     "state": "QLD",
     "postcode": "4169",
-    "lga": "Kangaroo Point Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.46667,
+      "lng": 153.03333
     },
     "summary": {
       "description": "Established suburban centre in QLD (4169) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -16180,11 +16180,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Keysborough",
     "state": "VIC",
     "postcode": "3173",
-    "lga": "Keysborough Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Greater Dandenong Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.00427,
+      "lng": 145.1707
     },
     "summary": {
       "description": "Established suburban centre in VIC (3173) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -16377,11 +16377,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "La Perouse",
     "state": "NSW",
     "postcode": "2036",
-    "lga": "La Perouse Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bayside (NSW) Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.9888,
+      "lng": 151.232
     },
     "summary": {
       "description": "Established suburban centre in NSW (2036) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -16574,11 +16574,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lakes Entrance",
     "state": "VIC",
     "postcode": "3909",
-    "lga": "Lakes Entrance Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "East Gippsland Council",
+    "region": "Latrobe - Gippsland",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.85112,
+      "lng": 147.99582
     },
     "summary": {
       "description": "Established suburban centre in VIC (3909) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -16771,11 +16771,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lorne",
     "state": "VIC",
     "postcode": "3232",
-    "lga": "Lorne Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Surf Coast Council",
+    "region": "Geelong",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.52867,
+      "lng": 143.9324
     },
     "summary": {
       "description": "Established suburban centre in VIC (3232) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -16968,11 +16968,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Maroochydore",
     "state": "QLD",
     "postcode": "4558",
-    "lga": "Maroochydore Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Sunshine Coast Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.65,
+      "lng": 153.1
     },
     "summary": {
       "description": "Established suburban centre in QLD (4558) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -17165,11 +17165,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mooloolaba",
     "state": "QLD",
     "postcode": "4557",
-    "lga": "Mooloolaba Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Sunshine Coast Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.682,
+      "lng": 153.118
     },
     "summary": {
       "description": "Established suburban centre in QLD (4557) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -17362,11 +17362,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mordialloc",
     "state": "VIC",
     "postcode": "3195",
-    "lga": "Mordialloc Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Kingston (Vic.) Council",
+    "region": "Melbourne - Inner South",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.99954,
+      "lng": 145.09403
     },
     "summary": {
       "description": "Established suburban centre in VIC (3195) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -17559,11 +17559,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mornington",
     "state": "VIC",
     "postcode": "3931",
-    "lga": "Mornington Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Mornington Peninsula Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.22771,
+      "lng": 145.06036
     },
     "summary": {
       "description": "Established suburban centre in VIC (3931) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -17756,11 +17756,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Gambier",
     "state": "SA",
     "postcode": "5290",
-    "lga": "Mount Gambier Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Mount Gambier Council",
+    "region": "South Australia - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -37.8256,
+      "lng": 140.77124
     },
     "summary": {
       "description": "Established suburban centre in SA (5290) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -17953,11 +17953,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Noosa Heads",
     "state": "QLD",
     "postcode": "4567",
-    "lga": "Noosa Heads Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Noosa Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.398,
+      "lng": 153.093
     },
     "summary": {
       "description": "Established suburban centre in QLD (4567) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -18150,11 +18150,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "North Ryde",
     "state": "NSW",
     "postcode": "2113",
-    "lga": "North Ryde Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Ryde Council",
+    "region": "Sydney - Ryde",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.79318,
+      "lng": 151.11979
     },
     "summary": {
       "description": "Established suburban centre in NSW (2113) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -18347,11 +18347,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Nunawading",
     "state": "VIC",
     "postcode": "3131",
-    "lga": "Nunawading Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Manningham Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.81843,
+      "lng": 145.17602
     },
     "summary": {
       "description": "Established suburban centre in VIC (3131) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -18544,11 +18544,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Oran Park",
     "state": "NSW",
     "postcode": "2570",
-    "lga": "Oran Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wollondilly Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.003,
+      "lng": 150.743
     },
     "summary": {
       "description": "Established suburban centre in NSW (2570) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -18741,11 +18741,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Palm Cove",
     "state": "QLD",
     "postcode": "4879",
-    "lga": "Palm Cove Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Cairns Council",
+    "region": "Cairns",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -16.74405,
+      "lng": 145.67095
     },
     "summary": {
       "description": "Established suburban centre in QLD (4879) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -18938,11 +18938,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Adelaide",
     "state": "SA",
     "postcode": "5015",
-    "lga": "Port Adelaide Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Port Adelaide - West Council",
+    "region": "Adelaide - West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.846,
+      "lng": 138.503
     },
     "summary": {
       "description": "Established suburban centre in SA (5015) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -19135,11 +19135,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Quakers Hill",
     "state": "NSW",
     "postcode": "2763",
-    "lga": "Quakers Hill Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Blacktown Council",
+    "region": "Sydney - Blacktown",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.72416,
+      "lng": 150.88898
     },
     "summary": {
       "description": "Established suburban centre in NSW (2763) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -19332,11 +19332,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Rooty Hill",
     "state": "NSW",
     "postcode": "2766",
-    "lga": "Rooty Hill Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Blacktown Council",
+    "region": "Sydney - Blacktown",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.77152,
+      "lng": 150.84384
     },
     "summary": {
       "description": "Established suburban centre in NSW (2766) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -19529,11 +19529,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Tullamarine",
     "state": "VIC",
     "postcode": "3043",
-    "lga": "Tullamarine Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.69948,
+      "lng": 144.88031
     },
     "summary": {
       "description": "Established suburban centre in VIC (3043) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -19726,11 +19726,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wahroonga",
     "state": "NSW",
     "postcode": "2076",
-    "lga": "Wahroonga Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hornsby Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.71863,
+      "lng": 151.11037
     },
     "summary": {
       "description": "Established suburban centre in NSW (2076) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -19923,11 +19923,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wentworthville",
     "state": "NSW",
     "postcode": "2145",
-    "lga": "Wentworthville Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Parramatta Council",
+    "region": "Sydney - Parramatta",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.80591,
+      "lng": 150.97019
     },
     "summary": {
       "description": "Established suburban centre in NSW (2145) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -20120,11 +20120,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "West Ryde",
     "state": "NSW",
     "postcode": "2114",
-    "lga": "West Ryde Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Parramatta Council",
+    "region": "Sydney - Ryde",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.80677,
+      "lng": 151.08246
     },
     "summary": {
       "description": "Established suburban centre in NSW (2114) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -20317,11 +20317,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wyndham Vale",
     "state": "VIC",
     "postcode": "3024",
-    "lga": "Wyndham Vale Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Melton Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.89,
+      "lng": 144.63
     },
     "summary": {
       "description": "Established suburban centre in VIC (3024) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -20514,11 +20514,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yamba",
     "state": "NSW",
     "postcode": "2464",
-    "lga": "Yamba Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Clarence Valley Council",
+    "region": "Coffs Harbour - Grafton",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -29.43322,
+      "lng": 153.34062
     },
     "summary": {
       "description": "Established suburban centre in NSW (2464) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -20711,11 +20711,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Acacia Ridge",
     "state": "QLD",
     "postcode": "4110",
-    "lga": "Acacia Ridge Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Ipswich",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.58333,
+      "lng": 153.03333
     },
     "summary": {
       "description": "Established suburban centre in QLD (4110) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -20908,11 +20908,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Armidale",
     "state": "NSW",
     "postcode": "2350",
-    "lga": "Armidale Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Uralla Council",
+    "region": "New England and North West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -30.50156,
+      "lng": 151.6662
     },
     "summary": {
       "description": "Established suburban centre in NSW (2350) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -21105,11 +21105,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Arncliffe",
     "state": "NSW",
     "postcode": "2205",
-    "lga": "Arncliffe Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bayside (NSW) Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.93915,
+      "lng": 151.14781
     },
     "summary": {
       "description": "Established suburban centre in NSW (2205) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -21302,11 +21302,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ascot Vale",
     "state": "VIC",
     "postcode": "3032",
-    "lga": "Ascot Vale Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Maribyrnong Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.77674,
+      "lng": 144.91107
     },
     "summary": {
       "description": "Established suburban centre in VIC (3032) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -21499,11 +21499,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Beechworth",
     "state": "VIC",
     "postcode": "3747",
-    "lga": "Beechworth Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Wangaratta Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.3533,
+      "lng": 146.68772
     },
     "summary": {
       "description": "Established suburban centre in VIC (3747) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -21696,11 +21696,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Belmore",
     "state": "NSW",
     "postcode": "2192",
-    "lga": "Belmore Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.91782,
+      "lng": 151.09081
     },
     "summary": {
       "description": "Established suburban centre in NSW (2192) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -21893,11 +21893,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Brookvale",
     "state": "NSW",
     "postcode": "2100",
-    "lga": "Brookvale Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Northern Beaches Council",
+    "region": "Sydney - Northern Beaches",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.7653,
+      "lng": 151.27041
     },
     "summary": {
       "description": "Established suburban centre in NSW (2100) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -22090,11 +22090,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Browns Plains",
     "state": "QLD",
     "postcode": "4118",
-    "lga": "Browns Plains Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Logan Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.66204,
+      "lng": 153.05302
     },
     "summary": {
       "description": "Established suburban centre in QLD (4118) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -22287,11 +22287,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Burpengary",
     "state": "QLD",
     "postcode": "4505",
-    "lga": "Burpengary Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.16154,
+      "lng": 152.95807
     },
     "summary": {
       "description": "Established suburban centre in QLD (4505) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -22484,11 +22484,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Capalaba",
     "state": "QLD",
     "postcode": "4157",
-    "lga": "Capalaba Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Redland Council",
+    "region": "Brisbane - East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.52299,
+      "lng": 153.1927
     },
     "summary": {
       "description": "Established suburban centre in QLD (4157) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -22681,11 +22681,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Castlemaine",
     "state": "VIC",
     "postcode": "3450",
-    "lga": "Castlemaine Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Mount Alexander Council",
+    "region": "Bendigo",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.05814,
+      "lng": 144.2185
     },
     "summary": {
       "description": "Established suburban centre in VIC (3450) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -22878,11 +22878,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coolangatta",
     "state": "QLD",
     "postcode": "4225",
-    "lga": "Coolangatta Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.16,
+      "lng": 153.51
     },
     "summary": {
       "description": "Established suburban centre in QLD (4225) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -23075,11 +23075,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coolum Beach",
     "state": "QLD",
     "postcode": "4573",
-    "lga": "Coolum Beach Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Noosa Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.52769,
+      "lng": 153.07363
     },
     "summary": {
       "description": "Established suburban centre in QLD (4573) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -23272,11 +23272,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cremorne",
     "state": "NSW",
     "postcode": "2090",
-    "lga": "Cremorne Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "North Sydney Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.82653,
+      "lng": 151.22763
     },
     "summary": {
       "description": "Established suburban centre in NSW (2090) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -23469,11 +23469,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Croydon Park",
     "state": "NSW",
     "postcode": "2133",
-    "lga": "Croydon Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Inner West Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.89673,
+      "lng": 151.10828
     },
     "summary": {
       "description": "Established suburban centre in NSW (2133) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -23666,11 +23666,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Darlinghurst",
     "state": "NSW",
     "postcode": "2010",
-    "lga": "Darlinghurst Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sydney Council",
+    "region": "Sydney - City and Inner South",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.87802,
+      "lng": 151.22044
     },
     "summary": {
       "description": "Established suburban centre in NSW (2010) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -23863,11 +23863,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Double Bay",
     "state": "NSW",
     "postcode": "2028",
-    "lga": "Double Bay Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Woollahra Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.8775,
+      "lng": 151.2412
     },
     "summary": {
       "description": "Established suburban centre in NSW (2028) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -24060,11 +24060,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Dulwich Hill",
     "state": "NSW",
     "postcode": "2203",
-    "lga": "Dulwich Hill Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Inner West Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.90417,
+      "lng": 151.13741
     },
     "summary": {
       "description": "Established suburban centre in NSW (2203) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -24257,11 +24257,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Gladesville",
     "state": "NSW",
     "postcode": "2111",
-    "lga": "Gladesville Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hunters Hill Council",
+    "region": "Sydney - Ryde",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.83017,
+      "lng": 151.12676
     },
     "summary": {
       "description": "Established suburban centre in NSW (2111) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -24454,11 +24454,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Gympie",
     "state": "QLD",
     "postcode": "4570",
-    "lga": "Gympie Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Fraser Coast Council",
+    "region": "Wide Bay",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.18335,
+      "lng": 152.66575
     },
     "summary": {
       "description": "Established suburban centre in QLD (4570) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -24651,11 +24651,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Huntingdale",
     "state": "VIC",
     "postcode": "3166",
-    "lga": "Huntingdale Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Monash Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.90743,
+      "lng": 145.10862
     },
     "summary": {
       "description": "Established suburban centre in VIC (3166) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -24848,11 +24848,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kemps Creek",
     "state": "NSW",
     "postcode": "2178",
-    "lga": "Kemps Creek Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.87464,
+      "lng": 150.79868
     },
     "summary": {
       "description": "Established suburban centre in NSW (2178) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -25045,11 +25045,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Laverton",
     "state": "WA",
     "postcode": "6440",
-    "lga": "Laverton Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Menzies Council",
+    "region": "Western Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.62566,
+      "lng": 122.40134
     },
     "summary": {
       "description": "Established suburban centre in WA (6440) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -25242,11 +25242,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Leederville",
     "state": "WA",
     "postcode": "6007",
-    "lga": "Leederville Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Vincent Council",
+    "region": "Perth - Inner",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.93196,
+      "lng": 115.84128
     },
     "summary": {
       "description": "Established suburban centre in WA (6007) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -25439,11 +25439,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lismore",
     "state": "NSW",
     "postcode": "2480",
-    "lga": "Lismore Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Ballina Council",
+    "region": "Richmond - Tweed",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.80932,
+      "lng": 153.28829
     },
     "summary": {
       "description": "Established suburban centre in NSW (2480) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -25636,11 +25636,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Maribyrnong",
     "state": "VIC",
     "postcode": "3032",
-    "lga": "Maribyrnong Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Maribyrnong Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.76956,
+      "lng": 144.88208
     },
     "summary": {
       "description": "Established suburban centre in VIC (3032) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -25833,11 +25833,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mawson Lakes",
     "state": "SA",
     "postcode": "5095",
-    "lga": "Mawson Lakes Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Salisbury Council",
+    "region": "Adelaide - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.81115,
+      "lng": 138.6149
     },
     "summary": {
       "description": "Established suburban centre in SA (5095) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -26030,11 +26030,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mickleham",
     "state": "VIC",
     "postcode": "3064",
-    "lga": "Mickleham Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Whittlesea Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.562,
+      "lng": 144.874
     },
     "summary": {
       "description": "Established suburban centre in VIC (3064) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -26227,11 +26227,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Moorebank",
     "state": "NSW",
     "postcode": "2170",
-    "lga": "Moorebank Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.93971,
+      "lng": 150.92499
     },
     "summary": {
       "description": "Established suburban centre in NSW (2170) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -26424,11 +26424,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Morayfield",
     "state": "QLD",
     "postcode": "4506",
-    "lga": "Morayfield Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.10538,
+      "lng": 152.94767
     },
     "summary": {
       "description": "Established suburban centre in QLD (4506) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -26621,11 +26621,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mudgee",
     "state": "NSW",
     "postcode": "2850",
-    "lga": "Mudgee Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Lithgow Council",
+    "region": "Hunter Valley exc Newcastle",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.61446,
+      "lng": 149.57333
     },
     "summary": {
       "description": "Established suburban centre in NSW (2850) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -26818,11 +26818,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Nelson Bay",
     "state": "NSW",
     "postcode": "2315",
-    "lga": "Nelson Bay Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Port Stephens Council",
+    "region": "Hunter Valley exc Newcastle",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.715,
+      "lng": 152.15111
     },
     "summary": {
       "description": "Established suburban centre in NSW (2315) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -27015,11 +27015,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Neutral Bay",
     "state": "NSW",
     "postcode": "2089",
-    "lga": "Neutral Bay Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "North Sydney Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.83394,
+      "lng": 151.21885
     },
     "summary": {
       "description": "Established suburban centre in NSW (2089) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -27212,11 +27212,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Nowra",
     "state": "NSW",
     "postcode": "2541",
-    "lga": "Nowra Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Shoalhaven Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.88333,
+      "lng": 150.6
     },
     "summary": {
       "description": "Established suburban centre in NSW (2541) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -27409,11 +27409,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Pascoe Vale",
     "state": "VIC",
     "postcode": "3044",
-    "lga": "Pascoe Vale Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Moreland Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.727,
+      "lng": 144.942
     },
     "summary": {
       "description": "Established suburban centre in VIC (3044) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -27606,11 +27606,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Roxburgh Park",
     "state": "VIC",
     "postcode": "3064",
-    "lga": "Roxburgh Park Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Whittlesea Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.627,
+      "lng": 144.929
     },
     "summary": {
       "description": "Established suburban centre in VIC (3064) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -27803,11 +27803,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Toorak",
     "state": "VIC",
     "postcode": "3142",
-    "lga": "Toorak Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Stonnington Council",
+    "region": "Melbourne - Inner East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.84324,
+      "lng": 145.01902
     },
     "summary": {
       "description": "Established suburban centre in VIC (3142) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -28000,11 +28000,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Turramurra",
     "state": "NSW",
     "postcode": "2074",
-    "lga": "Turramurra Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Ku-ring-gai Council",
+    "region": "Sydney - Ryde",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.7335,
+      "lng": 151.12798
     },
     "summary": {
       "description": "Established suburban centre in NSW (2074) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -28197,11 +28197,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Tweed Heads",
     "state": "NSW",
     "postcode": "2485",
-    "lga": "Tweed Heads Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Tweed Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.17856,
+      "lng": 153.5157
     },
     "summary": {
       "description": "Established suburban centre in NSW (2485) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -28394,11 +28394,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Victor Harbor",
     "state": "SA",
     "postcode": "5211",
-    "lga": "Victor Harbor Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Yankalilla Council",
+    "region": "South Australia - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.55,
+      "lng": 138.61667
     },
     "summary": {
       "description": "Established suburban centre in SA (5211) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -28591,11 +28591,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Warrandyte",
     "state": "VIC",
     "postcode": "3113",
-    "lga": "Warrandyte Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Nillumbik Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.738,
+      "lng": 145.223
     },
     "summary": {
       "description": "Established suburban centre in VIC (3113) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -28788,11 +28788,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Woolloongabba",
     "state": "QLD",
     "postcode": "4102",
-    "lga": "Woolloongabba Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.4856,
+      "lng": 153.0291
     },
     "summary": {
       "description": "Established suburban centre in QLD (4102) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -28985,11 +28985,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wynnum",
     "state": "QLD",
     "postcode": "4178",
-    "lga": "Wynnum Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Redland Council",
+    "region": "Brisbane - East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.44369,
+      "lng": 153.17362
     },
     "summary": {
       "description": "Established suburban centre in QLD (4178) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -29182,11 +29182,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yarrabilba",
     "state": "QLD",
     "postcode": "4207",
-    "lga": "Yarrabilba Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.80231,
+      "lng": 153.10862
     },
     "summary": {
       "description": "Established suburban centre in QLD (4207) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -29379,11 +29379,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Avalon Beach",
     "state": "NSW",
     "postcode": "2107",
-    "lga": "Avalon Beach Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Northern Beaches Council",
+    "region": "Sydney - Northern Beaches",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.63028,
+      "lng": 151.32977
     },
     "summary": {
       "description": "Established suburban centre in NSW (2107) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -29576,11 +29576,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Balcatta",
     "state": "WA",
     "postcode": "6021",
-    "lga": "Balcatta Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Stirling Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.86018,
+      "lng": 115.81047
     },
     "summary": {
       "description": "Established suburban centre in WA (6021) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -29773,11 +29773,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Balwyn",
     "state": "VIC",
     "postcode": "3103",
-    "lga": "Balwyn Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Boroondara Council",
+    "region": "Melbourne - Inner East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.80889,
+      "lng": 145.07889
     },
     "summary": {
       "description": "Established suburban centre in VIC (3103) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -29970,11 +29970,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Beaudesert",
     "state": "QLD",
     "postcode": "4285",
-    "lga": "Beaudesert Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Logan Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.98816,
+      "lng": 153.00189
     },
     "summary": {
       "description": "Established suburban centre in QLD (4285) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -30167,11 +30167,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Brunswick Heads",
     "state": "NSW",
     "postcode": "2483",
-    "lga": "Brunswick Heads Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Tweed Council",
+    "region": "Richmond - Tweed",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.55579,
+      "lng": 153.54364
     },
     "summary": {
       "description": "Established suburban centre in NSW (2483) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -30364,11 +30364,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Camperdown",
     "state": "NSW",
     "postcode": "2050",
-    "lga": "Camperdown Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Inner West Council",
+    "region": "Sydney - City and Inner South",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.88991,
+      "lng": 151.17673
     },
     "summary": {
       "description": "Established suburban centre in NSW (2050) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -30561,11 +30561,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Canley Vale",
     "state": "NSW",
     "postcode": "2166",
-    "lga": "Canley Vale Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.88642,
+      "lng": 150.946
     },
     "summary": {
       "description": "Established suburban centre in NSW (2166) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -30758,11 +30758,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Caves Beach",
     "state": "NSW",
     "postcode": "2281",
-    "lga": "Caves Beach Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Lake Macquarie Council",
+    "region": "Newcastle and Lake Macquarie",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.10634,
+      "lng": 151.64504
     },
     "summary": {
       "description": "Established suburban centre in NSW (2281) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -30955,11 +30955,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cessnock",
     "state": "NSW",
     "postcode": "2325",
-    "lga": "Cessnock Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Central Coast (NSW) Council",
+    "region": "Hunter Valley exc Newcastle",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.83451,
+      "lng": 151.36243
     },
     "summary": {
       "description": "Established suburban centre in NSW (2325) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -31152,11 +31152,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coober Pedy",
     "state": "SA",
     "postcode": "5723",
-    "lga": "Coober Pedy Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Unincorporated SA Council",
+    "region": "South Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -29.01353,
+      "lng": 134.75441
     },
     "summary": {
       "description": "Established suburban centre in SA (5723) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -31349,11 +31349,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coomera",
     "state": "QLD",
     "postcode": "4209",
-    "lga": "Coomera Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.84644,
+      "lng": 153.34395
     },
     "summary": {
       "description": "Established suburban centre in QLD (4209) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -31546,11 +31546,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Dunsborough",
     "state": "WA",
     "postcode": "6281",
-    "lga": "Dunsborough Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Busselton Council",
+    "region": "Bunbury",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -33.6174,
+      "lng": 115.10111
     },
     "summary": {
       "description": "Established suburban centre in WA (6281) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -31743,11 +31743,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Earlwood",
     "state": "NSW",
     "postcode": "2206",
-    "lga": "Earlwood Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.92244,
+      "lng": 151.12866
     },
     "summary": {
       "description": "Established suburban centre in NSW (2206) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -31940,11 +31940,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Eight Mile Plains",
     "state": "QLD",
     "postcode": "4113",
-    "lga": "Eight Mile Plains Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.57586,
+      "lng": 153.09216
     },
     "summary": {
       "description": "Established suburban centre in QLD (4113) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -32137,11 +32137,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Endeavour Hills",
     "state": "VIC",
     "postcode": "3802",
-    "lga": "Endeavour Hills Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Casey Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.97802,
+      "lng": 145.25907
     },
     "summary": {
       "description": "Established suburban centre in VIC (3802) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -32334,11 +32334,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Erskineville",
     "state": "NSW",
     "postcode": "2043",
-    "lga": "Erskineville Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sydney Council",
+    "region": "Sydney - City and Inner South",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.90236,
+      "lng": 151.18548
     },
     "summary": {
       "description": "Established suburban centre in NSW (2043) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -32531,11 +32531,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Five Dock",
     "state": "NSW",
     "postcode": "2046",
-    "lga": "Five Dock Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canada Bay Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.86925,
+      "lng": 151.12957
     },
     "summary": {
       "description": "Established suburban centre in NSW (2046) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -32728,11 +32728,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Highett",
     "state": "VIC",
     "postcode": "3190",
-    "lga": "Highett Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Kingston (Vic.) Council",
+    "region": "Melbourne - Inner South",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.94875,
+      "lng": 145.04107
     },
     "summary": {
       "description": "Established suburban centre in VIC (3190) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -32925,11 +32925,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Jindabyne",
     "state": "NSW",
     "postcode": "2627",
-    "lga": "Jindabyne Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Snowy Valleys Council",
+    "region": "Riverina",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -36.41725,
+      "lng": 148.62483
     },
     "summary": {
       "description": "Established suburban centre in NSW (2627) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -33122,11 +33122,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kalgoorlie",
     "state": "WA",
     "postcode": "6430",
-    "lga": "Kalgoorlie Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Kalgoorlie-Boulder Council",
+    "region": "Western Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -30.749,
+      "lng": 121.466
     },
     "summary": {
       "description": "Established suburban centre in WA (6430) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -33319,11 +33319,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Karrinyup",
     "state": "WA",
     "postcode": "6018",
-    "lga": "Karrinyup Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Stirling Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.8739,
+      "lng": 115.77081
     },
     "summary": {
       "description": "Established suburban centre in WA (6018) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -33516,11 +33516,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kyneton",
     "state": "VIC",
     "postcode": "3444",
-    "lga": "Kyneton Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Mitchell Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.23333,
+      "lng": 144.45
     },
     "summary": {
       "description": "Established suburban centre in VIC (3444) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -33713,11 +33713,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Malvern East",
     "state": "VIC",
     "postcode": "3145",
-    "lga": "Malvern East Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Glen Eira Council",
+    "region": "Melbourne - Inner South",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.87731,
+      "lng": 145.05927
     },
     "summary": {
       "description": "Established suburban centre in VIC (3145) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -33910,11 +33910,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Maylands",
     "state": "WA",
     "postcode": "6051",
-    "lga": "Maylands Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Bayswater Council",
+    "region": "Perth - North East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.93826,
+      "lng": 115.90245
     },
     "summary": {
       "description": "Established suburban centre in WA (6051) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -34107,11 +34107,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Moorooka",
     "state": "QLD",
     "postcode": "4105",
-    "lga": "Moorooka Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.535,
+      "lng": 153.026
     },
     "summary": {
       "description": "Established suburban centre in QLD (4105) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -34304,11 +34304,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mooroolbark",
     "state": "VIC",
     "postcode": "3138",
-    "lga": "Mooroolbark Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Yarra Ranges Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.78224,
+      "lng": 145.33094
     },
     "summary": {
       "description": "Established suburban centre in VIC (3138) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -34501,11 +34501,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mullumbimby",
     "state": "NSW",
     "postcode": "2482",
-    "lga": "Mullumbimby Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Byron Council",
+    "region": "Richmond - Tweed",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.54694,
+      "lng": 153.49698
     },
     "summary": {
       "description": "Established suburban centre in NSW (2482) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -34698,11 +34698,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Murray Bridge",
     "state": "SA",
     "postcode": "5253",
-    "lga": "Murray Bridge Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Mid Murray Council",
+    "region": "South Australia - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.13115,
+      "lng": 139.26509
     },
     "summary": {
       "description": "Established suburban centre in SA (5253) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -34895,11 +34895,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Narangba",
     "state": "QLD",
     "postcode": "4504",
-    "lga": "Narangba Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.20158,
+      "lng": 152.96553
     },
     "summary": {
       "description": "Established suburban centre in QLD (4504) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -35092,11 +35092,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Narooma",
     "state": "NSW",
     "postcode": "2546",
-    "lga": "Narooma Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Snowy Monaro Council",
+    "region": "Capital Region",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -36.24195,
+      "lng": 150.10819
     },
     "summary": {
       "description": "Established suburban centre in NSW (2546) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -35289,11 +35289,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Narrabeen",
     "state": "NSW",
     "postcode": "2101",
-    "lga": "Narrabeen Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Northern Beaches Council",
+    "region": "Sydney - Northern Beaches",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.7231,
+      "lng": 151.2952
     },
     "summary": {
       "description": "Established suburban centre in NSW (2101) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -35486,11 +35486,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ormeau",
     "state": "QLD",
     "postcode": "4208",
-    "lga": "Ormeau Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.78319,
+      "lng": 153.26386
     },
     "summary": {
       "description": "Established suburban centre in QLD (4208) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -35683,11 +35683,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Pennant Hills",
     "state": "NSW",
     "postcode": "2120",
-    "lga": "Pennant Hills Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hornsby Council",
+    "region": "Sydney - Ryde",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.73888,
+      "lng": 151.07238
     },
     "summary": {
       "description": "Established suburban centre in NSW (2120) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -35880,11 +35880,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Perth",
     "state": "WA",
     "postcode": "6000",
-    "lga": "Perth Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Vincent Council",
+    "region": "Perth - Inner",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.95257,
+      "lng": 115.86105
     },
     "summary": {
       "description": "Established suburban centre in WA (6000) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -36077,11 +36077,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Augusta",
     "state": "SA",
     "postcode": "5700",
-    "lga": "Port Augusta Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Mount Remarkable Council",
+    "region": "South Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.49523,
+      "lng": 137.78944
     },
     "summary": {
       "description": "Established suburban centre in SA (5700) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -36274,11 +36274,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Pymble",
     "state": "NSW",
     "postcode": "2073",
-    "lga": "Pymble Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Ku-ring-gai Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.74565,
+      "lng": 151.14318
     },
     "summary": {
       "description": "Established suburban centre in NSW (2073) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -36471,11 +36471,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Queenscliff",
     "state": "VIC",
     "postcode": "3225",
-    "lga": "Queenscliff Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Greater Geelong Council",
+    "region": "Geelong",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.26777,
+      "lng": 144.62869
     },
     "summary": {
       "description": "Established suburban centre in VIC (3225) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -36668,11 +36668,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Rainbow Beach",
     "state": "QLD",
     "postcode": "4581",
-    "lga": "Rainbow Beach Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Fraser Coast Council",
+    "region": "Wide Bay",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -25.90727,
+      "lng": 153.08786
     },
     "summary": {
       "description": "Established suburban centre in QLD (4581) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -36865,11 +36865,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Redland Bay",
     "state": "QLD",
     "postcode": "4165",
-    "lga": "Redland Bay Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Redland Council",
+    "region": "Brisbane - East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.63719,
+      "lng": 153.28572
     },
     "summary": {
       "description": "Established suburban centre in QLD (4165) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -37456,11 +37456,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Strathalbyn",
     "state": "SA",
     "postcode": "5255",
-    "lga": "Strathalbyn Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Murray Bridge Council",
+    "region": "South Australia - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.25023,
+      "lng": 138.89789
     },
     "summary": {
       "description": "Established suburban centre in SA (5255) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -37653,11 +37653,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Strathpine",
     "state": "QLD",
     "postcode": "4500",
-    "lga": "Strathpine Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.30139,
+      "lng": 152.98827
     },
     "summary": {
       "description": "Established suburban centre in QLD (4500) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -37850,11 +37850,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Templestowe",
     "state": "VIC",
     "postcode": "3106",
-    "lga": "Templestowe Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Manningham Council",
+    "region": "Melbourne - Inner East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.75377,
+      "lng": 145.14862
     },
     "summary": {
       "description": "Established suburban centre in VIC (3106) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -38047,11 +38047,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Thornleigh",
     "state": "NSW",
     "postcode": "2120",
-    "lga": "Thornleigh Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hornsby Council",
+    "region": "Sydney - Ryde",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.72618,
+      "lng": 151.08415
     },
     "summary": {
       "description": "Established suburban centre in NSW (2120) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -38244,11 +38244,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Thornlie",
     "state": "WA",
     "postcode": "6108",
-    "lga": "Thornlie Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Gosnells Council",
+    "region": "Perth - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.05704,
+      "lng": 115.95271
     },
     "summary": {
       "description": "Established suburban centre in WA (6108) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -38441,11 +38441,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Toowong",
     "state": "QLD",
     "postcode": "4066",
-    "lga": "Toowong Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.48429,
+      "lng": 152.98375
     },
     "summary": {
       "description": "Established suburban centre in QLD (4066) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -38638,11 +38638,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wangaratta",
     "state": "VIC",
     "postcode": "3677",
-    "lga": "Wangaratta Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Wangaratta Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.37424,
+      "lng": 146.32648
     },
     "summary": {
       "description": "Established suburban centre in VIC (3677) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -38835,11 +38835,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Warwick Farm",
     "state": "NSW",
     "postcode": "2170",
-    "lga": "Warwick Farm Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.91134,
+      "lng": 150.93816
     },
     "summary": {
       "description": "Established suburban centre in NSW (2170) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -39032,11 +39032,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wodonga",
     "state": "VIC",
     "postcode": "3690",
-    "lga": "Wodonga Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Wodonga Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.12409,
+      "lng": 146.88176
     },
     "summary": {
       "description": "Established suburban centre in VIC (3690) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -39229,11 +39229,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wyong",
     "state": "NSW",
     "postcode": "2259",
-    "lga": "Wyong Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Cessnock Council",
+    "region": "Newcastle and Lake Macquarie",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.282,
+      "lng": 151.418
     },
     "summary": {
       "description": "Established suburban centre in NSW (2259) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -39426,11 +39426,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yanchep",
     "state": "WA",
     "postcode": "6035",
-    "lga": "Yanchep Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Wanneroo Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.53653,
+      "lng": 115.73385
     },
     "summary": {
       "description": "Established suburban centre in WA (6035) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -39623,11 +39623,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Adelaide",
     "state": "SA",
     "postcode": "5000",
-    "lga": "Adelaide Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Adelaide Council",
+    "region": "Adelaide - Central and Hills",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.93283,
+      "lng": 138.60381
     },
     "summary": {
       "description": "Established suburban centre in SA (5000) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -39820,11 +39820,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Airport West",
     "state": "VIC",
     "postcode": "3042",
-    "lga": "Airport West Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.72623,
+      "lng": 144.88135
     },
     "summary": {
       "description": "Established suburban centre in VIC (3042) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -40017,11 +40017,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Albany Creek",
     "state": "QLD",
     "postcode": "4035",
-    "lga": "Albany Creek Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Moreton Bay - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.34694,
+      "lng": 152.96806
     },
     "summary": {
       "description": "Established suburban centre in QLD (4035) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -40214,11 +40214,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Alphington",
     "state": "VIC",
     "postcode": "3078",
-    "lga": "Alphington Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Yarra Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.78,
+      "lng": 145.023
     },
     "summary": {
       "description": "Established suburban centre in VIC (3078) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -40411,11 +40411,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Anglesea",
     "state": "VIC",
     "postcode": "3230",
-    "lga": "Anglesea Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Surf Coast Council",
+    "region": "Geelong",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.38501,
+      "lng": 144.15019
     },
     "summary": {
       "description": "Established suburban centre in VIC (3230) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -40608,11 +40608,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Annerley",
     "state": "QLD",
     "postcode": "4103",
-    "lga": "Annerley Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.5139,
+      "lng": 153.03093
     },
     "summary": {
       "description": "Established suburban centre in QLD (4103) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -40805,11 +40805,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Aspley",
     "state": "QLD",
     "postcode": "4034",
-    "lga": "Aspley Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.3639,
+      "lng": 153.0157
     },
     "summary": {
       "description": "Established suburban centre in QLD (4034) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -41002,11 +41002,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bairnsdale",
     "state": "VIC",
     "postcode": "3875",
-    "lga": "Bairnsdale Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "East Gippsland Council",
+    "region": "Latrobe - Gippsland",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.83333,
+      "lng": 147.61667
     },
     "summary": {
       "description": "Established suburban centre in VIC (3875) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -41199,11 +41199,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bassendean",
     "state": "WA",
     "postcode": "6054",
-    "lga": "Bassendean Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Swan Council",
+    "region": "Perth - North East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.90764,
+      "lng": 115.94259
     },
     "summary": {
       "description": "Established suburban centre in WA (6054) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -41396,11 +41396,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Beerwah",
     "state": "QLD",
     "postcode": "4519",
-    "lga": "Beerwah Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Sunshine Coast Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.85732,
+      "lng": 152.95517
     },
     "summary": {
       "description": "Established suburban centre in QLD (4519) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -41593,11 +41593,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Benalla",
     "state": "VIC",
     "postcode": "3672",
-    "lga": "Benalla Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Benalla Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.61817,
+      "lng": 145.98042
     },
     "summary": {
       "description": "Established suburban centre in VIC (3672) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -41790,11 +41790,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bentleigh East",
     "state": "VIC",
     "postcode": "3165",
-    "lga": "Bentleigh East Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Glen Eira Council",
+    "region": "Melbourne - Inner South",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.91749,
+      "lng": 145.06588
     },
     "summary": {
       "description": "Established suburban centre in VIC (3165) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -41987,11 +41987,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Berowra",
     "state": "NSW",
     "postcode": "2081",
-    "lga": "Berowra Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hornsby Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.62797,
+      "lng": 151.14803
     },
     "summary": {
       "description": "Established suburban centre in NSW (2081) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -42184,11 +42184,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bibra Lake",
     "state": "WA",
     "postcode": "6163",
-    "lga": "Bibra Lake Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Fremantle Council",
+    "region": "Perth - South West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.10225,
+      "lng": 115.82403
     },
     "summary": {
       "description": "Established suburban centre in WA (6163) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -42381,11 +42381,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Braybrook",
     "state": "VIC",
     "postcode": "3019",
-    "lga": "Braybrook Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Maribyrnong Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.79037,
+      "lng": 144.85662
     },
     "summary": {
       "description": "Established suburban centre in VIC (3019) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -42578,11 +42578,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Buderim",
     "state": "QLD",
     "postcode": "4556",
-    "lga": "Buderim Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Sunshine Coast Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.685,
+      "lng": 153.053
     },
     "summary": {
       "description": "Established suburban centre in QLD (4556) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -42775,11 +42775,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Carseldine",
     "state": "QLD",
     "postcode": "4034",
-    "lga": "Carseldine Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.3459,
+      "lng": 153.01249
     },
     "summary": {
       "description": "Established suburban centre in QLD (4034) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -42972,11 +42972,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Chirnside Park",
     "state": "VIC",
     "postcode": "3116",
-    "lga": "Chirnside Park Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Yarra Ranges Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.73733,
+      "lng": 145.30882
     },
     "summary": {
       "description": "Established suburban centre in VIC (3116) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -43169,11 +43169,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Condell Park",
     "state": "NSW",
     "postcode": "2200",
-    "lga": "Condell Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.92498,
+      "lng": 151.00769
     },
     "summary": {
       "description": "Established suburban centre in NSW (2200) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -43366,11 +43366,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cooma",
     "state": "NSW",
     "postcode": "2630",
-    "lga": "Cooma Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bega Valley Council",
+    "region": "Capital Region",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -36.22687,
+      "lng": 149.12979
     },
     "summary": {
       "description": "Established suburban centre in NSW (2630) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -43563,11 +43563,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coopers Plains",
     "state": "QLD",
     "postcode": "4108",
-    "lga": "Coopers Plains Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.5703,
+      "lng": 153.0372
     },
     "summary": {
       "description": "Established suburban centre in QLD (4108) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -43760,11 +43760,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Devonport",
     "state": "TAS",
     "postcode": "7310",
-    "lga": "Devonport Local Government Area",
-    "region": "Greater TAS Region",
+    "lga": "Latrobe (Tas.) Council",
+    "region": "West and North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -41.17706,
+      "lng": 146.34518
     },
     "summary": {
       "description": "Established suburban centre in TAS (7310) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -43957,11 +43957,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Doonside",
     "state": "NSW",
     "postcode": "2767",
-    "lga": "Doonside Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Blacktown Council",
+    "region": "Sydney - Blacktown",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.76398,
+      "lng": 150.86966
     },
     "summary": {
       "description": "Established suburban centre in NSW (2767) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -44154,11 +44154,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Erskine Park",
     "state": "NSW",
     "postcode": "2759",
-    "lga": "Erskine Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Penrith Council",
+    "region": "Sydney - Outer West and Blue Mountains",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.81323,
+      "lng": 150.80143
     },
     "summary": {
       "description": "Established suburban centre in NSW (2759) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -44351,11 +44351,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Forrestfield",
     "state": "WA",
     "postcode": "6058",
-    "lga": "Forrestfield Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Kalamunda Council",
+    "region": "Perth - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.98315,
+      "lng": 116.00001
     },
     "summary": {
       "description": "Established suburban centre in WA (6058) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -44548,11 +44548,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Glenmore Park",
     "state": "NSW",
     "postcode": "2745",
-    "lga": "Glenmore Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wollondilly Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.79,
+      "lng": 150.676
     },
     "summary": {
       "description": "Established suburban centre in NSW (2745) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -44745,11 +44745,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hallett Cove",
     "state": "SA",
     "postcode": "5158",
-    "lga": "Hallett Cove Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Onkaparinga Council",
+    "region": "Adelaide - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.077,
+      "lng": 138.502
     },
     "summary": {
       "description": "Established suburban centre in SA (5158) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -44942,11 +44942,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Jamberoo",
     "state": "NSW",
     "postcode": "2533",
-    "lga": "Jamberoo Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Kiama Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.65,
+      "lng": 150.78333
     },
     "summary": {
       "description": "Established suburban centre in NSW (2533) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -45139,11 +45139,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Jindalee",
     "state": "WA",
     "postcode": "6036",
-    "lga": "Jindalee Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Wanneroo Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.65068,
+      "lng": 115.69202
     },
     "summary": {
       "description": "Established suburban centre in WA (6036) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -45336,11 +45336,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kalamunda",
     "state": "WA",
     "postcode": "6076",
-    "lga": "Kalamunda Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Mundaring Council",
+    "region": "Perth - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.9756,
+      "lng": 116.05659
     },
     "summary": {
       "description": "Established suburban centre in WA (6076) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -45533,11 +45533,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Killara",
     "state": "NSW",
     "postcode": "2071",
-    "lga": "Killara Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Ku-ring-gai Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.76864,
+      "lng": 151.16347
     },
     "summary": {
       "description": "Established suburban centre in NSW (2071) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -45730,11 +45730,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kilmore",
     "state": "VIC",
     "postcode": "3764",
-    "lga": "Kilmore Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Macedon Ranges Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.30166,
+      "lng": 144.94972
     },
     "summary": {
       "description": "Established suburban centre in VIC (3764) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -45927,11 +45927,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kirribilli",
     "state": "NSW",
     "postcode": "2061",
-    "lga": "Kirribilli Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "North Sydney Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.84914,
+      "lng": 151.21753
     },
     "summary": {
       "description": "Established suburban centre in NSW (2061) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -46124,11 +46124,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kununurra",
     "state": "WA",
     "postcode": "6743",
-    "lga": "Kununurra Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Derby-West Kimberley Council",
+    "region": "Western Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -15.60495,
+      "lng": 128.76547
     },
     "summary": {
       "description": "Established suburban centre in WA (6743) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -46321,11 +46321,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Langwarrin",
     "state": "VIC",
     "postcode": "3910",
-    "lga": "Langwarrin Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Frankston Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.1609,
+      "lng": 145.19278
     },
     "summary": {
       "description": "Established suburban centre in VIC (3910) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -46518,11 +46518,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lennox Head",
     "state": "NSW",
     "postcode": "2478",
-    "lga": "Lennox Head Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Ballina Council",
+    "region": "Richmond - Tweed",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.8,
+      "lng": 153.58333
     },
     "summary": {
       "description": "Established suburban centre in NSW (2478) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -46715,11 +46715,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Leura",
     "state": "NSW",
     "postcode": "2780",
-    "lga": "Leura Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Blue Mountains Council",
+    "region": "Sydney - Outer West and Blue Mountains",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.71667,
+      "lng": 150.33333
     },
     "summary": {
       "description": "Established suburban centre in NSW (2780) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -46912,11 +46912,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Macquarie Fields",
     "state": "NSW",
     "postcode": "2564",
-    "lga": "Macquarie Fields Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Campbelltown (NSW) Council",
+    "region": "Sydney - Outer South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.99434,
+      "lng": 150.88757
     },
     "summary": {
       "description": "Established suburban centre in NSW (2564) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -47109,11 +47109,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Matraville",
     "state": "NSW",
     "postcode": "2036",
-    "lga": "Matraville Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bayside (NSW) Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.9613,
+      "lng": 151.2315
     },
     "summary": {
       "description": "Established suburban centre in NSW (2036) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -47306,11 +47306,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Moss Vale",
     "state": "NSW",
     "postcode": "2577",
-    "lga": "Moss Vale Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Shellharbour Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.55057,
+      "lng": 150.39643
     },
     "summary": {
       "description": "Established suburban centre in NSW (2577) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -47503,11 +47503,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Eliza",
     "state": "VIC",
     "postcode": "3930",
-    "lga": "Mount Eliza Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Mornington Peninsula Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.19522,
+      "lng": 145.08793
     },
     "summary": {
       "description": "Established suburban centre in VIC (3930) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -47700,11 +47700,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Martha",
     "state": "VIC",
     "postcode": "3934",
-    "lga": "Mount Martha Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Mornington Peninsula Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.28704,
+      "lng": 145.01627
     },
     "summary": {
       "description": "Established suburban centre in VIC (3934) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -47897,11 +47897,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Murrumbeena",
     "state": "VIC",
     "postcode": "3163",
-    "lga": "Murrumbeena Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Glen Eira Council",
+    "region": "Melbourne - Inner South",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.89783,
+      "lng": 145.0709
     },
     "summary": {
       "description": "Established suburban centre in VIC (3163) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -48094,11 +48094,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Nambour",
     "state": "QLD",
     "postcode": "4560",
-    "lga": "Nambour Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Sunshine Coast Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.6237,
+      "lng": 152.95877
     },
     "summary": {
       "description": "Established suburban centre in QLD (4560) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -48291,11 +48291,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Nambucca Heads",
     "state": "NSW",
     "postcode": "2448",
-    "lga": "Nambucca Heads Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bellingen Council",
+    "region": "Mid North Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -30.64197,
+      "lng": 152.99788
     },
     "summary": {
       "description": "Established suburban centre in NSW (2448) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -48488,11 +48488,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Narellan",
     "state": "NSW",
     "postcode": "2567",
-    "lga": "Narellan Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Campbelltown (NSW) Council",
+    "region": "Sydney - Outer South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.04511,
+      "lng": 150.73706
     },
     "summary": {
       "description": "Established suburban centre in NSW (2567) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -48685,11 +48685,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Nimbin",
     "state": "NSW",
     "postcode": "2480",
-    "lga": "Nimbin Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Ballina Council",
+    "region": "Richmond - Tweed",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.59583,
+      "lng": 153.22306
     },
     "summary": {
       "description": "Established suburban centre in NSW (2480) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -48882,11 +48882,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "North Strathfield",
     "state": "NSW",
     "postcode": "2137",
-    "lga": "North Strathfield Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canada Bay Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.8604,
+      "lng": 151.08856
     },
     "summary": {
       "description": "Established suburban centre in NSW (2137) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -49079,11 +49079,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Piara Waters",
     "state": "WA",
     "postcode": "6112",
-    "lga": "Piara Waters Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Armadale Council",
+    "region": "Perth - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.1247,
+      "lng": 115.918
     },
     "summary": {
       "description": "Established suburban centre in WA (6112) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -49276,11 +49276,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Pink Lake",
     "state": "WA",
     "postcode": "6450",
-    "lga": "Pink Lake Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Ravensthorpe Council",
+    "region": "Western Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -33.84984,
+      "lng": 121.79133
     },
     "summary": {
       "description": "Established suburban centre in WA (6450) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -49473,11 +49473,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Fairy",
     "state": "VIC",
     "postcode": "3284",
-    "lga": "Port Fairy Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Moyne Council",
+    "region": "Warrnambool and South West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.38101,
+      "lng": 142.22929
     },
     "summary": {
       "description": "Established suburban centre in VIC (3284) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -49670,11 +49670,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Lincoln",
     "state": "SA",
     "postcode": "5606",
-    "lga": "Port Lincoln Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Unincorporated SA Council",
+    "region": "South Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.724,
+      "lng": 135.86115
     },
     "summary": {
       "description": "Established suburban centre in SA (5606) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -49867,11 +49867,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Raymond Terrace",
     "state": "NSW",
     "postcode": "2324",
-    "lga": "Raymond Terrace Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Maitland Council",
+    "region": "Mid North Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.75441,
+      "lng": 151.76751
     },
     "summary": {
       "description": "Established suburban centre in NSW (2324) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -50064,11 +50064,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Redbank Plains",
     "state": "QLD",
     "postcode": "4301",
-    "lga": "Redbank Plains Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Ipswich Council",
+    "region": "Ipswich",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.65,
+      "lng": 152.85
     },
     "summary": {
       "description": "Established suburban centre in QLD (4301) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -50261,11 +50261,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Rochedale",
     "state": "QLD",
     "postcode": "4123",
-    "lga": "Rochedale Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.56924,
+      "lng": 153.11648
     },
     "summary": {
       "description": "Established suburban centre in QLD (4123) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -50458,11 +50458,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Rocklea",
     "state": "QLD",
     "postcode": "4106",
-    "lga": "Rocklea Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.55339,
+      "lng": 153.00004
     },
     "summary": {
       "description": "Established suburban centre in QLD (4106) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -50655,11 +50655,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Rydalmere",
     "state": "NSW",
     "postcode": "2116",
-    "lga": "Rydalmere Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Parramatta Council",
+    "region": "Sydney - Parramatta",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.81241,
+      "lng": 151.0384
     },
     "summary": {
       "description": "Established suburban centre in NSW (2116) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -50852,11 +50852,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Sandgate",
     "state": "QLD",
     "postcode": "4017",
-    "lga": "Sandgate Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.3238,
+      "lng": 153.071
     },
     "summary": {
       "description": "Established suburban centre in QLD (4017) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -51049,11 +51049,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Scoresby",
     "state": "VIC",
     "postcode": "3179",
-    "lga": "Scoresby Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Knox Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.90426,
+      "lng": 145.2204
     },
     "summary": {
       "description": "Established suburban centre in VIC (3179) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -51246,11 +51246,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Slacks Creek",
     "state": "QLD",
     "postcode": "4127",
-    "lga": "Slacks Creek Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.63963,
+      "lng": 153.1266
     },
     "summary": {
       "description": "Established suburban centre in QLD (4127) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -51443,11 +51443,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "South Melbourne",
     "state": "VIC",
     "postcode": "3205",
-    "lga": "South Melbourne Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Port Phillip Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.83389,
+      "lng": 144.96394
     },
     "summary": {
       "description": "Established suburban centre in VIC (3205) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -51640,11 +51640,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Stanthorpe",
     "state": "QLD",
     "postcode": "4380",
-    "lga": "Stanthorpe Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Tenterfield Council",
+    "region": "Darling Downs - Maranoa",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.65997,
+      "lng": 151.93756
     },
     "summary": {
       "description": "Established suburban centre in QLD (4380) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -51837,11 +51837,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Swan Hill",
     "state": "VIC",
     "postcode": "3585",
-    "lga": "Swan Hill Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Gannawarra Council",
+    "region": "North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -35.33963,
+      "lng": 143.55248
     },
     "summary": {
       "description": "Established suburban centre in VIC (3585) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -52034,11 +52034,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Taylors Lakes",
     "state": "VIC",
     "postcode": "3038",
-    "lga": "Taylors Lakes Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.69735,
+      "lng": 144.7812
     },
     "summary": {
       "description": "Established suburban centre in VIC (3038) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -52231,11 +52231,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "The Entrance",
     "state": "NSW",
     "postcode": "2261",
-    "lga": "The Entrance Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Central Coast (NSW) Council",
+    "region": "Central Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.34722,
+      "lng": 151.49611
     },
     "summary": {
       "description": "Established suburban centre in NSW (2261) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -52428,11 +52428,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Thirroul",
     "state": "NSW",
     "postcode": "2515",
-    "lga": "Thirroul Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wollongong Council",
+    "region": "Illawarra",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.31473,
+      "lng": 150.91037
     },
     "summary": {
       "description": "Established suburban centre in NSW (2515) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -52625,11 +52625,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ulladulla",
     "state": "NSW",
     "postcode": "2539",
-    "lga": "Ulladulla Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Shoalhaven Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -35.35724,
+      "lng": 150.46132
     },
     "summary": {
       "description": "Established suburban centre in NSW (2539) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -52822,11 +52822,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Victoria Point",
     "state": "QLD",
     "postcode": "4165",
-    "lga": "Victoria Point Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Redland Council",
+    "region": "Brisbane - East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.58333,
+      "lng": 153.3
     },
     "summary": {
       "description": "Established suburban centre in QLD (4165) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -53019,11 +53019,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "West Footscray",
     "state": "VIC",
     "postcode": "3012",
-    "lga": "West Footscray Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.80067,
+      "lng": 144.87166
     },
     "summary": {
       "description": "Established suburban centre in VIC (3012) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -53216,11 +53216,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wheelers Hill",
     "state": "VIC",
     "postcode": "3150",
-    "lga": "Wheelers Hill Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Monash Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.90679,
+      "lng": 145.18901
     },
     "summary": {
       "description": "Established suburban centre in VIC (3150) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -53413,11 +53413,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Whittlesea",
     "state": "VIC",
     "postcode": "3757",
-    "lga": "Whittlesea Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Nillumbik Council",
+    "region": "Melbourne - North East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.51389,
+      "lng": 145.11389
     },
     "summary": {
       "description": "Established suburban centre in VIC (3757) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -53610,11 +53610,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Willetton",
     "state": "WA",
     "postcode": "6155",
-    "lga": "Willetton Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Melville Council",
+    "region": "Perth - South West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.04878,
+      "lng": 115.89215
     },
     "summary": {
       "description": "Established suburban centre in WA (6155) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -53807,11 +53807,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wisemans Ferry",
     "state": "NSW",
     "postcode": "2775",
-    "lga": "Wisemans Ferry Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "The Hills Council",
+    "region": "Sydney - Baulkham Hills and Hawkesbury",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.38194,
+      "lng": 150.985
     },
     "summary": {
       "description": "Established suburban centre in NSW (2775) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -54004,11 +54004,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yarrawonga",
     "state": "VIC",
     "postcode": "3730",
-    "lga": "Yarrawonga Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Moira Council",
+    "region": "Shepparton",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.02711,
+      "lng": 145.99906
     },
     "summary": {
       "description": "Established suburban centre in VIC (3730) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -54201,11 +54201,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yass",
     "state": "NSW",
     "postcode": "2582",
-    "lga": "Yass Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hilltops Council",
+    "region": "Riverina",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.82611,
+      "lng": 148.91432
     },
     "summary": {
       "description": "Established suburban centre in NSW (2582) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -54398,11 +54398,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yatala",
     "state": "QLD",
     "postcode": "4207",
-    "lga": "Yatala Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.75081,
+      "lng": 153.21747
     },
     "summary": {
       "description": "Established suburban centre in QLD (4207) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -54595,11 +54595,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Altona North",
     "state": "VIC",
     "postcode": "3025",
-    "lga": "Altona North Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Hobsons Bay Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.83887,
+      "lng": 144.83462
     },
     "summary": {
       "description": "Established suburban centre in VIC (3025) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -54792,11 +54792,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Aubin Grove",
     "state": "WA",
     "postcode": "6164",
-    "lga": "Aubin Grove Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Cockburn Council",
+    "region": "Perth - South West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.1684,
+      "lng": 115.86114
     },
     "summary": {
       "description": "Established suburban centre in WA (6164) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -54989,11 +54989,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Avoca",
     "state": "NSW",
     "postcode": "2577",
-    "lga": "Avoca Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Shellharbour Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.61528,
+      "lng": 150.48472
     },
     "summary": {
       "description": "Established suburban centre in NSW (2577) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -55186,11 +55186,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Avoca Beach",
     "state": "NSW",
     "postcode": "2251",
-    "lga": "Avoca Beach Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Central Coast (NSW) Council",
+    "region": "Central Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.465,
+      "lng": 151.435
     },
     "summary": {
       "description": "Established suburban centre in NSW (2251) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -55383,11 +55383,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Avondale Heights",
     "state": "VIC",
     "postcode": "3034",
-    "lga": "Avondale Heights Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Moonee Valley Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.76282,
+      "lng": 144.86487
     },
     "summary": {
       "description": "Established suburban centre in VIC (3034) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -55580,11 +55580,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Balgowlah",
     "state": "NSW",
     "postcode": "2093",
-    "lga": "Balgowlah Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Northern Beaches Council",
+    "region": "Sydney - Northern Beaches",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.79645,
+      "lng": 151.25854
     },
     "summary": {
       "description": "Established suburban centre in NSW (2093) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -55777,11 +55777,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Balwyn North",
     "state": "VIC",
     "postcode": "3104",
-    "lga": "Balwyn North Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Whitehorse Council",
+    "region": "Melbourne - Inner East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.79412,
+      "lng": 145.08793
     },
     "summary": {
       "description": "Established suburban centre in VIC (3104) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -55974,11 +55974,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bangalow",
     "state": "NSW",
     "postcode": "2479",
-    "lga": "Bangalow Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Ballina Council",
+    "region": "Richmond - Tweed",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.68643,
+      "lng": 153.52247
     },
     "summary": {
       "description": "Established suburban centre in NSW (2479) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -56171,11 +56171,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Barwon Heads",
     "state": "VIC",
     "postcode": "3227",
-    "lga": "Barwon Heads Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Surf Coast Council",
+    "region": "Geelong",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.27398,
+      "lng": 144.48621
     },
     "summary": {
       "description": "Established suburban centre in VIC (3227) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -56368,11 +56368,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bellevue Hill",
     "state": "NSW",
     "postcode": "2023",
-    "lga": "Bellevue Hill Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Woollahra Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.8827,
+      "lng": 151.25396
     },
     "summary": {
       "description": "Established suburban centre in NSW (2023) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -56565,11 +56565,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bracken Ridge",
     "state": "QLD",
     "postcode": "4017",
-    "lga": "Bracken Ridge Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.32375,
+      "lng": 153.02661
     },
     "summary": {
       "description": "Established suburban centre in QLD (4017) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -56762,11 +56762,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bullsbrook",
     "state": "WA",
     "postcode": "6084",
-    "lga": "Bullsbrook Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Chittering Council",
+    "region": "Western Australia - Wheat Belt",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.65536,
+      "lng": 115.99774
     },
     "summary": {
       "description": "Established suburban centre in WA (6084) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -56959,11 +56959,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bundeena",
     "state": "NSW",
     "postcode": "2230",
-    "lga": "Bundeena Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sutherland Council",
+    "region": "Sydney - Sutherland",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.08342,
+      "lng": 151.15155
     },
     "summary": {
       "description": "Established suburban centre in NSW (2230) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -57156,11 +57156,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Burswood",
     "state": "WA",
     "postcode": "6100",
-    "lga": "Burswood Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Victoria Park Council",
+    "region": "Perth - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.96331,
+      "lng": 115.89676
     },
     "summary": {
       "description": "Established suburban centre in WA (6100) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -57353,11 +57353,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Canungra",
     "state": "QLD",
     "postcode": "4275",
-    "lga": "Canungra Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Scenic Rim Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.01716,
+      "lng": 153.16472
     },
     "summary": {
       "description": "Established suburban centre in QLD (4275) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -57550,11 +57550,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cape Schanck",
     "state": "VIC",
     "postcode": "3939",
-    "lga": "Cape Schanck Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Mornington Peninsula Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.461,
+      "lng": 144.905
     },
     "summary": {
       "description": "Established suburban centre in VIC (3939) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -57747,11 +57747,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Collaroy",
     "state": "NSW",
     "postcode": "2097",
-    "lga": "Collaroy Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Northern Beaches Council",
+    "region": "Sydney - Northern Beaches",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.73,
+      "lng": 151.3
     },
     "summary": {
       "description": "Established suburban centre in NSW (2097) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -57944,11 +57944,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cottesloe",
     "state": "WA",
     "postcode": "6011",
-    "lga": "Cottesloe Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Mosman Park Council",
+    "region": "Perth - Inner",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.98965,
+      "lng": 115.76305
     },
     "summary": {
       "description": "Established suburban centre in WA (6011) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -58141,11 +58141,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cowra",
     "state": "NSW",
     "postcode": "2794",
-    "lga": "Cowra Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hilltops Council",
+    "region": "Central West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.82814,
+      "lng": 148.67785
     },
     "summary": {
       "description": "Established suburban centre in NSW (2794) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -58338,11 +58338,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Crestmead",
     "state": "QLD",
     "postcode": "4132",
-    "lga": "Crestmead Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Logan Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.68972,
+      "lng": 153.08806
     },
     "summary": {
       "description": "Established suburban centre in QLD (4132) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -58535,11 +58535,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Currumbin",
     "state": "QLD",
     "postcode": "4223",
-    "lga": "Currumbin Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.136,
+      "lng": 153.483
     },
     "summary": {
       "description": "Established suburban centre in QLD (4223) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -58732,11 +58732,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Deception Bay",
     "state": "QLD",
     "postcode": "4508",
-    "lga": "Deception Bay Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.18593,
+      "lng": 153.02064
     },
     "summary": {
       "description": "Established suburban centre in QLD (4508) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -58929,11 +58929,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Diggers Rest",
     "state": "VIC",
     "postcode": "3427",
-    "lga": "Diggers Rest Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.61538,
+      "lng": 144.6863
     },
     "summary": {
       "description": "Established suburban centre in VIC (3427) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -59126,11 +59126,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Dingley Village",
     "state": "VIC",
     "postcode": "3172",
-    "lga": "Dingley Village Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Kingston (Vic.) Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.97576,
+      "lng": 145.1226
     },
     "summary": {
       "description": "Established suburban centre in VIC (3172) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -59323,11 +59323,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Donvale",
     "state": "VIC",
     "postcode": "3111",
-    "lga": "Donvale Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Manningham Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.79019,
+      "lng": 145.18726
     },
     "summary": {
       "description": "Established suburban centre in VIC (3111) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -59520,11 +59520,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Eagleby",
     "state": "QLD",
     "postcode": "4207",
-    "lga": "Eagleby Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.70257,
+      "lng": 153.21307
     },
     "summary": {
       "description": "Established suburban centre in QLD (4207) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -59717,11 +59717,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Emu Plains",
     "state": "NSW",
     "postcode": "2750",
-    "lga": "Emu Plains Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Penrith Council",
+    "region": "Sydney - Outer West and Blue Mountains",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.75206,
+      "lng": 150.65967
     },
     "summary": {
       "description": "Established suburban centre in NSW (2750) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -59914,11 +59914,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ermington",
     "state": "NSW",
     "postcode": "2115",
-    "lga": "Ermington Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Parramatta Council",
+    "region": "Sydney - Parramatta",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.81325,
+      "lng": 151.06169
     },
     "summary": {
       "description": "Established suburban centre in NSW (2115) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -60111,11 +60111,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Everton Park",
     "state": "QLD",
     "postcode": "4053",
-    "lga": "Everton Park Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.39806,
+      "lng": 152.98889
     },
     "summary": {
       "description": "Established suburban centre in QLD (4053) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -60308,11 +60308,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Goondiwindi",
     "state": "QLD",
     "postcode": "4390",
-    "lga": "Goondiwindi Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Goondiwindi Council",
+    "region": "Darling Downs - Maranoa",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.53871,
+      "lng": 150.29829
     },
     "summary": {
       "description": "Established suburban centre in QLD (4390) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -60505,11 +60505,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Greenslopes",
     "state": "QLD",
     "postcode": "4120",
-    "lga": "Greenslopes Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.50967,
+      "lng": 153.05281
     },
     "summary": {
       "description": "Established suburban centre in QLD (4120) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -60702,11 +60702,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Gundagai",
     "state": "NSW",
     "postcode": "2722",
-    "lga": "Gundagai Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Snowy Valleys Council",
+    "region": "Riverina",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -35.05665,
+      "lng": 148.10206
     },
     "summary": {
       "description": "Established suburban centre in NSW (2722) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -60899,11 +60899,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Gunnedah",
     "state": "NSW",
     "postcode": "2380",
-    "lga": "Gunnedah Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Gunnedah Council",
+    "region": "New England and North West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -30.9923,
+      "lng": 150.23689
     },
     "summary": {
       "description": "Established suburban centre in NSW (2380) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -61096,11 +61096,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Gymea",
     "state": "NSW",
     "postcode": "2227",
-    "lga": "Gymea Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sutherland Council",
+    "region": "Sydney - Sutherland",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.0333,
+      "lng": 151.08556
     },
     "summary": {
       "description": "Established suburban centre in NSW (2227) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -61293,11 +61293,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Haberfield",
     "state": "NSW",
     "postcode": "2045",
-    "lga": "Haberfield Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canada Bay Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.87861,
+      "lng": 151.13741
     },
     "summary": {
       "description": "Established suburban centre in NSW (2045) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -61490,11 +61490,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Halls Gap",
     "state": "VIC",
     "postcode": "3381",
-    "lga": "Halls Gap Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Ararat Council",
+    "region": "North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.1468,
+      "lng": 142.52352
     },
     "summary": {
       "description": "Established suburban centre in VIC (3381) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -61687,11 +61687,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Heathmont",
     "state": "VIC",
     "postcode": "3135",
-    "lga": "Heathmont Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Maroondah Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.83,
+      "lng": 145.242
     },
     "summary": {
       "description": "Established suburban centre in VIC (3135) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -61884,11 +61884,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hughesdale",
     "state": "VIC",
     "postcode": "3166",
-    "lga": "Hughesdale Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Monash Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.89662,
+      "lng": 145.08323
     },
     "summary": {
       "description": "Established suburban centre in VIC (3166) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -62081,11 +62081,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Jurien Bay",
     "state": "WA",
     "postcode": "6516",
-    "lga": "Jurien Bay Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Dandaragan Council",
+    "region": "Western Australia - Wheat Belt",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -30.29383,
+      "lng": 115.11777
     },
     "summary": {
       "description": "Established suburban centre in WA (6516) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -62278,11 +62278,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kalbarri",
     "state": "WA",
     "postcode": "6536",
-    "lga": "Kalbarri Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Northampton Council",
+    "region": "Western Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.71042,
+      "lng": 114.16462
     },
     "summary": {
       "description": "Established suburban centre in WA (6536) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -62475,11 +62475,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Keilor East",
     "state": "VIC",
     "postcode": "3033",
-    "lga": "Keilor East Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.73432,
+      "lng": 144.85662
     },
     "summary": {
       "description": "Established suburban centre in VIC (3033) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -62672,11 +62672,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kingaroy",
     "state": "QLD",
     "postcode": "4610",
-    "lga": "Kingaroy Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "South Burnett Council",
+    "region": "Wide Bay",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.53095,
+      "lng": 151.84
     },
     "summary": {
       "description": "Established suburban centre in QLD (4610) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -62869,11 +62869,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lake Cargelligo",
     "state": "NSW",
     "postcode": "2672",
-    "lga": "Lake Cargelligo Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Lachlan Council",
+    "region": "Far West and Orana",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.29859,
+      "lng": 146.37248
     },
     "summary": {
       "description": "Established suburban centre in NSW (2672) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -63066,11 +63066,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Loganholme",
     "state": "QLD",
     "postcode": "4129",
-    "lga": "Loganholme Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Logan Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.68486,
+      "lng": 153.18849
     },
     "summary": {
       "description": "Established suburban centre in QLD (4129) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -63263,11 +63263,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mareeba",
     "state": "QLD",
     "postcode": "4880",
-    "lga": "Mareeba Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Mareeba Council",
+    "region": "Queensland - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -17.00194,
+      "lng": 145.43885
     },
     "summary": {
       "description": "Established suburban centre in QLD (4880) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -63460,11 +63460,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mermaid Beach",
     "state": "QLD",
     "postcode": "4218",
-    "lga": "Mermaid Beach Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.044,
+      "lng": 153.437
     },
     "summary": {
       "description": "Established suburban centre in QLD (4218) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -63657,11 +63657,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mittagong",
     "state": "NSW",
     "postcode": "2575",
-    "lga": "Mittagong Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wingecarribee Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.45,
+      "lng": 150.45
     },
     "summary": {
       "description": "Established suburban centre in NSW (2575) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -63854,11 +63854,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Evelyn",
     "state": "VIC",
     "postcode": "3796",
-    "lga": "Mount Evelyn Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Yarra Ranges Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.77916,
+      "lng": 145.3918
     },
     "summary": {
       "description": "Established suburban centre in VIC (3796) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -64051,11 +64051,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Macedon",
     "state": "VIC",
     "postcode": "3441",
-    "lga": "Mount Macedon Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Macedon Ranges Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.39814,
+      "lng": 144.59853
     },
     "summary": {
       "description": "Established suburban centre in VIC (3441) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -64248,11 +64248,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Muswellbrook",
     "state": "NSW",
     "postcode": "2333",
-    "lga": "Muswellbrook Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Singleton Council",
+    "region": "Hunter Valley exc Newcastle",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.28485,
+      "lng": 150.90496
     },
     "summary": {
       "description": "Established suburban centre in NSW (2333) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -64445,11 +64445,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "North Rocks",
     "state": "NSW",
     "postcode": "2151",
-    "lga": "North Rocks Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "The Hills Council",
+    "region": "Sydney - Parramatta",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.77505,
+      "lng": 151.02383
     },
     "summary": {
       "description": "Established suburban centre in NSW (2151) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -64642,11 +64642,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Orange",
     "state": "NSW",
     "postcode": "2800",
-    "lga": "Orange Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Dubbo Council",
+    "region": "Central West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.28333,
+      "lng": 149.1
     },
     "summary": {
       "description": "Established suburban centre in NSW (2800) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -64839,11 +64839,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Parkes",
     "state": "NSW",
     "postcode": "2870",
-    "lga": "Parkes Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Cabonne Council",
+    "region": "Central West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.13729,
+      "lng": 148.17472
     },
     "summary": {
       "description": "Established suburban centre in NSW (2870) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -65036,11 +65036,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Patterson Lakes",
     "state": "VIC",
     "postcode": "3197",
-    "lga": "Patterson Lakes Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Kingston (Vic.) Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.07423,
+      "lng": 145.1431
     },
     "summary": {
       "description": "Established suburban centre in VIC (3197) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -65233,11 +65233,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Peregian Beach",
     "state": "QLD",
     "postcode": "4573",
-    "lga": "Peregian Beach Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Noosa Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.48056,
+      "lng": 153.09556
     },
     "summary": {
       "description": "Established suburban centre in QLD (4573) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -65430,11 +65430,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Campbell",
     "state": "VIC",
     "postcode": "3269",
-    "lga": "Port Campbell Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Corangamite Council",
+    "region": "Warrnambool and South West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.6191,
+      "lng": 142.99614
     },
     "summary": {
       "description": "Established suburban centre in VIC (3269) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -65627,11 +65627,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Hedland",
     "state": "WA",
     "postcode": "6721",
-    "lga": "Port Hedland Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Karratha Council",
+    "region": "Western Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -20.38391,
+      "lng": 118.64838
     },
     "summary": {
       "description": "Established suburban centre in WA (6721) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -65824,11 +65824,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Portarlington",
     "state": "VIC",
     "postcode": "3223",
-    "lga": "Portarlington Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Greater Geelong Council",
+    "region": "Geelong",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.11667,
+      "lng": 144.65
     },
     "summary": {
       "description": "Established suburban centre in VIC (3223) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -66021,11 +66021,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Sunshine West",
     "state": "VIC",
     "postcode": "3020",
-    "lga": "Sunshine West Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.79467,
+      "lng": 144.81876
     },
     "summary": {
       "description": "Established suburban centre in VIC (3020) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -66218,11 +66218,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Tamborine Mountain",
     "state": "QLD",
     "postcode": "4272",
-    "lga": "Tamborine Mountain Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Scenic Rim Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.94964,
+      "lng": 153.19732
     },
     "summary": {
       "description": "Established suburban centre in QLD (4272) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -66415,11 +66415,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Tanunda",
     "state": "SA",
     "postcode": "5352",
-    "lga": "Tanunda Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Light Council",
+    "region": "Barossa - Yorke - Mid North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.52008,
+      "lng": 138.96269
     },
     "summary": {
       "description": "Established suburban centre in SA (5352) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -66612,11 +66612,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Trinity Beach",
     "state": "QLD",
     "postcode": "4879",
-    "lga": "Trinity Beach Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Cairns Council",
+    "region": "Cairns",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -16.78333,
+      "lng": 145.7
     },
     "summary": {
       "description": "Established suburban centre in QLD (4879) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -66809,11 +66809,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wantirna South",
     "state": "VIC",
     "postcode": "3152",
-    "lga": "Wantirna South Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Knox Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.87695,
+      "lng": 145.23296
     },
     "summary": {
       "description": "Established suburban centre in VIC (3152) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -67006,11 +67006,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Winston Hills",
     "state": "NSW",
     "postcode": "2153",
-    "lga": "Winston Hills Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Parramatta Council",
+    "region": "Sydney - Parramatta",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.77735,
+      "lng": 150.97453
     },
     "summary": {
       "description": "Established suburban centre in NSW (2153) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -67203,11 +67203,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wonthaggi",
     "state": "VIC",
     "postcode": "3995",
-    "lga": "Wonthaggi Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Bass Coast Council",
+    "region": "Latrobe - Gippsland",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.60895,
+      "lng": 145.5911
     },
     "summary": {
       "description": "Established suburban centre in VIC (3995) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -67400,11 +67400,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Woolloomooloo",
     "state": "NSW",
     "postcode": "2011",
-    "lga": "Woolloomooloo Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sydney Council",
+    "region": "Sydney - City and Inner South",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.8704,
+      "lng": 151.2223
     },
     "summary": {
       "description": "Established suburban centre in NSW (2011) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -67597,11 +67597,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yarra Glen",
     "state": "VIC",
     "postcode": "3775",
-    "lga": "Yarra Glen Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Nillumbik Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.64889,
+      "lng": 145.37194
     },
     "summary": {
       "description": "Established suburban centre in VIC (3775) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -67794,11 +67794,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Aldinga Beach",
     "state": "SA",
     "postcode": "5173",
-    "lga": "Aldinga Beach Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Onkaparinga Council",
+    "region": "Adelaide - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.281,
+      "lng": 138.454
     },
     "summary": {
       "description": "Established suburban centre in SA (5173) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -67991,11 +67991,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Alexandra Hills",
     "state": "QLD",
     "postcode": "4161",
-    "lga": "Alexandra Hills Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Redland Council",
+    "region": "Brisbane - East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.52296,
+      "lng": 153.22059
     },
     "summary": {
       "description": "Established suburban centre in QLD (4161) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -68188,11 +68188,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Altona Meadows",
     "state": "VIC",
     "postcode": "3028",
-    "lga": "Altona Meadows Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Wyndham Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.87156,
+      "lng": 144.77758
     },
     "summary": {
       "description": "Established suburban centre in VIC (3028) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -68385,11 +68385,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Angle Vale",
     "state": "SA",
     "postcode": "5117",
-    "lga": "Angle Vale Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Playford Council",
+    "region": "Adelaide - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.6416,
+      "lng": 138.65393
     },
     "summary": {
       "description": "Established suburban centre in SA (5117) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -68582,11 +68582,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Banksia Grove",
     "state": "WA",
     "postcode": "6031",
-    "lga": "Banksia Grove Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Wanneroo Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.70324,
+      "lng": 115.80499
     },
     "summary": {
       "description": "Established suburban centre in WA (6031) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -68779,11 +68779,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bass Hill",
     "state": "NSW",
     "postcode": "2197",
-    "lga": "Bass Hill Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Parramatta",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.89907,
+      "lng": 150.99765
     },
     "summary": {
       "description": "Established suburban centre in NSW (2197) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -68976,11 +68976,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bicheno",
     "state": "TAS",
     "postcode": "7215",
-    "lga": "Bicheno Local Government Area",
-    "region": "Greater TAS Region",
+    "lga": "Northern Midlands Council",
+    "region": "South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -41.85224,
+      "lng": 148.25967
     },
     "summary": {
       "description": "Established suburban centre in TAS (7215) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -69173,11 +69173,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Boondall",
     "state": "QLD",
     "postcode": "4034",
-    "lga": "Boondall Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.35336,
+      "lng": 153.06063
     },
     "summary": {
       "description": "Established suburban centre in QLD (4034) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -69370,11 +69370,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bossley Park",
     "state": "NSW",
     "postcode": "2176",
-    "lga": "Bossley Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.86341,
+      "lng": 150.88364
     },
     "summary": {
       "description": "Established suburban centre in NSW (2176) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -69567,11 +69567,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bright",
     "state": "VIC",
     "postcode": "3741",
-    "lga": "Bright Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Unincorporated Vic Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.73215,
+      "lng": 146.98362
     },
     "summary": {
       "description": "Established suburban centre in VIC (3741) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -69764,11 +69764,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bungendore",
     "state": "NSW",
     "postcode": "2621",
-    "lga": "Bungendore Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Snowy Monaro Council",
+    "region": "Capital Region",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -35.25,
+      "lng": 149.45
     },
     "summary": {
       "description": "Established suburban centre in NSW (2621) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -69961,11 +69961,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Burwood",
     "state": "NSW",
     "postcode": "2134",
-    "lga": "Burwood Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Burwood Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.87991,
+      "lng": 151.10246
     },
     "summary": {
       "description": "Established suburban centre in NSW (2134) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -70158,11 +70158,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cammeray",
     "state": "NSW",
     "postcode": "2062",
-    "lga": "Cammeray Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "North Sydney Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.82281,
+      "lng": 151.21462
     },
     "summary": {
       "description": "Established suburban centre in NSW (2062) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -70355,11 +70355,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Canley Heights",
     "state": "NSW",
     "postcode": "2166",
-    "lga": "Canley Heights Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.88502,
+      "lng": 150.9276
     },
     "summary": {
       "description": "Established suburban centre in NSW (2166) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -70552,11 +70552,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Christies Beach",
     "state": "SA",
     "postcode": "5165",
-    "lga": "Christies Beach Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Onkaparinga Council",
+    "region": "Adelaide - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.13353,
+      "lng": 138.47623
     },
     "summary": {
       "description": "Established suburban centre in SA (5165) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -70749,11 +70749,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coonabarabran",
     "state": "NSW",
     "postcode": "2357",
-    "lga": "Coonabarabran Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Warrumbungle Council",
+    "region": "Far West and Orana",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -31.27473,
+      "lng": 149.28042
     },
     "summary": {
       "description": "Established suburban centre in NSW (2357) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -70946,11 +70946,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cooroy",
     "state": "QLD",
     "postcode": "4563",
-    "lga": "Cooroy Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gympie Council",
+    "region": "Wide Bay",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.41821,
+      "lng": 152.91126
     },
     "summary": {
       "description": "Established suburban centre in QLD (4563) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -71143,11 +71143,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cootamundra",
     "state": "NSW",
     "postcode": "2590",
-    "lga": "Cootamundra Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Junee Council",
+    "region": "Riverina",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.64167,
+      "lng": 148.025
     },
     "summary": {
       "description": "Established suburban centre in NSW (2590) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -71340,11 +71340,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Corinda",
     "state": "QLD",
     "postcode": "4075",
-    "lga": "Corinda Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Ipswich",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.54427,
+      "lng": 152.98238
     },
     "summary": {
       "description": "Established suburban centre in QLD (4075) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -71537,11 +71537,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Crescent Head",
     "state": "NSW",
     "postcode": "2440",
-    "lga": "Crescent Head Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Port Macquarie-Hastings Council",
+    "region": "New England and North West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -31.18615,
+      "lng": 152.91324
     },
     "summary": {
       "description": "Established suburban centre in NSW (2440) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -71734,11 +71734,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Culburra Beach",
     "state": "NSW",
     "postcode": "2540",
-    "lga": "Culburra Beach Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Unincorp. Other Territories Council",
+    "region": "Other Territories",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.93333,
+      "lng": 150.76667
     },
     "summary": {
       "description": "Established suburban centre in NSW (2540) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -71931,11 +71931,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Dapto",
     "state": "NSW",
     "postcode": "2530",
-    "lga": "Dapto Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wollongong Council",
+    "region": "Illawarra",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.49167,
+      "lng": 150.79167
     },
     "summary": {
       "description": "Established suburban centre in NSW (2530) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -72128,11 +72128,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Dayboro",
     "state": "QLD",
     "postcode": "4521",
-    "lga": "Dayboro Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.1962,
+      "lng": 152.82427
     },
     "summary": {
       "description": "Established suburban centre in QLD (4521) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -72325,11 +72325,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Deloraine",
     "state": "TAS",
     "postcode": "7304",
-    "lga": "Deloraine Local Government Area",
-    "region": "Greater TAS Region",
+    "lga": "West Tamar Council",
+    "region": "West and North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -41.53489,
+      "lng": 146.66163
     },
     "summary": {
       "description": "Established suburban centre in TAS (7304) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -72522,11 +72522,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Denham Court",
     "state": "NSW",
     "postcode": "2565",
-    "lga": "Denham Court Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Liverpool Council",
+    "region": "Sydney - Outer South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.9844,
+      "lng": 150.84444
     },
     "summary": {
       "description": "Established suburban centre in NSW (2565) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -72719,11 +72719,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Deniliquin",
     "state": "NSW",
     "postcode": "2710",
-    "lga": "Deniliquin Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hay Council",
+    "region": "Riverina",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -35.52824,
+      "lng": 144.95658
     },
     "summary": {
       "description": "Established suburban centre in NSW (2710) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -72916,11 +72916,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Doveton",
     "state": "VIC",
     "postcode": "3177",
-    "lga": "Doveton Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Casey Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.98768,
+      "lng": 145.23941
     },
     "summary": {
       "description": "Established suburban centre in VIC (3177) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -73113,11 +73113,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Duncraig",
     "state": "WA",
     "postcode": "6023",
-    "lga": "Duncraig Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Joondalup Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.83061,
+      "lng": 115.77527
     },
     "summary": {
       "description": "Established suburban centre in WA (6023) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -73310,11 +73310,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "East Melbourne",
     "state": "VIC",
     "postcode": "3002",
-    "lga": "East Melbourne Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Melbourne Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.81614,
+      "lng": 144.98046
     },
     "summary": {
       "description": "Established suburban centre in VIC (3002) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -73507,11 +73507,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ettalong Beach",
     "state": "NSW",
     "postcode": "2257",
-    "lga": "Ettalong Beach Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Central Coast (NSW) Council",
+    "region": "Central Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.515,
+      "lng": 151.335
     },
     "summary": {
       "description": "Established suburban centre in NSW (2257) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -73704,11 +73704,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Fernvale",
     "state": "QLD",
     "postcode": "4306",
-    "lga": "Fernvale Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Scenic Rim Council",
+    "region": "Wide Bay",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.45958,
+      "lng": 152.6638
     },
     "summary": {
       "description": "Established suburban centre in QLD (4306) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -73901,11 +73901,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Glen Huntly",
     "state": "VIC",
     "postcode": "3163",
-    "lga": "Glen Huntly Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Glen Eira Council",
+    "region": "Melbourne - Inner South",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.89274,
+      "lng": 145.04107
     },
     "summary": {
       "description": "Established suburban centre in VIC (3163) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -74098,11 +74098,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Goolwa",
     "state": "SA",
     "postcode": "5214",
-    "lga": "Goolwa Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Alexandrina Council",
+    "region": "South Australia - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.49803,
+      "lng": 138.77831
     },
     "summary": {
       "description": "Established suburban centre in SA (5214) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -74295,11 +74295,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Harrisdale",
     "state": "WA",
     "postcode": "6112",
-    "lga": "Harrisdale Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Armadale Council",
+    "region": "Perth - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.1176,
+      "lng": 115.932
     },
     "summary": {
       "description": "Established suburban centre in WA (6112) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -74492,11 +74492,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Horsley Park",
     "state": "NSW",
     "postcode": "2175",
-    "lga": "Horsley Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.84813,
+      "lng": 150.84931
     },
     "summary": {
       "description": "Established suburban centre in NSW (2175) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -74689,11 +74689,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Jandakot",
     "state": "WA",
     "postcode": "6164",
-    "lga": "Jandakot Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Cockburn Council",
+    "region": "Perth - South West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.10714,
+      "lng": 115.85986
     },
     "summary": {
       "description": "Established suburban centre in WA (6164) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -74886,11 +74886,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Keilor",
     "state": "VIC",
     "postcode": "3036",
-    "lga": "Keilor Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Hume Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.712,
+      "lng": 144.831
     },
     "summary": {
       "description": "Established suburban centre in VIC (3036) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -75083,11 +75083,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kilcoy",
     "state": "QLD",
     "postcode": "4515",
-    "lga": "Kilcoy Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Somerset Council",
+    "region": "Moreton Bay - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.9423,
+      "lng": 152.56201
     },
     "summary": {
       "description": "Established suburban centre in QLD (4515) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -75280,11 +75280,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kinglake",
     "state": "VIC",
     "postcode": "3763",
-    "lga": "Kinglake Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Nillumbik Council",
+    "region": "Melbourne - North East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.51838,
+      "lng": 145.35913
     },
     "summary": {
       "description": "Established suburban centre in VIC (3763) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -75477,11 +75477,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kurnell",
     "state": "NSW",
     "postcode": "2231",
-    "lga": "Kurnell Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sutherland Council",
+    "region": "Sydney - Sutherland",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.01941,
+      "lng": 151.19859
     },
     "summary": {
       "description": "Established suburban centre in NSW (2231) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -75674,11 +75674,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Leongatha",
     "state": "VIC",
     "postcode": "3953",
-    "lga": "Leongatha Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Baw Baw Council",
+    "region": "Latrobe - Gippsland",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.47403,
+      "lng": 145.94367
     },
     "summary": {
       "description": "Established suburban centre in VIC (3953) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -75871,11 +75871,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Leumeah",
     "state": "NSW",
     "postcode": "2560",
-    "lga": "Leumeah Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wollongong Council",
+    "region": "Sydney - Outer South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.05546,
+      "lng": 150.83328
     },
     "summary": {
       "description": "Established suburban centre in NSW (2560) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -76068,11 +76068,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Liverpool",
     "state": "NSW",
     "postcode": "2170",
-    "lga": "Liverpool Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.92856,
+      "lng": 150.91796
     },
     "summary": {
       "description": "Established suburban centre in NSW (2170) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -76265,11 +76265,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mcmahons Point",
     "state": "NSW",
     "postcode": "2060",
-    "lga": "Mcmahons Point Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "North Sydney Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.84524,
+      "lng": 151.20433
     },
     "summary": {
       "description": "Established suburban centre in NSW (2060) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -76462,11 +76462,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Moruya",
     "state": "NSW",
     "postcode": "2537",
-    "lga": "Moruya Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Eurobodalla Council",
+    "region": "Capital Region",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -35.90731,
+      "lng": 150.09281
     },
     "summary": {
       "description": "Established suburban centre in NSW (2537) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -76659,11 +76659,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Morwell",
     "state": "VIC",
     "postcode": "3840",
-    "lga": "Morwell Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Latrobe (Vic.) Council",
+    "region": "Latrobe - Gippsland",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.22759,
+      "lng": 146.41462
     },
     "summary": {
       "description": "Established suburban centre in VIC (3840) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -76856,11 +76856,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mudgeeraba",
     "state": "QLD",
     "postcode": "4213",
-    "lga": "Mudgeeraba Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.09052,
+      "lng": 153.36629
     },
     "summary": {
       "description": "Established suburban centre in QLD (4213) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -77053,11 +77053,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mundaring",
     "state": "WA",
     "postcode": "6073",
-    "lga": "Mundaring Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Mundaring Council",
+    "region": "Perth - North East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.9256,
+      "lng": 116.16548
     },
     "summary": {
       "description": "Established suburban centre in WA (6073) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -77250,11 +77250,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Murrumba Downs",
     "state": "QLD",
     "postcode": "4503",
-    "lga": "Murrumba Downs Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.26709,
+      "lng": 153.00911
     },
     "summary": {
       "description": "Established suburban centre in QLD (4503) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -77447,11 +77447,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Myrtleford",
     "state": "VIC",
     "postcode": "3737",
-    "lga": "Myrtleford Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Wangaratta Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.55554,
+      "lng": 146.72379
     },
     "summary": {
       "description": "Established suburban centre in VIC (3737) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -77644,11 +77644,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Nagambie",
     "state": "VIC",
     "postcode": "3608",
-    "lga": "Nagambie Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Greater Shepparton Council",
+    "region": "Shepparton",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.78023,
+      "lng": 145.15283
     },
     "summary": {
       "description": "Established suburban centre in VIC (3608) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -77841,11 +77841,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Newtown",
     "state": "NSW",
     "postcode": "2042",
-    "lga": "Newtown Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sydney Council",
+    "region": "Sydney - City and Inner South",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.89781,
+      "lng": 151.1785
     },
     "summary": {
       "description": "Established suburban centre in NSW (2042) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -78038,11 +78038,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Northmead",
     "state": "NSW",
     "postcode": "2152",
-    "lga": "Northmead Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Parramatta Council",
+    "region": "Sydney - Parramatta",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.78974,
+      "lng": 150.99211
     },
     "summary": {
       "description": "Established suburban centre in NSW (2152) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -78235,11 +78235,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Nuriootpa",
     "state": "SA",
     "postcode": "5355",
-    "lga": "Nuriootpa Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Light Council",
+    "region": "Barossa - Yorke - Mid North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.46661,
+      "lng": 138.99166
     },
     "summary": {
       "description": "Established suburban centre in SA (5355) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -78432,11 +78432,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Pinjarra",
     "state": "WA",
     "postcode": "6208",
-    "lga": "Pinjarra Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Murray Council",
+    "region": "Mandurah",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.62701,
+      "lng": 115.87888
     },
     "summary": {
       "description": "Established suburban centre in WA (6208) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -78629,11 +78629,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Kembla",
     "state": "NSW",
     "postcode": "2505",
-    "lga": "Port Kembla Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wollongong Council",
+    "region": "Illawarra",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.47448,
+      "lng": 150.89001
     },
     "summary": {
       "description": "Established suburban centre in NSW (2505) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -78826,11 +78826,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Kennedy",
     "state": "WA",
     "postcode": "6172",
-    "lga": "Port Kennedy Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Rockingham Council",
+    "region": "Perth - South West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.37601,
+      "lng": 115.7516
     },
     "summary": {
       "description": "Established suburban centre in WA (6172) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -79023,11 +79023,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Port Noarlunga",
     "state": "SA",
     "postcode": "5167",
-    "lga": "Port Noarlunga Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Onkaparinga Council",
+    "region": "Adelaide - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.14722,
+      "lng": 138.47623
     },
     "summary": {
       "description": "Established suburban centre in SA (5167) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -79220,11 +79220,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Sandstone Point",
     "state": "QLD",
     "postcode": "4511",
-    "lga": "Sandstone Point Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.08333,
+      "lng": 153.13333
     },
     "summary": {
       "description": "Established suburban centre in QLD (4511) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -79417,11 +79417,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Springfield Lakes",
     "state": "QLD",
     "postcode": "4300",
-    "lga": "Springfield Lakes Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Ipswich Council",
+    "region": "Ipswich",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.68333,
+      "lng": 152.91667
     },
     "summary": {
       "description": "Established suburban centre in QLD (4300) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -79614,11 +79614,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Stanhope Gardens",
     "state": "NSW",
     "postcode": "2768",
-    "lga": "Stanhope Gardens Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Blacktown Council",
+    "region": "Sydney - Blacktown",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.723,
+      "lng": 150.926
     },
     "summary": {
       "description": "Established suburban centre in NSW (2768) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -79811,11 +79811,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Stanwell Tops",
     "state": "NSW",
     "postcode": "2508",
-    "lga": "Stanwell Tops Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Campbelltown (NSW) Council",
+    "region": "Illawarra",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.2199,
+      "lng": 150.99181
     },
     "summary": {
       "description": "Established suburban centre in NSW (2508) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -80008,11 +80008,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Taren Point",
     "state": "NSW",
     "postcode": "2229",
-    "lga": "Taren Point Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sutherland Council",
+    "region": "Sydney - Sutherland",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.01909,
+      "lng": 151.12028
     },
     "summary": {
       "description": "Established suburban centre in NSW (2229) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -80205,11 +80205,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Teneriffe",
     "state": "QLD",
     "postcode": "4005",
-    "lga": "Teneriffe Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.4564,
+      "lng": 153.049
     },
     "summary": {
       "description": "Established suburban centre in QLD (4005) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -80402,11 +80402,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Tenterfield",
     "state": "NSW",
     "postcode": "2372",
-    "lga": "Tenterfield Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Tenterfield Council",
+    "region": "Darling Downs - Maranoa",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -29.05757,
+      "lng": 152.01899
     },
     "summary": {
       "description": "Established suburban centre in NSW (2372) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -80599,11 +80599,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Thornlands",
     "state": "QLD",
     "postcode": "4164",
-    "lga": "Thornlands Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Redland Council",
+    "region": "Brisbane - East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.56716,
+      "lng": 153.26214
     },
     "summary": {
       "description": "Established suburban centre in QLD (4164) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -80796,11 +80796,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Upper Coomera",
     "state": "QLD",
     "postcode": "4209",
-    "lga": "Upper Coomera Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.88013,
+      "lng": 153.28319
     },
     "summary": {
       "description": "Established suburban centre in QLD (4209) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -80993,11 +80993,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Warners Bay",
     "state": "NSW",
     "postcode": "2282",
-    "lga": "Warners Bay Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Lake Macquarie Council",
+    "region": "Newcastle and Lake Macquarie",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.982,
+      "lng": 151.651
     },
     "summary": {
       "description": "Established suburban centre in NSW (2282) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -81190,11 +81190,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Waurn Ponds",
     "state": "VIC",
     "postcode": "3216",
-    "lga": "Waurn Ponds Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Greater Geelong Council",
+    "region": "Geelong",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.20881,
+      "lng": 144.27091
     },
     "summary": {
       "description": "Established suburban centre in VIC (3216) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -81387,11 +81387,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Werrington",
     "state": "NSW",
     "postcode": "2747",
-    "lga": "Werrington Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Blacktown Council",
+    "region": "Sydney - Outer West and Blue Mountains",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.75943,
+      "lng": 150.74708
     },
     "summary": {
       "description": "Established suburban centre in NSW (2747) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -81584,11 +81584,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Whyalla",
     "state": "SA",
     "postcode": "5600",
-    "lga": "Whyalla Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Unincorporated SA Council",
+    "region": "South Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -33.03797,
+      "lng": 137.57531
     },
     "summary": {
       "description": "Established suburban centre in SA (5600) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -81781,11 +81781,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wiley Park",
     "state": "NSW",
     "postcode": "2195",
-    "lga": "Wiley Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.92287,
+      "lng": 151.06839
     },
     "summary": {
       "description": "Established suburban centre in NSW (2195) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -81978,11 +81978,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Woolgoolga",
     "state": "NSW",
     "postcode": "2456",
-    "lga": "Woolgoolga Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Clarence Valley Council",
+    "region": "Coffs Harbour - Grafton",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -30.11304,
+      "lng": 153.18379
     },
     "summary": {
       "description": "Established suburban centre in NSW (2456) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -82175,11 +82175,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yandina",
     "state": "QLD",
     "postcode": "4561",
-    "lga": "Yandina Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Sunshine Coast Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.56468,
+      "lng": 152.95734
     },
     "summary": {
       "description": "Established suburban centre in QLD (4561) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -82372,11 +82372,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Aberfoyle Park",
     "state": "SA",
     "postcode": "5159",
-    "lga": "Aberfoyle Park Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Onkaparinga Council",
+    "region": "Adelaide - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.067,
+      "lng": 138.6
     },
     "summary": {
       "description": "Established suburban centre in SA (5159) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -82569,11 +82569,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Albany",
     "state": "WA",
     "postcode": "6330",
-    "lga": "Albany Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Albany Council",
+    "region": "Western Australia - Wheat Belt",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.02693,
+      "lng": 117.88372
     },
     "summary": {
       "description": "Established suburban centre in WA (6330) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -82766,11 +82766,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Albion Park",
     "state": "NSW",
     "postcode": "2527",
-    "lga": "Albion Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Kiama Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.57595,
+      "lng": 150.77373
     },
     "summary": {
       "description": "Established suburban centre in NSW (2527) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -82963,11 +82963,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Alexandra Headland",
     "state": "QLD",
     "postcode": "4572",
-    "lga": "Alexandra Headland Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Sunshine Coast Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.67151,
+      "lng": 153.10455
     },
     "summary": {
       "description": "Established suburban centre in QLD (4572) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -83160,11 +83160,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Allawah",
     "state": "NSW",
     "postcode": "2218",
-    "lga": "Allawah Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bayside (NSW) Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.9749,
+      "lng": 151.1167
     },
     "summary": {
       "description": "Established suburban centre in NSW (2218) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -83357,11 +83357,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Arana Hills",
     "state": "QLD",
     "postcode": "4054",
-    "lga": "Arana Hills Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Moreton Bay - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.3975,
+      "lng": 152.95944
     },
     "summary": {
       "description": "Established suburban centre in QLD (4054) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -83554,11 +83554,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bahrs Scrub",
     "state": "QLD",
     "postcode": "4207",
-    "lga": "Bahrs Scrub Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.73333,
+      "lng": 153.16667
     },
     "summary": {
       "description": "Established suburban centre in QLD (4207) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -83751,11 +83751,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bardon",
     "state": "QLD",
     "postcode": "4065",
-    "lga": "Bardon Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.4617,
+      "lng": 152.9765
     },
     "summary": {
       "description": "Established suburban centre in QLD (4065) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -83948,11 +83948,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bargara",
     "state": "QLD",
     "postcode": "4670",
-    "lga": "Bargara Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Burnett Council",
+    "region": "Wide Bay",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -24.83123,
+      "lng": 152.45922
     },
     "summary": {
       "description": "Established suburban centre in QLD (4670) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -84145,11 +84145,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bateau Bay",
     "state": "NSW",
     "postcode": "2261",
-    "lga": "Bateau Bay Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Central Coast (NSW) Council",
+    "region": "Central Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.382,
+      "lng": 151.485
     },
     "summary": {
       "description": "Established suburban centre in NSW (2261) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -84342,11 +84342,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bellbird Park",
     "state": "QLD",
     "postcode": "4300",
-    "lga": "Bellbird Park Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Ipswich Council",
+    "region": "Ipswich",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.63832,
+      "lng": 152.88823
     },
     "summary": {
       "description": "Established suburban centre in QLD (4300) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -84539,11 +84539,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Beresfield",
     "state": "NSW",
     "postcode": "2322",
-    "lga": "Beresfield Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Cessnock Council",
+    "region": "Newcastle and Lake Macquarie",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.799,
+      "lng": 151.635
     },
     "summary": {
       "description": "Established suburban centre in NSW (2322) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -84736,11 +84736,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Berrima",
     "state": "NSW",
     "postcode": "2577",
-    "lga": "Berrima Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Shellharbour Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.48333,
+      "lng": 150.35
     },
     "summary": {
       "description": "Established suburban centre in NSW (2577) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -84933,11 +84933,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bexley North",
     "state": "NSW",
     "postcode": "2207",
-    "lga": "Bexley North Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bayside (NSW) Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.9418,
+      "lng": 151.1114
     },
     "summary": {
       "description": "Established suburban centre in NSW (2207) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -85130,11 +85130,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Biggera Waters",
     "state": "QLD",
     "postcode": "4216",
-    "lga": "Biggera Waters Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.9308,
+      "lng": 153.3961
     },
     "summary": {
       "description": "Established suburban centre in QLD (4216) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -85327,11 +85327,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Blacktown",
     "state": "NSW",
     "postcode": "2148",
-    "lga": "Blacktown Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Cumberland Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.76681,
+      "lng": 150.9053
     },
     "summary": {
       "description": "Established suburban centre in NSW (2148) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -85524,11 +85524,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Box Hill",
     "state": "VIC",
     "postcode": "3128",
-    "lga": "Box Hill Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Whitehorse Council",
+    "region": "Melbourne - Inner East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.81811,
+      "lng": 145.12386
     },
     "summary": {
       "description": "Established suburban centre in VIC (3128) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -85721,11 +85721,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bridgeman Downs",
     "state": "QLD",
     "postcode": "4035",
-    "lga": "Bridgeman Downs Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Moreton Bay - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.355,
+      "lng": 152.9942
     },
     "summary": {
       "description": "Established suburban centre in QLD (4035) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -85918,11 +85918,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Broadford",
     "state": "VIC",
     "postcode": "3658",
-    "lga": "Broadford Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Murrindindi Council",
+    "region": "Melbourne - North East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.21105,
+      "lng": 145.06309
     },
     "summary": {
       "description": "Established suburban centre in VIC (3658) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -86115,11 +86115,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Brunswick East",
     "state": "VIC",
     "postcode": "3057",
-    "lga": "Brunswick East Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Moreland Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.76941,
+      "lng": 144.98046
     },
     "summary": {
       "description": "Established suburban centre in VIC (3057) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -86312,11 +86312,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bulahdelah",
     "state": "NSW",
     "postcode": "2423",
-    "lga": "Bulahdelah Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Mid-Coast Council",
+    "region": "Mid North Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.40424,
+      "lng": 152.20932
     },
     "summary": {
       "description": "Established suburban centre in NSW (2423) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -86509,11 +86509,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bundall",
     "state": "QLD",
     "postcode": "4217",
-    "lga": "Bundall Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.012,
+      "lng": 153.405
     },
     "summary": {
       "description": "Established suburban centre in QLD (4217) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -86706,11 +86706,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ceduna",
     "state": "SA",
     "postcode": "5690",
-    "lga": "Ceduna Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Maralinga Tjarutja Council",
+    "region": "South Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.13059,
+      "lng": 133.68171
     },
     "summary": {
       "description": "Established suburban centre in SA (5690) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -86903,11 +86903,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Corowa",
     "state": "NSW",
     "postcode": "2646",
-    "lga": "Corowa Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Berrigan Council",
+    "region": "Murray",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -35.98333,
+      "lng": 146.38333
     },
     "summary": {
       "description": "Established suburban centre in NSW (2646) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -87100,11 +87100,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cremorne Point",
     "state": "NSW",
     "postcode": "2090",
-    "lga": "Cremorne Point Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "North Sydney Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.84076,
+      "lng": 151.22789
     },
     "summary": {
       "description": "Established suburban centre in NSW (2090) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -87297,11 +87297,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Creswick",
     "state": "VIC",
     "postcode": "3363",
-    "lga": "Creswick Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Ballarat Council",
+    "region": "Ballarat",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.42412,
+      "lng": 143.89124
     },
     "summary": {
       "description": "Established suburban centre in VIC (3363) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -87494,11 +87494,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Doolandella",
     "state": "QLD",
     "postcode": "4077",
-    "lga": "Doolandella Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Ipswich",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.61667,
+      "lng": 152.98333
     },
     "summary": {
       "description": "Established suburban centre in QLD (4077) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -87691,11 +87691,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Dover Heights",
     "state": "NSW",
     "postcode": "2030",
-    "lga": "Dover Heights Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Waverley Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.87185,
+      "lng": 151.27837
     },
     "summary": {
       "description": "Established suburban centre in NSW (2030) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -87888,11 +87888,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Eden",
     "state": "NSW",
     "postcode": "2551",
-    "lga": "Eden Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Snowy Monaro Council",
+    "region": "Capital Region",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -37.06667,
+      "lng": 149.9
     },
     "summary": {
       "description": "Established suburban centre in NSW (2551) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -88085,11 +88085,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Edwardstown",
     "state": "SA",
     "postcode": "5039",
-    "lga": "Edwardstown Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Marion Council",
+    "region": "Adelaide - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.98,
+      "lng": 138.571
     },
     "summary": {
       "description": "Established suburban centre in SA (5039) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -88282,11 +88282,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Emerald",
     "state": "QLD",
     "postcode": "4720",
-    "lga": "Emerald Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Central Highlands (Qld) Council",
+    "region": "Fitzroy",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -23.52729,
+      "lng": 148.16457
     },
     "summary": {
       "description": "Established suburban centre in QLD (4720) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -88479,11 +88479,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Eumundi",
     "state": "QLD",
     "postcode": "4562",
-    "lga": "Eumundi Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Noosa Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.48333,
+      "lng": 152.95
     },
     "summary": {
       "description": "Established suburban centre in QLD (4562) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -88676,11 +88676,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ferny Grove",
     "state": "QLD",
     "postcode": "4055",
-    "lga": "Ferny Grove Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.40306,
+      "lng": 152.92806
     },
     "summary": {
       "description": "Established suburban centre in QLD (4055) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -88873,11 +88873,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Fitzroy North",
     "state": "VIC",
     "postcode": "3068",
-    "lga": "Fitzroy North Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Moreland Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.78329,
+      "lng": 144.98385
     },
     "summary": {
       "description": "Established suburban centre in VIC (3068) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -89070,11 +89070,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Fortitude Valley",
     "state": "QLD",
     "postcode": "4006",
-    "lga": "Fortitude Valley Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.4565,
+      "lng": 153.0345
     },
     "summary": {
       "description": "Established suburban centre in QLD (4006) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -89267,11 +89267,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Fremantle",
     "state": "WA",
     "postcode": "6160",
-    "lga": "Fremantle Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Fremantle Council",
+    "region": "Perth - South West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.05393,
+      "lng": 115.76048
     },
     "summary": {
       "description": "Established suburban centre in WA (6160) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -89464,11 +89464,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Girrawheen",
     "state": "WA",
     "postcode": "6064",
-    "lga": "Girrawheen Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Wanneroo Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.84068,
+      "lng": 115.84032
     },
     "summary": {
       "description": "Established suburban centre in WA (6064) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -89661,11 +89661,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Gledswood Hills",
     "state": "NSW",
     "postcode": "2557",
-    "lga": "Gledswood Hills Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Liverpool Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.0117,
+      "lng": 150.78
     },
     "summary": {
       "description": "Established suburban centre in NSW (2557) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -89858,11 +89858,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Glenorie",
     "state": "NSW",
     "postcode": "2157",
-    "lga": "Glenorie Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hornsby Council",
+    "region": "Sydney - Baulkham Hills and Hawkesbury",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.60224,
+      "lng": 151.00247
     },
     "summary": {
       "description": "Established suburban centre in NSW (2157) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -90055,11 +90055,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Griffith",
     "state": "NSW",
     "postcode": "2680",
-    "lga": "Griffith Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Murrumbidgee Council",
+    "region": "Riverina",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.28009,
+      "lng": 146.04553
     },
     "summary": {
       "description": "Established suburban centre in NSW (2680) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -90252,11 +90252,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hawthorn East",
     "state": "VIC",
     "postcode": "3123",
-    "lga": "Hawthorn East Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Boroondara Council",
+    "region": "Melbourne - Inner East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.83108,
+      "lng": 145.05209
     },
     "summary": {
       "description": "Established suburban centre in VIC (3123) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -90449,11 +90449,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Highgate Hill",
     "state": "QLD",
     "postcode": "4101",
-    "lga": "Highgate Hill Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.487,
+      "lng": 153.019
     },
     "summary": {
       "description": "Established suburban centre in QLD (4101) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -90646,11 +90646,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ingle Farm",
     "state": "SA",
     "postcode": "5098",
-    "lga": "Ingle Farm Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Port Adelaide Enfield Council",
+    "region": "Adelaide - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.823,
+      "lng": 138.646
     },
     "summary": {
       "description": "Established suburban centre in SA (5098) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -90843,11 +90843,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Koo Wee Rup",
     "state": "VIC",
     "postcode": "3981",
-    "lga": "Koo Wee Rup Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Baw Baw Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.198,
+      "lng": 145.489
     },
     "summary": {
       "description": "Established suburban centre in VIC (3981) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -91040,11 +91040,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kurri Kurri",
     "state": "NSW",
     "postcode": "2327",
-    "lga": "Kurri Kurri Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Cessnock Council",
+    "region": "Hunter Valley exc Newcastle",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.81667,
+      "lng": 151.48333
     },
     "summary": {
       "description": "Established suburban centre in NSW (2327) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -91237,11 +91237,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kyabram",
     "state": "VIC",
     "postcode": "3620",
-    "lga": "Kyabram Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Greater Shepparton Council",
+    "region": "Shepparton",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.31394,
+      "lng": 145.04681
     },
     "summary": {
       "description": "Established suburban centre in VIC (3620) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -91434,11 +91434,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lancelin",
     "state": "WA",
     "postcode": "6044",
-    "lga": "Lancelin Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Dandaragan Council",
+    "region": "Western Australia - Wheat Belt",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.04541,
+      "lng": 115.35328
     },
     "summary": {
       "description": "Established suburban centre in WA (6044) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -91631,11 +91631,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lavender Bay",
     "state": "NSW",
     "postcode": "2060",
-    "lga": "Lavender Bay Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "North Sydney Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.84357,
+      "lng": 151.20697
     },
     "summary": {
       "description": "Established suburban centre in NSW (2060) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -91828,11 +91828,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Leeming",
     "state": "WA",
     "postcode": "6149",
-    "lga": "Leeming Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Canning Council",
+    "region": "Perth - South West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.07962,
+      "lng": 115.86566
     },
     "summary": {
       "description": "Established suburban centre in WA (6149) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -92025,11 +92025,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lobethal",
     "state": "SA",
     "postcode": "5241",
-    "lga": "Lobethal Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Adelaide Hills Council",
+    "region": "Adelaide - Central and Hills",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.90945,
+      "lng": 138.86993
     },
     "summary": {
       "description": "Established suburban centre in SA (5241) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -92222,11 +92222,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Longreach",
     "state": "QLD",
     "postcode": "4730",
-    "lga": "Longreach Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Barcoo Council",
+    "region": "Queensland - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -23.44031,
+      "lng": 144.25062
     },
     "summary": {
       "description": "Established suburban centre in QLD (4730) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -92419,11 +92419,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mallacoota",
     "state": "VIC",
     "postcode": "3892",
-    "lga": "Mallacoota Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "East Gippsland Council",
+    "region": "Latrobe - Gippsland",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.51307,
+      "lng": 149.77181
     },
     "summary": {
       "description": "Established suburban centre in VIC (3892) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -92616,11 +92616,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Medowie",
     "state": "NSW",
     "postcode": "2318",
-    "lga": "Medowie Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Port Stephens Council",
+    "region": "Newcastle and Lake Macquarie",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.73917,
+      "lng": 151.88041
     },
     "summary": {
       "description": "Established suburban centre in NSW (2318) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -92813,11 +92813,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Menangle Park",
     "state": "NSW",
     "postcode": "2563",
-    "lga": "Menangle Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Campbelltown (NSW) Council",
+    "region": "Sydney - Outer South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.10287,
+      "lng": 150.75049
     },
     "summary": {
       "description": "Established suburban centre in NSW (2563) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -93010,11 +93010,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Merriwa",
     "state": "NSW",
     "postcode": "2329",
-    "lga": "Merriwa Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Warrumbungle Council",
+    "region": "Hunter Valley exc Newcastle",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.13934,
+      "lng": 150.35574
     },
     "summary": {
       "description": "Established suburban centre in NSW (2329) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -93207,11 +93207,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mindarie",
     "state": "WA",
     "postcode": "6030",
-    "lga": "Mindarie Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Wanneroo Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.69008,
+      "lng": 115.70605
     },
     "summary": {
       "description": "Established suburban centre in WA (6030) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -93404,11 +93404,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Monbulk",
     "state": "VIC",
     "postcode": "3793",
-    "lga": "Monbulk Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Yarra Ranges Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.86894,
+      "lng": 145.43609
     },
     "summary": {
       "description": "Established suburban centre in VIC (3793) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -93601,11 +93601,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Moranbah",
     "state": "QLD",
     "postcode": "4744",
-    "lga": "Moranbah Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Isaac Council",
+    "region": "Mackay",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -22.00608,
+      "lng": 148.03978
     },
     "summary": {
       "description": "Established suburban centre in QLD (4744) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -93798,11 +93798,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Colah",
     "state": "NSW",
     "postcode": "2079",
-    "lga": "Mount Colah Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Northern Beaches Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.67091,
+      "lng": 151.12576
     },
     "summary": {
       "description": "Established suburban centre in NSW (2079) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -93995,11 +93995,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Cotton",
     "state": "QLD",
     "postcode": "4165",
-    "lga": "Mount Cotton Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Redland Council",
+    "region": "Brisbane - East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.61667,
+      "lng": 153.21667
     },
     "summary": {
       "description": "Established suburban centre in QLD (4165) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -94192,11 +94192,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Hawthorn",
     "state": "WA",
     "postcode": "6016",
-    "lga": "Mount Hawthorn Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Stirling Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.91958,
+      "lng": 115.83558
     },
     "summary": {
       "description": "Established suburban centre in WA (6016) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -94389,11 +94389,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Ommaney",
     "state": "QLD",
     "postcode": "4074",
-    "lga": "Mount Ommaney Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Ipswich",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.54528,
+      "lng": 152.93139
     },
     "summary": {
       "description": "Established suburban centre in QLD (4074) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -94586,11 +94586,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mount Pritchard",
     "state": "NSW",
     "postcode": "2170",
-    "lga": "Mount Pritchard Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.898,
+      "lng": 150.901
     },
     "summary": {
       "description": "Established suburban centre in NSW (2170) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -94783,11 +94783,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Naracoorte",
     "state": "SA",
     "postcode": "5271",
-    "lga": "Naracoorte Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Wattle Range Council",
+    "region": "South Australia - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -36.96021,
+      "lng": 140.74132
     },
     "summary": {
       "description": "Established suburban centre in SA (5271) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -94980,11 +94980,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Narrandera",
     "state": "NSW",
     "postcode": "2700",
-    "lga": "Narrandera Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Leeton Council",
+    "region": "Riverina",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.73798,
+      "lng": 146.55768
     },
     "summary": {
       "description": "Established suburban centre in NSW (2700) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -95177,11 +95177,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "New Norfolk",
     "state": "TAS",
     "postcode": "7140",
-    "lga": "New Norfolk Local Government Area",
-    "region": "Greater TAS Region",
+    "lga": "West Coast Council",
+    "region": "West and North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -42.78283,
+      "lng": 147.05938
     },
     "summary": {
       "description": "Established suburban centre in TAS (7140) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -95374,11 +95374,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Niddrie",
     "state": "VIC",
     "postcode": "3042",
-    "lga": "Niddrie Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.73927,
+      "lng": 144.88647
     },
     "summary": {
       "description": "Established suburban centre in VIC (3042) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -95571,11 +95571,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Noarlunga Centre",
     "state": "SA",
     "postcode": "5168",
-    "lga": "Noarlunga Centre Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Onkaparinga Council",
+    "region": "Adelaide - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.14,
+      "lng": 138.493
     },
     "summary": {
       "description": "Established suburban centre in SA (5168) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -95768,11 +95768,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Noosaville",
     "state": "QLD",
     "postcode": "4566",
-    "lga": "Noosaville Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Noosa Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.41349,
+      "lng": 153.05058
     },
     "summary": {
       "description": "Established suburban centre in QLD (4566) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -95965,11 +95965,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Normanhurst",
     "state": "NSW",
     "postcode": "2076",
-    "lga": "Normanhurst Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hornsby Council",
+    "region": "Sydney - North Sydney and Hornsby",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.72453,
+      "lng": 151.09701
     },
     "summary": {
       "description": "Established suburban centre in NSW (2076) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -96162,11 +96162,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "North Adelaide",
     "state": "SA",
     "postcode": "5006",
-    "lga": "North Adelaide Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Walkerville Council",
+    "region": "Adelaide - Central and Hills",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.90911,
+      "lng": 138.5963
     },
     "summary": {
       "description": "Established suburban centre in SA (5006) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -96359,11 +96359,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Nudgee Beach",
     "state": "QLD",
     "postcode": "4014",
-    "lga": "Nudgee Beach Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.354,
+      "lng": 153.101
     },
     "summary": {
       "description": "Established suburban centre in QLD (4014) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -96556,11 +96556,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Padbury",
     "state": "WA",
     "postcode": "6025",
-    "lga": "Padbury Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Joondalup Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.80077,
+      "lng": 115.77345
     },
     "summary": {
       "description": "Established suburban centre in WA (6025) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -96753,11 +96753,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Parafield Gardens",
     "state": "SA",
     "postcode": "5107",
-    "lga": "Parafield Gardens Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Salisbury Council",
+    "region": "Adelaide - North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.79,
+      "lng": 138.616
     },
     "summary": {
       "description": "Established suburban centre in SA (5107) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -96950,11 +96950,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Penrith",
     "state": "NSW",
     "postcode": "2750",
-    "lga": "Penrith Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Penrith Council",
+    "region": "Sydney - Outer West and Blue Mountains",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.75068,
+      "lng": 150.68767
     },
     "summary": {
       "description": "Established suburban centre in NSW (2750) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -97147,11 +97147,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Preston",
     "state": "VIC",
     "postcode": "3072",
-    "lga": "Preston Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Darebin Council",
+    "region": "Melbourne - North East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.73994,
+      "lng": 145.01076
     },
     "summary": {
       "description": "Established suburban centre in VIC (3072) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -97344,11 +97344,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Russell Island",
     "state": "QLD",
     "postcode": "4184",
-    "lga": "Russell Island Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Redland Council",
+    "region": "Brisbane - East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.67051,
+      "lng": 153.38312
     },
     "summary": {
       "description": "Established suburban centre in QLD (4184) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -97541,11 +97541,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Rutherglen",
     "state": "VIC",
     "postcode": "3685",
-    "lga": "Rutherglen Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Wangaratta Council",
+    "region": "Shepparton",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.05556,
+      "lng": 146.4625
     },
     "summary": {
       "description": "Established suburban centre in VIC (3685) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -97738,11 +97738,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Secret Harbour",
     "state": "WA",
     "postcode": "6173",
-    "lga": "Secret Harbour Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Rockingham Council",
+    "region": "Perth - South West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.40513,
+      "lng": 115.76344
     },
     "summary": {
       "description": "Established suburban centre in WA (6173) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -97935,11 +97935,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Shailer Park",
     "state": "QLD",
     "postcode": "4128",
-    "lga": "Shailer Park Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Logan Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.65083,
+      "lng": 153.1835
     },
     "summary": {
       "description": "Established suburban centre in QLD (4128) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -98132,11 +98132,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Shenton Park",
     "state": "WA",
     "postcode": "6008",
-    "lga": "Shenton Park Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Cambridge Council",
+    "region": "Perth - Inner",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.95881,
+      "lng": 115.80532
     },
     "summary": {
       "description": "Established suburban centre in WA (6008) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -98329,11 +98329,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "St Kilda",
     "state": "VIC",
     "postcode": "3182",
-    "lga": "St Kilda Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Port Phillip Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.864,
+      "lng": 144.982
     },
     "summary": {
       "description": "Established suburban centre in VIC (3182) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -98526,11 +98526,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Stawell",
     "state": "VIC",
     "postcode": "3380",
-    "lga": "Stawell Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Northern Grampians Council",
+    "region": "North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.05178,
+      "lng": 142.77771
     },
     "summary": {
       "description": "Established suburban centre in VIC (3380) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -98723,11 +98723,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Sunnybank Hills",
     "state": "QLD",
     "postcode": "4109",
-    "lga": "Sunnybank Hills Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.6,
+      "lng": 153.05
     },
     "summary": {
       "description": "Established suburban centre in QLD (4109) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -98920,11 +98920,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Sunshine Beach",
     "state": "QLD",
     "postcode": "4567",
-    "lga": "Sunshine Beach Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Noosa Council",
+    "region": "Sunshine Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -26.407,
+      "lng": 153.105
     },
     "summary": {
       "description": "Established suburban centre in QLD (4567) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -99117,11 +99117,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Tailem Bend",
     "state": "SA",
     "postcode": "5260",
-    "lga": "Tailem Bend Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Coorong Council",
+    "region": "South Australia - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.25335,
+      "lng": 139.45611
     },
     "summary": {
       "description": "Established suburban centre in SA (5260) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -99314,11 +99314,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Tin Can Bay",
     "state": "QLD",
     "postcode": "4580",
-    "lga": "Tin Can Bay Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Fraser Coast Council",
+    "region": "Wide Bay",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -25.9193,
+      "lng": 153.00328
     },
     "summary": {
       "description": "Established suburban centre in QLD (4580) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -99511,11 +99511,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Tocumwal",
     "state": "NSW",
     "postcode": "2714",
-    "lga": "Tocumwal Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Murray River Council",
+    "region": "Shepparton",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -35.81038,
+      "lng": 145.57279
     },
     "summary": {
       "description": "Established suburban centre in NSW (2714) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -99708,11 +99708,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Tuart Hill",
     "state": "WA",
     "postcode": "6060",
-    "lga": "Tuart Hill Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Stirling Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.89657,
+      "lng": 115.83552
     },
     "summary": {
       "description": "Established suburban centre in WA (6060) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -99905,11 +99905,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Turrella",
     "state": "NSW",
     "postcode": "2205",
-    "lga": "Turrella Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bayside (NSW) Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.93297,
+      "lng": 151.14079
     },
     "summary": {
       "description": "Established suburban centre in NSW (2205) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -100102,11 +100102,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Two Rocks",
     "state": "WA",
     "postcode": "6037",
-    "lga": "Two Rocks Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Wanneroo Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.48479,
+      "lng": 115.62731
     },
     "summary": {
       "description": "Established suburban centre in WA (6037) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -100299,11 +100299,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Two Wells",
     "state": "SA",
     "postcode": "5501",
-    "lga": "Two Wells Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Wakefield Council",
+    "region": "Barossa - Yorke - Mid North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.58333,
+      "lng": 138.51667
     },
     "summary": {
       "description": "Established suburban centre in SA (5501) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -100496,11 +100496,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Upwey",
     "state": "VIC",
     "postcode": "3158",
-    "lga": "Upwey Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Yarra Ranges Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.90398,
+      "lng": 145.33094
     },
     "summary": {
       "description": "Established suburban centre in VIC (3158) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -100693,11 +100693,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Venus Bay",
     "state": "VIC",
     "postcode": "3956",
-    "lga": "Venus Bay Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "South Gippsland Council",
+    "region": "Latrobe - Gippsland",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.68333,
+      "lng": 145.8
     },
     "summary": {
       "description": "Established suburban centre in VIC (3956) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -100890,11 +100890,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Vermont South",
     "state": "VIC",
     "postcode": "3133",
-    "lga": "Vermont South Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Maroondah Council",
+    "region": "Melbourne - Outer East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.85659,
+      "lng": 145.18337
     },
     "summary": {
       "description": "Established suburban centre in VIC (3133) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -101087,11 +101087,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wanneroo",
     "state": "WA",
     "postcode": "6065",
-    "lga": "Wanneroo Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Wanneroo Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.7573,
+      "lng": 115.80648
     },
     "summary": {
       "description": "Established suburban centre in WA (6065) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -101284,11 +101284,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Wavell Heights",
     "state": "QLD",
     "postcode": "4012",
-    "lga": "Wavell Heights Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.393,
+      "lng": 153.048
     },
     "summary": {
       "description": "Established suburban centre in QLD (4012) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -101481,11 +101481,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "West Pennant Hills",
     "state": "NSW",
     "postcode": "2125",
-    "lga": "West Pennant Hills Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hornsby Council",
+    "region": "Sydney - Ryde",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.74624,
+      "lng": 151.02967
     },
     "summary": {
       "description": "Established suburban centre in NSW (2125) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -101678,11 +101678,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yackandandah",
     "state": "VIC",
     "postcode": "3749",
-    "lga": "Yackandandah Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Indigo Council",
+    "region": "Hume",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.31306,
+      "lng": 146.83917
     },
     "summary": {
       "description": "Established suburban centre in VIC (3749) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -101875,11 +101875,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Yallingup",
     "state": "WA",
     "postcode": "6282",
-    "lga": "Yallingup Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Busselton Council",
+    "region": "Bunbury",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -33.6726,
+      "lng": 115.03083
     },
     "summary": {
       "description": "Established suburban centre in WA (6282) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -102072,11 +102072,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Agnes Water",
     "state": "QLD",
     "postcode": "4677",
-    "lga": "Agnes Water Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gladstone Council",
+    "region": "Fitzroy",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -24.2125,
+      "lng": 151.90333
     },
     "summary": {
       "description": "Established suburban centre in QLD (4677) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -102269,11 +102269,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Alexandria",
     "state": "NSW",
     "postcode": "2015",
-    "lga": "Alexandria Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sydney Council",
+    "region": "Sydney - City and Inner South",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.90803,
+      "lng": 151.19026
     },
     "summary": {
       "description": "Established suburban centre in NSW (2015) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -102466,11 +102466,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Allambie Heights",
     "state": "NSW",
     "postcode": "2100",
-    "lga": "Allambie Heights Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Northern Beaches Council",
+    "region": "Sydney - Northern Beaches",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.7624,
+      "lng": 151.25
     },
     "summary": {
       "description": "Established suburban centre in NSW (2100) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -102663,11 +102663,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Alstonville",
     "state": "NSW",
     "postcode": "2477",
-    "lga": "Alstonville Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Lismore Council",
+    "region": "Richmond - Tweed",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.84087,
+      "lng": 153.44958
     },
     "summary": {
       "description": "Established suburban centre in NSW (2477) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -102860,11 +102860,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Ardeer",
     "state": "VIC",
     "postcode": "3022",
-    "lga": "Ardeer Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.77767,
+      "lng": 144.79889
     },
     "summary": {
       "description": "Established suburban centre in VIC (3022) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -103057,11 +103057,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Banora Point",
     "state": "NSW",
     "postcode": "2486",
-    "lga": "Banora Point Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Tweed Council",
+    "region": "Richmond - Tweed",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.22333,
+      "lng": 153.53806
     },
     "summary": {
       "description": "Established suburban centre in NSW (2486) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -103254,11 +103254,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bardwell Park",
     "state": "NSW",
     "postcode": "2207",
-    "lga": "Bardwell Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Bayside (NSW) Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.93539,
+      "lng": 151.12541
     },
     "summary": {
       "description": "Established suburban centre in NSW (2207) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -103451,11 +103451,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Beaumont Hills",
     "state": "NSW",
     "postcode": "2155",
-    "lga": "Beaumont Hills Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Blacktown Council",
+    "region": "Sydney - Blacktown",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.7,
+      "lng": 150.941
     },
     "summary": {
       "description": "Established suburban centre in NSW (2155) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -103648,11 +103648,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bellbowrie",
     "state": "QLD",
     "postcode": "4070",
-    "lga": "Bellbowrie Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Ipswich",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.56667,
+      "lng": 152.88333
     },
     "summary": {
       "description": "Established suburban centre in QLD (4070) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -103845,11 +103845,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bendigo",
     "state": "VIC",
     "postcode": "3550",
-    "lga": "Bendigo Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Greater Bendigo Council",
+    "region": "Bendigo",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -36.76427,
+      "lng": 144.2786
     },
     "summary": {
       "description": "Established suburban centre in VIC (3550) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -104042,11 +104042,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Benowa",
     "state": "QLD",
     "postcode": "4217",
-    "lga": "Benowa Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Gold Coast Council",
+    "region": "Gold Coast",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -28.00732,
+      "lng": 153.38299
     },
     "summary": {
       "description": "Established suburban centre in QLD (4217) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -104239,11 +104239,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bilpin",
     "state": "NSW",
     "postcode": "2758",
-    "lga": "Bilpin Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Lithgow Council",
+    "region": "Sydney - Outer West and Blue Mountains",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.5,
+      "lng": 150.53333
     },
     "summary": {
       "description": "Established suburban centre in NSW (2758) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -104436,11 +104436,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Boronia Heights",
     "state": "QLD",
     "postcode": "4124",
-    "lga": "Boronia Heights Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Ipswich Council",
+    "region": "Logan - Beaudesert",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.68333,
+      "lng": 153.01667
     },
     "summary": {
       "description": "Established suburban centre in QLD (4124) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -104633,11 +104633,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Botanic Ridge",
     "state": "VIC",
     "postcode": "3977",
-    "lga": "Botanic Ridge Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Frankston Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.144,
+      "lng": 145.267
     },
     "summary": {
       "description": "Established suburban centre in VIC (3977) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -104830,11 +104830,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Brunswick",
     "state": "VIC",
     "postcode": "3056",
-    "lga": "Brunswick Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Moreland Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.76661,
+      "lng": 144.95843
     },
     "summary": {
       "description": "Established suburban centre in VIC (3056) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -105027,11 +105027,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Bundanoon",
     "state": "NSW",
     "postcode": "2578",
-    "lga": "Bundanoon Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wingecarribee Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.65594,
+      "lng": 150.29215
     },
     "summary": {
       "description": "Established suburban centre in NSW (2578) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -105224,11 +105224,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Burns Beach",
     "state": "WA",
     "postcode": "6028",
-    "lga": "Burns Beach Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Joondalup Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.72469,
+      "lng": 115.7249
     },
     "summary": {
       "description": "Established suburban centre in WA (6028) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -105421,11 +105421,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Burwood East",
     "state": "VIC",
     "postcode": "3151",
-    "lga": "Burwood East Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Whitehorse Council",
+    "region": "Melbourne - Inner East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.85529,
+      "lng": 145.15138
     },
     "summary": {
       "description": "Established suburban centre in VIC (3151) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -105618,11 +105618,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cape Jervis",
     "state": "SA",
     "postcode": "5204",
-    "lga": "Cape Jervis Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Yankalilla Council",
+    "region": "South Australia - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -35.60617,
+      "lng": 138.1154
     },
     "summary": {
       "description": "Established suburban centre in SA (5204) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -105815,11 +105815,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Castle Hill",
     "state": "NSW",
     "postcode": "2154",
-    "lga": "Castle Hill Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Hornsby Council",
+    "region": "Sydney - Baulkham Hills and Hawkesbury",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.72707,
+      "lng": 150.99474
     },
     "summary": {
       "description": "Established suburban centre in NSW (2154) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -106012,11 +106012,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Caulfield North",
     "state": "VIC",
     "postcode": "3161",
-    "lga": "Caulfield North Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Glen Eira Council",
+    "region": "Melbourne - Inner South",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.87126,
+      "lng": 145.01902
     },
     "summary": {
       "description": "Established suburban centre in VIC (3161) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -106209,11 +106209,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cecil Hills",
     "state": "NSW",
     "postcode": "2171",
-    "lga": "Cecil Hills Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Liverpool Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.88768,
+      "lng": 150.84906
     },
     "summary": {
       "description": "Established suburban centre in NSW (2171) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -106406,11 +106406,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Centennial Park",
     "state": "NSW",
     "postcode": "2021",
-    "lga": "Centennial Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Randwick Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.8943,
+      "lng": 151.233
     },
     "summary": {
       "description": "Established suburban centre in NSW (2021) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -106603,11 +106603,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Clayton South",
     "state": "VIC",
     "postcode": "3169",
-    "lga": "Clayton South Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Kingston (Vic.) Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.93881,
+      "lng": 145.12671
     },
     "summary": {
       "description": "Established suburban centre in VIC (3169) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -106800,11 +106800,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cloncurry",
     "state": "QLD",
     "postcode": "4824",
-    "lga": "Cloncurry Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Burke Council",
+    "region": "Queensland - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -20.70685,
+      "lng": 140.50532
     },
     "summary": {
       "description": "Established suburban centre in QLD (4824) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -106997,11 +106997,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Clunes",
     "state": "VIC",
     "postcode": "3370",
-    "lga": "Clunes Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Central Goldfields Council",
+    "region": "Ballarat",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.296,
+      "lng": 143.786
     },
     "summary": {
       "description": "Established suburban centre in VIC (3370) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -107194,11 +107194,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coburg North",
     "state": "VIC",
     "postcode": "3058",
-    "lga": "Coburg North Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Darebin Council",
+    "region": "Melbourne - North West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.726,
+      "lng": 144.96
     },
     "summary": {
       "description": "Established suburban centre in VIC (3058) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -107391,11 +107391,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Coffin Bay",
     "state": "SA",
     "postcode": "5607",
-    "lga": "Coffin Bay Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Streaky Bay Council",
+    "region": "South Australia - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.62356,
+      "lng": 135.46546
     },
     "summary": {
       "description": "Established suburban centre in SA (5607) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -107588,11 +107588,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cooktown",
     "state": "QLD",
     "postcode": "4895",
-    "lga": "Cooktown Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Douglas Council",
+    "region": "Queensland - Outback",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -15.47582,
+      "lng": 145.2471
     },
     "summary": {
       "description": "Established suburban centre in QLD (4895) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -107785,11 +107785,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Corrimal",
     "state": "NSW",
     "postcode": "2518",
-    "lga": "Corrimal Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wollongong Council",
+    "region": "Illawarra",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.36667,
+      "lng": 150.89167
     },
     "summary": {
       "description": "Established suburban centre in NSW (2518) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -107982,11 +107982,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cowaramup",
     "state": "WA",
     "postcode": "6284",
-    "lga": "Cowaramup Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Augusta Margaret River Council",
+    "region": "Bunbury",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -33.85221,
+      "lng": 115.10142
     },
     "summary": {
       "description": "Established suburban centre in WA (6284) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -108179,11 +108179,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Cranbourne West",
     "state": "VIC",
     "postcode": "3977",
-    "lga": "Cranbourne West Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Frankston Council",
+    "region": "Mornington Peninsula",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -38.10217,
+      "lng": 145.25354
     },
     "summary": {
       "description": "Established suburban centre in VIC (3977) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -108376,11 +108376,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Darling Point",
     "state": "NSW",
     "postcode": "2027",
-    "lga": "Darling Point Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Woollahra Council",
+    "region": "Sydney - Eastern Suburbs",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.87021,
+      "lng": 151.23746
     },
     "summary": {
       "description": "Established suburban centre in NSW (2027) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -108573,11 +108573,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Denmark",
     "state": "WA",
     "postcode": "6333",
-    "lga": "Denmark Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Denmark Council",
+    "region": "Western Australia - Wheat Belt",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.96176,
+      "lng": 117.35065
     },
     "summary": {
       "description": "Established suburban centre in WA (6333) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -108770,11 +108770,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Doubleview",
     "state": "WA",
     "postcode": "6018",
-    "lga": "Doubleview Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Stirling Council",
+    "region": "Perth - North West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.89991,
+      "lng": 115.78125
     },
     "summary": {
       "description": "Established suburban centre in WA (6018) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -108967,11 +108967,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Dutton Park",
     "state": "QLD",
     "postcode": "4102",
-    "lga": "Dutton Park Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.49417,
+      "lng": 153.02583
     },
     "summary": {
       "description": "Established suburban centre in QLD (4102) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -109164,11 +109164,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Dwellingup",
     "state": "WA",
     "postcode": "6213",
-    "lga": "Dwellingup Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Boddington Council",
+    "region": "Western Australia - Wheat Belt",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.71425,
+      "lng": 116.0665
     },
     "summary": {
       "description": "Established suburban centre in WA (6213) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -109361,11 +109361,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "East Victoria Park",
     "state": "WA",
     "postcode": "6101",
-    "lga": "East Victoria Park Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Victoria Park Council",
+    "region": "Perth - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -31.98466,
+      "lng": 115.90836
     },
     "summary": {
       "description": "Established suburban centre in WA (6101) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -109558,11 +109558,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Eatons Hill",
     "state": "QLD",
     "postcode": "4037",
-    "lga": "Eatons Hill Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Moreton Bay Council",
+    "region": "Moreton Bay - South",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.3392,
+      "lng": 152.9353
     },
     "summary": {
       "description": "Established suburban centre in QLD (4037) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -109755,11 +109755,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Edensor Park",
     "state": "NSW",
     "postcode": "2176",
-    "lga": "Edensor Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Fairfield Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.88095,
+      "lng": 150.87516
     },
     "summary": {
       "description": "Established suburban centre in NSW (2176) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -110149,11 +110149,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Fairfield",
     "state": "NSW",
     "postcode": "2165",
-    "lga": "Fairfield Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Cumberland Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.87059,
+      "lng": 150.95641
     },
     "summary": {
       "description": "Established suburban centre in NSW (2165) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -110346,11 +110346,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Fingal Bay",
     "state": "NSW",
     "postcode": "2315",
-    "lga": "Fingal Bay Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Port Stephens Council",
+    "region": "Hunter Valley exc Newcastle",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.75015,
+      "lng": 152.16319
     },
     "summary": {
       "description": "Established suburban centre in NSW (2315) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -110543,11 +110543,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Fitzroy",
     "state": "VIC",
     "postcode": "3065",
-    "lga": "Fitzroy Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Yarra Council",
+    "region": "Melbourne - Inner",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.79746,
+      "lng": 144.98046
     },
     "summary": {
       "description": "Established suburban centre in VIC (3065) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -110740,11 +110740,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Forster",
     "state": "NSW",
     "postcode": "2428",
-    "lga": "Forster Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Mid-Coast Council",
+    "region": "Mid North Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -32.18056,
+      "lng": 152.51167
     },
     "summary": {
       "description": "Established suburban centre in NSW (2428) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -110937,11 +110937,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Gembrook",
     "state": "VIC",
     "postcode": "3783",
-    "lga": "Gembrook Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Cardinia Council",
+    "region": "Melbourne - South East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.9524,
+      "lng": 145.60236
     },
     "summary": {
       "description": "Established suburban centre in VIC (3783) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -111134,11 +111134,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Georges Hall",
     "state": "NSW",
     "postcode": "2198",
-    "lga": "Georges Hall Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.90629,
+      "lng": 150.98601
     },
     "summary": {
       "description": "Established suburban centre in NSW (2198) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -111331,11 +111331,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Gepps Cross",
     "state": "SA",
     "postcode": "5094",
-    "lga": "Gepps Cross Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Salisbury Council",
+    "region": "Adelaide - West",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.8417,
+      "lng": 138.59964
     },
     "summary": {
       "description": "Established suburban centre in SA (5094) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -111528,11 +111528,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Goulburn",
     "state": "NSW",
     "postcode": "2580",
-    "lga": "Goulburn Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wingecarribee Council",
+    "region": "Sydney - Outer West and Blue Mountains",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.74792,
+      "lng": 149.72774
     },
     "summary": {
       "description": "Established suburban centre in NSW (2580) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -111725,11 +111725,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Heidelberg West",
     "state": "VIC",
     "postcode": "3081",
-    "lga": "Heidelberg West Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Banyule Council",
+    "region": "Melbourne - North East",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.744,
+      "lng": 145.047
     },
     "summary": {
       "description": "Established suburban centre in VIC (3081) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -111922,11 +111922,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Herston",
     "state": "QLD",
     "postcode": "4006",
-    "lga": "Herston Local Government Area",
-    "region": "Greater QLD Region",
+    "lga": "Brisbane Council",
+    "region": "Brisbane Inner City",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -27.44515,
+      "lng": 153.02069
     },
     "summary": {
       "description": "Established suburban centre in QLD (4006) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -112119,11 +112119,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hoxton Park",
     "state": "NSW",
     "postcode": "2171",
-    "lga": "Hoxton Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Liverpool Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.93382,
+      "lng": 150.85284
     },
     "summary": {
       "description": "Established suburban centre in NSW (2171) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -112316,11 +112316,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Huonville",
     "state": "TAS",
     "postcode": "7109",
-    "lga": "Huonville Local Government Area",
-    "region": "Greater TAS Region",
+    "lga": "Derwent Valley Council",
+    "region": "South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -43.02952,
+      "lng": 147.05803
     },
     "summary": {
       "description": "Established suburban centre in TAS (7109) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -112513,11 +112513,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hurlstone Park",
     "state": "NSW",
     "postcode": "2193",
-    "lga": "Hurlstone Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Inner West Council",
+    "region": "Sydney - Inner West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.91058,
+      "lng": 151.12919
     },
     "summary": {
       "description": "Established suburban centre in NSW (2193) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -112710,11 +112710,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Hurstville",
     "state": "NSW",
     "postcode": "2220",
-    "lga": "Hurstville Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Georges River Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.96456,
+      "lng": 151.10102
     },
     "summary": {
       "description": "Established suburban centre in NSW (2220) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -112907,11 +112907,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Illawong",
     "state": "NSW",
     "postcode": "2234",
-    "lga": "Illawong Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Sutherland Council",
+    "region": "Sydney - Sutherland",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.00057,
+      "lng": 151.03587
     },
     "summary": {
       "description": "Established suburban centre in NSW (2234) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -113104,11 +113104,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kapunda",
     "state": "SA",
     "postcode": "5373",
-    "lga": "Kapunda Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Light Council",
+    "region": "Barossa - Yorke - Mid North",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.33852,
+      "lng": 138.91403
     },
     "summary": {
       "description": "Established suburban centre in SA (5373) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -113301,11 +113301,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Keilor Downs",
     "state": "VIC",
     "postcode": "3038",
-    "lga": "Keilor Downs Local Government Area",
-    "region": "Greater VIC Region",
+    "lga": "Brimbank Council",
+    "region": "Melbourne - West",
     "coordinates": {
-      "lat": -37.8136,
-      "lng": 144.9631
+      "lat": -37.722,
+      "lng": 144.803
     },
     "summary": {
       "description": "Established suburban centre in VIC (3038) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -113498,11 +113498,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kurrajong",
     "state": "NSW",
     "postcode": "2758",
-    "lga": "Kurrajong Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Lithgow Council",
+    "region": "Sydney - Outer West and Blue Mountains",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.55,
+      "lng": 150.6667
     },
     "summary": {
       "description": "Established suburban centre in NSW (2758) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -113695,11 +113695,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Kyogle",
     "state": "NSW",
     "postcode": "2474",
-    "lga": "Kyogle Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Tweed Council",
+    "region": "Richmond - Tweed",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -28.62539,
+      "lng": 153.00258
     },
     "summary": {
       "description": "Established suburban centre in NSW (2474) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -113892,11 +113892,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lake Conjola",
     "state": "NSW",
     "postcode": "2539",
-    "lga": "Lake Conjola Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Shoalhaven Council",
+    "region": "Southern Highlands and Shoalhaven",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -35.26962,
+      "lng": 150.48102
     },
     "summary": {
       "description": "Established suburban centre in NSW (2539) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -114089,11 +114089,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lalor Park",
     "state": "NSW",
     "postcode": "2147",
-    "lga": "Lalor Park Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Parramatta Council",
+    "region": "Sydney - Blacktown",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.7666,
+      "lng": 150.9277
     },
     "summary": {
       "description": "Established suburban centre in NSW (2147) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -114286,11 +114286,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Leeton",
     "state": "NSW",
     "postcode": "2705",
-    "lga": "Leeton Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Narrandera Council",
+    "region": "Riverina",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -34.56667,
+      "lng": 146.4
     },
     "summary": {
       "description": "Established suburban centre in NSW (2705) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -114483,11 +114483,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lesmurdie",
     "state": "WA",
     "postcode": "6076",
-    "lga": "Lesmurdie Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Mundaring Council",
+    "region": "Perth - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -32.01318,
+      "lng": 116.03811
     },
     "summary": {
       "description": "Established suburban centre in WA (6076) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -114680,11 +114680,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Long Jetty",
     "state": "NSW",
     "postcode": "2261",
-    "lga": "Long Jetty Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Central Coast (NSW) Council",
+    "region": "Central Coast",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.357,
+      "lng": 151.485
     },
     "summary": {
       "description": "Established suburban centre in NSW (2261) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -114877,11 +114877,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Luddenham",
     "state": "NSW",
     "postcode": "2745",
-    "lga": "Luddenham Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Wollondilly Council",
+    "region": "Sydney - South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.8807,
+      "lng": 150.7146
     },
     "summary": {
       "description": "Established suburban centre in NSW (2745) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -115074,11 +115074,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Lugarno",
     "state": "NSW",
     "postcode": "2210",
-    "lga": "Lugarno Local Government Area",
-    "region": "Greater NSW Region",
+    "lga": "Canterbury-Bankstown Council",
+    "region": "Sydney - Inner South West",
     "coordinates": {
-      "lat": -33.8688,
-      "lng": 151.2093
+      "lat": -33.98469,
+      "lng": 151.04352
     },
     "summary": {
       "description": "Established suburban centre in NSW (2210) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -115271,11 +115271,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Manjimup",
     "state": "WA",
     "postcode": "6258",
-    "lga": "Manjimup Local Government Area",
-    "region": "Greater WA Region",
+    "lga": "Nannup Council",
+    "region": "Western Australia - Wheat Belt",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.24916,
+      "lng": 116.14375
     },
     "summary": {
       "description": "Established suburban centre in WA (6258) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
@@ -115468,11 +115468,11 @@ export const SUBURBS_DATABASE: SuburbProfile[] = [
     "name": "Mannum",
     "state": "SA",
     "postcode": "5238",
-    "lga": "Mannum Local Government Area",
-    "region": "Greater SA Region",
+    "lga": "Karoonda East Murray Council",
+    "region": "South Australia - South East",
     "coordinates": {
-      "lat": -27.4698,
-      "lng": 144.9631
+      "lat": -34.91307,
+      "lng": 139.30522
     },
     "summary": {
       "description": "Established suburban centre in SA (5238) featuring solid residential fundamentals, dynamic property market metrics, and consistent tenant demand.",
