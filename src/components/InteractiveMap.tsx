@@ -83,10 +83,9 @@ export default function InteractiveMap({
 
       mapInstanceRef.current = map;
 
-      // CartoDB Positron Retina @2x tile layer
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png", {
+      // Clean Microburbs basemap tiles without any API key watermark
+      L.tileLayer("/api/tiles/{z}/{x}/{y}.png", {
         attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>',
-        subdomains: "abcd",
         maxZoom: 20,
       }).addTo(map);
 

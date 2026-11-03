@@ -45,10 +45,9 @@ export default function MultiSuburbMap({
 
         mapInstanceRef.current = map;
 
-        // CartoDB Positron Basemap
-        L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+        // Clean Microburbs basemap tiles without API key watermark
+        L.tileLayer("/api/tiles/{z}/{x}/{y}.png", {
           attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
-          subdomains: "abcd",
           maxZoom: 19,
         }).addTo(map);
 
