@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import "leaflet/dist/leaflet.css";
 import { formatCurrency, formatPercent } from "../lib/utils";
 import { SuburbSchool } from "../lib/types";
 import { OFFICIAL_BELMONT_NORTH_BOUNDARY, OFFICIAL_NEIGHBOURING_BOUNDARIES, generateDetailedBoundary } from "../lib/data/boundaryGeoData";

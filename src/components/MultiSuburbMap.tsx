@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import "leaflet/dist/leaflet.css";
 import { SuburbProfile } from "../lib/types";
 import { formatCurrency, formatPercent } from "../lib/utils";
 
