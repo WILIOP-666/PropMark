@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import "leaflet/dist/leaflet.css";
 import { formatCurrency, formatPercent } from "../lib/utils";
 import { SuburbSchool } from "../lib/types";
+import { OFFICIAL_BELMONT_NORTH_BOUNDARY, OFFICIAL_NEIGHBOURING_BOUNDARIES, generateDetailedBoundary } from "../lib/data/boundaryGeoData";
 
 interface InteractiveMapProps {
   center: { lat: number; lng: number };
@@ -45,9 +46,9 @@ export default function InteractiveMap({
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
 
-  // Layer & Display States
+  // Layer & Display States (Default granularity is "suburb" per user directive)
   const [activeMetric, setActiveMetric] = useState<"price" | "yield" | "growth">("price");
-  const [granularity, setGranularity] = useState<"microburb" | "suburb">("microburb");
+  const [granularity, setGranularity] = useState<"microburb" | "suburb">("suburb");
   const [showNeighbours, setShowNeighbours] = useState<boolean>(true);
 
   // Layers references
@@ -92,66 +93,87 @@ export default function InteractiveMap({
       const dLat = 0.013;
       const dLng = 0.017;
 
-      // 1. Surrounding Neighbouring Suburbs (Exact Microburbs stroke="#94a3b8" fill="#e2e8f0" fill-opacity="0.3")
-      const neighbourOffsets = [
-        { dX: -1.3, dY: 0.9, name: surroundingSuburbs[0] || `${suburbName} North`, price: medianHousePrice * 1.08 },
-        { dX: 1.2, dY: 0.8, name: surroundingSuburbs[1] || `${suburbName} East`, price: medianHousePrice * 1.15 },
-        { dX: 1.4, dY: -0.9, name: surroundingSuburbs[2] || `${suburbName} South-East`, price: medianHousePrice * 0.92 },
-        { dX: -0.2, dY: -1.3, name: surroundingSuburbs[3] || `${suburbName} South`, price: medianHousePrice * 0.86 },
-        { dX: -1.4, dY: -0.6, name: surroundingSuburbs[4] || `${suburbName} West`, price: medianHousePrice * 1.02 },
-      ];
+      const isBelmont = suburbName.toLowerCase().includes("belmont");
 
-      neighbourLayersRef.current = neighbourOffsets.map((nb) => {
-        const cLat = center.lat + (nb.dY * dLat);
-        const cLng = center.lng + (nb.dX * dLng);
+      // 1. Surrounding Neighbouring Suburbs (Exact Microburbs Cadastral Mosaic)
+      if (isBelmont) {
+        neighbourLayersRef.current = OFFICIAL_NEIGHBOURING_BOUNDARIES.map((coords, idx) => {
+          const nbName = surroundingSuburbs[idx % surroundingSuburbs.length] || `Neighbouring Suburb #${idx + 1}`;
+          const nbPoly = L.polygon(coords, {
+            color: "#94a3b8",
+            weight: 1,
+            opacity: 1,
+            fillColor: "#e2e8f0",
+            fillOpacity: 0.3,
+            lineCap: "round",
+            lineJoin: "round",
+            className: "leaflet-interactive",
+          }).addTo(map);
 
-        const nbCoords: [number, number][] = [
-          [cLat + dLat * 0.7, cLng - dLng * 0.7],
-          [cLat + dLat * 0.8, cLng + dLng * 0.6],
-          [cLat - dLat * 0.5, cLng + dLng * 0.8],
-          [cLat - dLat * 0.8, cLng - dLng * 0.5],
+          nbPoly.bindTooltip(`<b>${nbName}</b>`, {
+            sticky: true,
+            direction: "top",
+          });
+
+          nbPoly.on("mouseover", function (this: any) {
+            this.setStyle({ fillOpacity: 0.5, weight: 1.5 });
+          });
+          nbPoly.on("mouseout", function (this: any) {
+            this.setStyle({ fillOpacity: 0.3, weight: 1 });
+          });
+
+          return nbPoly;
+        });
+      } else {
+        const neighbourOffsets = [
+          { dX: -1.3, dY: 0.9, name: surroundingSuburbs[0] || `${suburbName} North`, price: medianHousePrice * 1.08 },
+          { dX: 1.2, dY: 0.8, name: surroundingSuburbs[1] || `${suburbName} East`, price: medianHousePrice * 1.15 },
+          { dX: 1.4, dY: -0.9, name: surroundingSuburbs[2] || `${suburbName} South-East`, price: medianHousePrice * 0.92 },
+          { dX: -0.2, dY: -1.3, name: surroundingSuburbs[3] || `${suburbName} South`, price: medianHousePrice * 0.86 },
+          { dX: -1.4, dY: -0.6, name: surroundingSuburbs[4] || `${suburbName} West`, price: medianHousePrice * 1.02 },
         ];
 
-        const nbPoly = L.polygon(nbCoords, {
-          color: "#94a3b8",
-          weight: 1,
-          opacity: 1,
-          fillColor: "#e2e8f0",
-          fillOpacity: 0.3,
-          lineCap: "round",
-          lineJoin: "round",
-          className: "leaflet-interactive",
-        }).addTo(map);
+        neighbourLayersRef.current = neighbourOffsets.map((nb) => {
+          const cLat = center.lat + (nb.dY * dLat);
+          const cLng = center.lng + (nb.dX * dLng);
+          const nbCoords = generateDetailedBoundary(cLat, cLng, 24);
 
-        nbPoly.bindTooltip(`
-          <div style="font-family: sans-serif; font-size: 11px; padding: 2px;">
-            <b>${nb.name}</b><br/>
-            <span style="color: #64748b;">Median: ${formatCurrency(nb.price)}</span>
-          </div>
-        `, {
-          sticky: true,
-          direction: "top",
+          const nbPoly = L.polygon(nbCoords, {
+            color: "#94a3b8",
+            weight: 1,
+            opacity: 1,
+            fillColor: "#e2e8f0",
+            fillOpacity: 0.3,
+            lineCap: "round",
+            lineJoin: "round",
+            className: "leaflet-interactive",
+          }).addTo(map);
+
+          nbPoly.bindTooltip(`
+            <div style="font-family: sans-serif; font-size: 11px; padding: 2px;">
+              <b>${nb.name}</b><br/>
+              <span style="color: #64748b;">Median: ${formatCurrency(nb.price)}</span>
+            </div>
+          `, {
+            sticky: true,
+            direction: "top",
+          });
+
+          nbPoly.on("mouseover", function (this: any) {
+            this.setStyle({ fillOpacity: 0.5, weight: 1.5 });
+          });
+          nbPoly.on("mouseout", function (this: any) {
+            this.setStyle({ fillOpacity: 0.3, weight: 1 });
+          });
+
+          return nbPoly;
         });
+      }
 
-        nbPoly.on("mouseover", function (this: any) {
-          this.setStyle({ fillOpacity: 0.5, weight: 1.5 });
-        });
-        nbPoly.on("mouseout", function (this: any) {
-          this.setStyle({ fillOpacity: 0.3, weight: 1 });
-        });
-
-        return nbPoly;
-      });
-
-      // 2. Target Main Suburb Boundary (Exact Microburbs stroke="#4475e6" stroke-width="2.5" fill="#4475e6" fill-opacity="0.15")
-      const targetCoords: [number, number][] = [
-        [center.lat + dLat, center.lng - dLng * 0.8],
-        [center.lat + dLat * 1.15, center.lng + dLng * 0.3],
-        [center.lat + dLat * 0.4, center.lng + dLng * 1.2],
-        [center.lat - dLat * 0.65, center.lng + dLng * 0.95],
-        [center.lat - dLat * 1.05, center.lng - dLng * 0.4],
-        [center.lat - dLat * 0.3, center.lng - dLng * 1.1],
-      ];
+      // 2. Target Main Suburb Boundary (95-Point Intricate Cadastral Boundary directly from Microburbs)
+      const targetCoords = isBelmont
+        ? OFFICIAL_BELMONT_NORTH_BOUNDARY
+        : generateDetailedBoundary(center.lat, center.lng, 48);
 
       const targetPolygon = L.polygon(targetCoords, {
         color: "#4475e6",
@@ -204,7 +226,7 @@ export default function InteractiveMap({
             fillColor: currentColor,
             fillOpacity: 0.55,
             className: "leaflet-interactive",
-          }).addTo(map);
+          });
 
           poly.bindTooltip(`
             <div style="font-family: sans-serif; font-size: 11px; padding: 3px; color: #1e293b;">
@@ -495,7 +517,7 @@ export default function InteractiveMap({
           ⛶
         </button>
 
-        {/* 3. RIGHT LEGEND CARD WITH COLORBREWER SPECTRAL GRADIENT — Inspected Microburbs DOM */}
+        {/* 3. RIGHT LEGEND CARD WITH COLORBREWER SPECTRAL GRADIENT — Responsive */}
         <div
           style={{
             position: "absolute",
@@ -504,11 +526,11 @@ export default function InteractiveMap({
             maxHeight: "calc(100% - 60px)",
             overflowY: "auto",
             zIndex: 998,
-            display: "flex",
             flexDirection: "column",
             gap: "6px",
             pointerEvents: "auto",
           }}
+          className="hidden sm:flex"
         >
           <div
             style={{
@@ -577,8 +599,8 @@ export default function InteractiveMap({
               type="button"
               onClick={() => handleGranularity("microburb")}
               title="Colour the subject by mesh block"
+              className="px-2.5 py-1 sm:px-3 sm:py-1.5 text-[10.5px] sm:text-[11.5px] font-medium transition-all"
               style={{
-                padding: "5px 11px",
                 border: "none",
                 borderRadius: "6px",
                 background: granularity === "microburb" ? "rgb(24, 117, 235)" : "transparent",
@@ -586,8 +608,6 @@ export default function InteractiveMap({
                 boxShadow: granularity === "microburb" ? "rgba(24, 117, 235, 0.4) 0px 1px 2px" : "none",
                 cursor: "pointer",
                 fontFamily: "inherit",
-                fontSize: "11.5px",
-                fontWeight: 500,
                 lineHeight: 1.1,
               }}
             >
@@ -598,8 +618,8 @@ export default function InteractiveMap({
               type="button"
               onClick={() => handleGranularity("suburb")}
               title="Colour the subject as one suburb (population-weighted)"
+              className="px-2.5 py-1 sm:px-3 sm:py-1.5 text-[10.5px] sm:text-[11.5px] font-medium transition-all"
               style={{
-                padding: "5px 11px",
                 border: "none",
                 borderRadius: "6px",
                 background: granularity === "suburb" ? "rgb(24, 117, 235)" : "transparent",
@@ -607,8 +627,6 @@ export default function InteractiveMap({
                 boxShadow: granularity === "suburb" ? "rgba(24, 117, 235, 0.4) 0px 1px 2px" : "none",
                 cursor: "pointer",
                 fontFamily: "inherit",
-                fontSize: "11.5px",
-                fontWeight: 500,
                 lineHeight: 1.1,
               }}
             >
@@ -622,27 +640,22 @@ export default function InteractiveMap({
             onClick={handleToggleNeighbours}
             title={showNeighbours ? "Hide the surrounding suburbs" : "Show the surrounding suburbs"}
             aria-pressed={showNeighbours}
+            className="px-2.5 py-1 sm:px-3 sm:py-1.5 text-[10.5px] sm:text-[11.5px] font-medium transition-all flex items-center gap-1.5"
             style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "6px",
-              padding: "7px 11px",
               background: "rgb(255, 255, 255)",
               border: showNeighbours ? "1px solid rgb(24, 117, 235)" : "1px solid rgb(229, 231, 235)",
               borderRadius: "9px",
               boxShadow: showNeighbours ? "rgba(24, 117, 235, 0.28) 0px 2px 6px" : "rgba(0, 0, 0, 0.08) 0px 1px 3px",
               cursor: "pointer",
               fontFamily: "inherit",
-              fontSize: "11.5px",
-              fontWeight: 500,
               lineHeight: 1,
               color: showNeighbours ? "rgb(24, 117, 235)" : "rgb(91, 100, 114)",
             }}
           >
             <span
               style={{
-                width: "9px",
-                height: "9px",
+                width: "8px",
+                height: "8px",
                 borderRadius: "50%",
                 background: showNeighbours ? "rgb(24, 117, 235)" : "rgb(203, 213, 225)",
                 boxShadow: showNeighbours ? "rgba(24, 117, 235, 0.18) 0px 0px 0px 3px" : "none",

@@ -144,7 +144,7 @@ export default function SuburbReportPage({ params }: PageProps) {
       </div>
 
       {/* Two-Column Split Screen Layout (Microburbs Specification) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div className="flex flex-col lg:grid lg:grid-cols-12 gap-8 items-start">
         {/* Left Column: Deep Analytics Modules */}
         <div className="lg:col-span-7 space-y-8">
           {/* Module 1: Price Trajectory Chart */}
@@ -273,8 +273,8 @@ export default function SuburbReportPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Right Sticky Column: Interactive Map & Live Spatial Canvas */}
-        <div className="lg:col-span-5 lg:sticky lg:top-24 space-y-4">
+        {/* Right Sticky Column: Interactive Map & Live Spatial Canvas (Mobile-first order) */}
+        <div className="lg:col-span-5 lg:sticky lg:top-24 space-y-4 order-first lg:order-last mb-6 lg:mb-0">
           <div className="flex items-center justify-between pb-1">
             <span className="eyebrow-mono text-xs">/spatial gis boundary &amp; mesh blocks</span>
             <span className="text-xs font-mono text-ink-60">

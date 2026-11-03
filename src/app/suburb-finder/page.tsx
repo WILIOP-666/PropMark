@@ -274,8 +274,8 @@ export default function SuburbFinderPage() {
           ))}
         </div>
       ) : viewMode === "table" ? (
-        <div className="card-editorial p-0 overflow-x-auto">
-          <table className="w-full text-left text-xs border-collapse">
+        <div className="card-editorial p-0 overflow-x-auto -mx-2 sm:mx-0 shadow-subtle">
+          <table className="w-full min-w-[720px] text-left text-xs border-collapse">
             <thead className="bg-surface-light border-b border-ink-10 font-mono text-ink-60">
               <tr>
                 <th className="py-3 px-4">Suburb</th>

@@ -83,8 +83,11 @@ export default function CompareSuburbsPage() {
       </div>
 
       {/* Comparison Grid Table */}
-      <div className="card-editorial p-0 overflow-x-auto mb-10">
-        <table className="w-full text-left text-xs border-collapse">
+      <div className="flex sm:hidden items-center justify-between text-xs font-mono text-ink-60 mb-2 px-1">
+        <span>← Swipe horizontally to view all suburbs →</span>
+      </div>
+      <div className="card-editorial p-0 overflow-x-auto mb-10 -mx-2 sm:mx-0 shadow-subtle">
+        <table className="w-full min-w-[620px] text-left text-xs border-collapse">
           <thead>
             <tr className="bg-surface-light border-b border-ink-10">
               <th className="p-4 font-mono text-ink-60 w-1/4">Metric / Dimension</th>
