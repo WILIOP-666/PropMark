@@ -2,6 +2,39 @@ import { PropertyListing } from "../types";
 
 export const PROPERTIES_DATABASE: PropertyListing[] = [
   {
+    "id": "GANSW717662275",
+    "slug": "15-rengor-close-belmont-north-nsw-2280",
+    "address": "15 Rengor Close",
+    "suburb": "Belmont North",
+    "state": "NSW",
+    "postcode": "2280",
+    "propertyType": "House",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "carSpaces": 2,
+    "landAreaSqm": 680,
+    "buildingAreaSqm": 215,
+    "yearBuilt": 1994,
+    "estimatedValueMin": 820000,
+    "estimatedValueMax": 910000,
+    "avmValue": 865000,
+    "confidenceScore": 92,
+    "lastSalePrice": 545000,
+    "lastSaleDate": "2018-09-20",
+    "rentalEstimateWeekly": 650,
+    "grossYieldPct": 3.9,
+    "zoningCode": "R2 Low Density Residential",
+    "councilLga": "City of Lake Macquarie",
+    "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+    "features": [
+      "Elevated 4-bedroom brick and tile residence in quiet private cul-de-sac",
+      "Master bedroom features modern ensuite and walk-in wardrobe",
+      "Open-plan kitchen and dining flowing to north-facing outdoor entertainment patio",
+      "Secure double lock-up garage with internal access and workshop space",
+      "Surrounded by established native gardens within Lake Macquarie council catchment"
+    ]
+  },
+  {
     "id": "prop-bn-01",
     "slug": "89-harrison-st-belmont-north",
     "address": "89 Harrison Street",
