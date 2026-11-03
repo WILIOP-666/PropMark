@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight, TrendingUp, ShieldCheck, Database, Layers, MapPin, Building, GraduationCap, ChevronRight } from "lucide-react";
 import HeroSearch from "../components/HeroSearch";
 import SuburbCard from "../components/SuburbCard";
+import InteractiveMap from "../components/InteractiveMap";
 import { SUBURBS_DATABASE } from "../lib/data/suburbsData";
 import { formatCurrency, formatPercent } from "../lib/utils";
 
@@ -46,10 +47,53 @@ export default function HomePage() {
             <span className="text-xs text-ink-60 block mt-0.5">G-NAF Geocoding Accuracy</span>
           </div>
           <div className="p-3">
-            <span className="eyebrow-mono text-[11px] block mb-1">/api latency</span>
+            <span className="eyebrow-mono text-[11px] block mb-1">/query speed</span>
             <span className="text-2xl font-bold font-mono text-accent-emerald">&lt;24ms</span>
-            <span className="text-xs text-ink-60 block mt-0.5">Edge-Cached Query Engine</span>
+            <span className="text-xs text-ink-60 block mt-0.5">Real-Time Analytics Engine</span>
           </div>
+        </div>
+      </section>
+
+      {/* Live Interactive Spatial GIS Map Showcase */}
+      <section className="px-6 lg:px-12 max-w-[1440px] mx-auto w-full">
+        <div className="card-editorial p-6 lg:p-8 bg-[#fffcf6]">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+            <div>
+              <span className="eyebrow-mono text-xs">/live spatial map preview</span>
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#3c3a39] tracking-tight">
+                Street-Level Australian Spatial Intelligence Map
+              </h2>
+              <p className="text-xs text-ink-60 mt-1">
+                Explore mesh-block pocket medians, municipal boundaries, and neighbouring suburb values in real-time.
+              </p>
+            </div>
+            <Link
+              href="/suburb-finder"
+              className="btn-pill-dark text-xs py-2 px-4 shrink-0"
+            >
+              <span>Explore All 586 Suburbs on Map</span>
+              <ArrowUpRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+
+          {featuredSuburbs.length > 0 && (
+            <InteractiveMap
+              center={featuredSuburbs[0].coordinates}
+              zoom={14}
+              suburbName={featuredSuburbs[0].name}
+              state={featuredSuburbs[0].state}
+              postcode={featuredSuburbs[0].postcode}
+              medianHousePrice={featuredSuburbs[0].market.medianHousePrice}
+              capitalGrowth12MoPct={featuredSuburbs[0].market.capitalGrowth12MoPct}
+              grossYieldPct={featuredSuburbs[0].market.grossHouseYieldPct}
+              overallScore={featuredSuburbs[0].scores.overallScore}
+              schools={featuredSuburbs[0].schools}
+              hazardRisk={featuredSuburbs[0].hazards.floodRisk}
+              activeDaCount={featuredSuburbs[0].planning.activeDaCount}
+              surroundingSuburbs={featuredSuburbs[0].surroundingSuburbs}
+              height="480px"
+            />
+          )}
         </div>
       </section>
 

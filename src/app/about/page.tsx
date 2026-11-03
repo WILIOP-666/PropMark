@@ -60,8 +60,8 @@ export default function AboutPage() {
           <Link href="/suburb-finder" className="btn-pill-dark text-xs py-2 px-5">
             Explore Suburb Screener
           </Link>
-          <Link href="/developers/api-docs" className="btn-pill-ghost text-xs py-2 px-5">
-            Read API Docs
+          <Link href="/compare" className="btn-pill-ghost text-xs py-2 px-5">
+            Compare Suburbs
           </Link>
         </div>
       </div>
