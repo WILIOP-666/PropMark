@@ -8,6 +8,7 @@ import {
   OFFICIAL_NEIGHBOURING_BOUNDARIES,
   OFFICIAL_MANLY_BOUNDARY,
   OFFICIAL_MANLY_NEIGHBOURS,
+  OFFICIAL_RICHMOND_VIC_BOUNDARY,
   generateDetailedBoundary,
 } from "../lib/data/boundaryGeoData";
 
@@ -208,9 +209,13 @@ export default function InteractiveMap({
         });
       }
 
+      const isRichmond = suburbName.toLowerCase().includes("richmond");
+
       // 2. Target Main Suburb Boundary (Exact Cadastral Boundary)
       const targetCoords = isManly
         ? OFFICIAL_MANLY_BOUNDARY
+        : isRichmond
+        ? OFFICIAL_RICHMOND_VIC_BOUNDARY
         : isBelmont
         ? OFFICIAL_BELMONT_NORTH_BOUNDARY
         : generateDetailedBoundary(center.lat, center.lng, 48);

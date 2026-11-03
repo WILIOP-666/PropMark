@@ -2,6 +2,218 @@ import { SuburbProfile } from "../types";
 
 export const SUBURBS_DATABASE: SuburbProfile[] = [
   {
+  "id": "sub-richmond-vic-3121",
+  "slug": "richmond-vic-3121",
+  "name": "Richmond",
+  "state": "VIC",
+  "postcode": "3121",
+  "lga": "City of Yarra",
+  "region": "Greater Melbourne",
+  "coordinates": {
+    "lat": -37.8204,
+    "lng": 145.0025
+  },
+  "summary": {
+    "description": "Iconic inner-city cultural and commercial powerhouse on the eastern fringe of Melbourne CBD. Celebrated for historic Victorian workers cottages, converted warehouse lofts, bustling culinary precincts along Victoria St and Swan St, and unparalleled multimodal transit connectivity.",
+    "distanceToCbdKm": 3.2,
+    "areaSqKm": 3.8,
+    "population": 28587
+  },
+  "scores": {
+    "overallScore": 92,
+    "affluenceScore": 86,
+    "livabilityScore": 94,
+    "hipsterScore": 98,
+    "familyScore": 78,
+    "tranquillityScore": 68,
+    "convenienceScore": 96
+  },
+  "market": {
+    "medianHousePrice": 1425000,
+    "medianUnitPrice": 585000,
+    "medianHouseRentWeek": 750,
+    "medianUnitRentWeek": 520,
+    "grossHouseYieldPct": 3.2,
+    "grossUnitYieldPct": 4.8,
+    "capitalGrowth12MoPct": 4.6,
+    "capitalGrowth5YrPct": 26.8,
+    "daysOnMarketHouse": 32,
+    "daysOnMarketUnit": 38,
+    "vacancyRatePct": 1.4,
+    "auctionClearanceRatePct": 76.5,
+    "stockOnMarketPct": 2.1,
+    "transactionsLastYear": 418,
+    "priceSeries": [
+      {
+        "year": 2020,
+        "housePrice": 1210000,
+        "unitPrice": 525000
+      },
+      {
+        "year": 2021,
+        "housePrice": 1340000,
+        "unitPrice": 550000
+      },
+      {
+        "year": 2022,
+        "housePrice": 1390000,
+        "unitPrice": 560000
+      },
+      {
+        "year": 2023,
+        "housePrice": 1360000,
+        "unitPrice": 555000
+      },
+      {
+        "year": 2024,
+        "housePrice": 1425000,
+        "unitPrice": 585000
+      }
+    ],
+    "rentSeries": [
+      {
+        "year": 2020,
+        "houseRent": 650,
+        "unitRent": 440
+      },
+      {
+        "year": 2021,
+        "houseRent": 670,
+        "unitRent": 460
+      },
+      {
+        "year": 2022,
+        "houseRent": 700,
+        "unitRent": 480
+      },
+      {
+        "year": 2023,
+        "houseRent": 720,
+        "unitRent": 500
+      },
+      {
+        "year": 2024,
+        "houseRent": 750,
+        "unitRent": 520
+      }
+    ]
+  },
+  "demographics": {
+    "medianAge": 34,
+    "medianHouseholdIncomeWeekly": 2420,
+    "familyHouseholdsPct": 42.5,
+    "singleHouseholdsPct": 44.8,
+    "ancestry": [
+      {
+        "label": "English",
+        "pct": 26.2
+      },
+      {
+        "label": "Australian",
+        "pct": 19.8
+      },
+      {
+        "label": "Irish",
+        "pct": 12.4
+      },
+      {
+        "label": "Vietnamese",
+        "pct": 7.2
+      },
+      {
+        "label": "Scottish",
+        "pct": 6.8
+      }
+    ],
+    "educationTertiaryPct": 62.8,
+    "professionalOccupationPct": 58.4
+  },
+  "schools": [
+    {
+      "name": "Melbourne Girls College",
+      "type": "Secondary",
+      "sector": "Government",
+      "icsea": 1135,
+      "naplanRank": 42,
+      "distanceKm": 0.8,
+      "catchment": true
+    },
+    {
+      "name": "Richmond Primary School",
+      "type": "Primary",
+      "sector": "Government",
+      "icsea": 1115,
+      "naplanRank": 68,
+      "distanceKm": 0.4,
+      "catchment": true
+    },
+    {
+      "name": "Trinity Catholic Primary School",
+      "type": "Primary",
+      "sector": "Catholic",
+      "icsea": 1060,
+      "naplanRank": 145,
+      "distanceKm": 0.6,
+      "catchment": false
+    }
+  ],
+  "planning": {
+    "activeDaCount": 64,
+    "majorProjectsCount": 9,
+    "primaryZoning": "NRZ Neighbourhood Residential & C1Z Commercial",
+    "zoningBreakdown": [
+      {
+        "code": "NRZ",
+        "description": "Neighbourhood Residential Zone",
+        "pct": 44
+      },
+      {
+        "code": "C1Z",
+        "description": "Commercial 1 Zone (Swan & Bridge)",
+        "pct": 28
+      },
+      {
+        "code": "MUZ",
+        "description": "Mixed Use Zone (Warehouse redev)",
+        "pct": 16
+      },
+      {
+        "code": "PPRZ",
+        "description": "Public Park and Recreation",
+        "pct": 12
+      }
+    ]
+  },
+  "hazards": {
+    "floodRisk": "Low",
+    "bushfireRisk": "None",
+    "publicHousingPct": 3.8,
+    "noiseImpact": "Moderate",
+    "slopeTopography": "Gentle"
+  },
+  "commute": {
+    "trainTimeMins": 8,
+    "drivingTimeMins": 12,
+    "bikeTimeMins": 14,
+    "walkScore": 95
+  },
+  "surroundingSuburbs": [
+    "Cremorne",
+    "Burnley",
+    "East Melbourne",
+    "Abbotsford",
+    "South Yarra",
+    "Hawthorn"
+  ],
+  "comparableSuburbs": [
+    "South Yarra",
+    "Fitzroy",
+    "Collingwood",
+    "Prahran",
+    "Brunswick"
+  ]
+},
+  {
     "id": "sub-belmont-north-nsw-2280",
     "slug": "belmont-north-nsw-2280",
     "name": "Belmont North",
