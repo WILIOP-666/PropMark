@@ -103,28 +103,28 @@ export default function Navbar() {
           <Link
             href="/suburb-finder"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-base font-medium text-[#3c3a39] py-1"
+            className="text-base font-medium text-ink py-1"
           >
             Suburb Finder
           </Link>
           <Link
             href="/property-finder"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-base font-medium text-[#3c3a39] py-1"
+            className="text-base font-medium text-ink py-1"
           >
             Property Explorer
           </Link>
           <Link
             href="/region-reports"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-base font-medium text-[#3c3a39] py-1"
+            className="text-base font-medium text-ink py-1"
           >
             Region Analytics
           </Link>
           <Link
             href="/developers/api-docs"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-base font-medium text-[#3c3a39] py-1 flex items-center justify-between"
+            className="text-base font-medium text-ink py-1 flex items-center justify-between"
           >
             <span>Developer API Docs</span>
             <span className="px-2 py-0.5 text-xs font-mono bg-[#817fff26] text-accent-lavender rounded">v1.0</span>
@@ -132,14 +132,14 @@ export default function Navbar() {
           <Link
             href="/pricing"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-base font-medium text-[#3c3a39] py-1"
+            className="text-base font-medium text-ink py-1"
           >
             Pricing & Plans
           </Link>
           <Link
             href="/definitions"
             onClick={() => setMobileMenuOpen(false)}
-            className="text-base font-medium text-[#3c3a39] py-1"
+            className="text-base font-medium text-ink py-1"
           >
             Property Dictionary
           </Link>

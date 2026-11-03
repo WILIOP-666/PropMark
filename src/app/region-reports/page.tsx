@@ -75,7 +75,7 @@ export default function RegionReportsPage() {
     <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-12">
       <div className="mb-10">
         <span className="eyebrow-mono text-xs">/macro market comparison</span>
-        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#3c3a39] mb-3">
+        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-ink mb-3">
           Australian Capital City Regional Reports
         </h1>
         <p className="text-sm sm:text-base text-ink-60 max-w-3xl leading-relaxed">
@@ -94,7 +94,7 @@ export default function RegionReportsPage() {
                     Pop: {(reg.population / 1000000).toFixed(2)}M
                   </span>
                 </div>
-                <h3 className="text-2xl font-bold text-[#3c3a39]">{reg.name}</h3>
+                <h3 className="text-2xl font-bold text-ink">{reg.name}</h3>
                 <p className="text-xs text-ink-60 mt-1 max-w-xl">
                   {reg.keyDrivers}
                 </p>
@@ -104,7 +104,7 @@ export default function RegionReportsPage() {
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-left">
                 <div className="p-3 bg-surface-light rounded-xl border border-ink-5">
                   <span className="text-[10px] font-mono text-ink-60 block">Median House</span>
-                  <span className="text-base font-bold font-mono text-[#3c3a39]">
+                  <span className="text-base font-bold font-mono text-ink">
                     {formatCurrency(reg.medianHouse)}
                   </span>
                   <span className="text-[10px] text-accent-emerald flex items-center gap-0.5 font-medium">
@@ -115,7 +115,7 @@ export default function RegionReportsPage() {
 
                 <div className="p-3 bg-surface-light rounded-xl border border-ink-5">
                   <span className="text-[10px] font-mono text-ink-60 block">Median Unit</span>
-                  <span className="text-base font-bold font-mono text-[#3c3a39]">
+                  <span className="text-base font-bold font-mono text-ink">
                     {formatCurrency(reg.medianUnit)}
                   </span>
                   <span className="text-[10px] text-ink-60 font-mono">5Y: +{reg.growth5Yr}%</span>
@@ -123,7 +123,7 @@ export default function RegionReportsPage() {
 
                 <div className="p-3 bg-surface-light rounded-xl border border-ink-5">
                   <span className="text-[10px] font-mono text-ink-60 block">Gross Yield</span>
-                  <span className="text-base font-bold font-mono text-[#3c3a39]">
+                  <span className="text-base font-bold font-mono text-ink">
                     {reg.rentalYield}%
                   </span>
                   <span className="text-[10px] text-ink-60 font-mono">Metro Avg</span>

@@ -11,13 +11,13 @@ export default function GlobalError({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex items-center justify-center p-4 bg-[#fefcf5] text-[#3c3a39] antialiased">
-        <div className="card-editorial p-8 max-w-lg w-full text-center border border-ink-10 bg-white rounded-2xl shadow-sm">
+      <body className="min-h-screen flex items-center justify-center p-4 bg-background text-ink antialiased">
+        <div className="card-editorial p-8 max-w-lg w-full text-center border border-ink-10 bg-surface rounded-2xl shadow-sm">
           <div className="w-12 h-12 rounded-full bg-red-50 text-red-600 flex items-center justify-center mx-auto mb-4 border border-red-200">
             <AlertTriangle className="w-6 h-6" />
           </div>
           <span className="font-mono text-xs uppercase tracking-wider text-ink-60">/global application boundary</span>
-          <h2 className="text-2xl font-bold text-[#3c3a39] mt-1 mb-3">
+          <h2 className="text-2xl font-bold text-ink mt-1 mb-3">
             Critical Runtime Interruption
           </h2>
           <p className="text-sm text-ink-60 leading-relaxed mb-6">

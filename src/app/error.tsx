@@ -16,13 +16,13 @@ export default function Error({
   }, [error]);
 
   return (
-    <div className="min-h-[70vh] flex items-center justify-center px-4 py-16 bg-[#fefcf5]">
+    <div className="min-h-[70vh] flex items-center justify-center px-4 py-16 bg-background">
       <div className="card-editorial p-8 max-w-lg w-full text-center">
         <div className="w-12 h-12 rounded-full bg-accent-orange/10 text-accent-orange flex items-center justify-center mx-auto mb-4">
           <AlertTriangle className="w-6 h-6" />
         </div>
         <span className="eyebrow-mono text-xs">/spatial engine error</span>
-        <h2 className="text-2xl font-bold text-[#3c3a39] mt-1 mb-3">
+        <h2 className="text-2xl font-bold text-ink mt-1 mb-3">
           Temporary Rendering Disruption
         </h2>
         <p className="text-sm text-ink-60 leading-relaxed mb-6">

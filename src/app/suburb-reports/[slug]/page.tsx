@@ -46,7 +46,7 @@ export default function SuburbReportPage({ params }: PageProps) {
         <span>/</span>
         <Link href="/suburb-finder" className="hover:text-black">Suburb Reports</Link>
         <span>/</span>
-        <span className="text-[#3c3a39] font-medium">{suburb.name} {suburb.state}</span>
+        <span className="text-ink font-medium">{suburb.name} {suburb.state}</span>
       </div>
 
       {/* Hero Editorial Suburb Cover Photography */}
@@ -65,7 +65,7 @@ export default function SuburbReportPage({ params }: PageProps) {
                 Verified REA &amp; ABS Data
               </span>
             </div>
-            <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#3c3a39]">
+            <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-ink">
               {suburb.name}, {suburb.state}
             </h1>
             <p className="text-sm text-ink-60 mt-2 max-w-3xl leading-relaxed">
@@ -92,7 +92,7 @@ export default function SuburbReportPage({ params }: PageProps) {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 pt-6 text-left">
           <div className="p-3 bg-surface-light rounded-xl border border-ink-5">
             <span className="text-[11px] font-mono text-ink-60 block">Median House</span>
-            <span className="text-lg font-bold font-mono text-[#3c3a39] block mt-0.5">
+            <span className="text-lg font-bold font-mono text-ink block mt-0.5">
               {formatCurrency(suburb.market.medianHousePrice)}
             </span>
             <span className="text-[10px] text-accent-emerald flex items-center gap-0.5 font-medium">
@@ -103,7 +103,7 @@ export default function SuburbReportPage({ params }: PageProps) {
 
           <div className="p-3 bg-surface-light rounded-xl border border-ink-5">
             <span className="text-[11px] font-mono text-ink-60 block">Median Unit</span>
-            <span className="text-lg font-bold font-mono text-[#3c3a39] block mt-0.5">
+            <span className="text-lg font-bold font-mono text-ink block mt-0.5">
               {formatCurrency(suburb.market.medianUnitPrice)}
             </span>
             <span className="text-[10px] text-ink-60 font-mono">
@@ -113,7 +113,7 @@ export default function SuburbReportPage({ params }: PageProps) {
 
           <div className="p-3 bg-surface-light rounded-xl border border-ink-5">
             <span className="text-[11px] font-mono text-ink-60 block">Gross House Yield</span>
-            <span className="text-lg font-bold font-mono text-[#3c3a39] block mt-0.5">
+            <span className="text-lg font-bold font-mono text-ink block mt-0.5">
               {formatPercent(suburb.market.grossHouseYieldPct)}
             </span>
             <span className="text-[10px] text-ink-60 font-mono">
@@ -131,7 +131,7 @@ export default function SuburbReportPage({ params }: PageProps) {
 
           <div className="p-3 bg-surface-light rounded-xl border border-ink-5">
             <span className="text-[11px] font-mono text-ink-60 block">Vacancy Rate</span>
-            <span className="text-lg font-bold font-mono text-[#3c3a39] block mt-0.5">
+            <span className="text-lg font-bold font-mono text-ink block mt-0.5">
               {suburb.market.vacancyRatePct}%
             </span>
             <span className="text-[10px] text-accent-emerald font-mono">Ultra-Tight Demand</span>
@@ -139,7 +139,7 @@ export default function SuburbReportPage({ params }: PageProps) {
 
           <div className="p-3 bg-surface-light rounded-xl border border-ink-5">
             <span className="text-[11px] font-mono text-ink-60 block">Days On Market</span>
-            <span className="text-lg font-bold font-mono text-[#3c3a39] block mt-0.5">
+            <span className="text-lg font-bold font-mono text-ink block mt-0.5">
               {suburb.market.daysOnMarketHouse} days
             </span>
             <span className="text-[10px] text-ink-60 font-mono">Clearance: {suburb.market.auctionClearanceRatePct}%</span>
@@ -179,7 +179,7 @@ export default function SuburbReportPage({ params }: PageProps) {
           <div className="card-editorial p-6">
             <div className="mb-4">
               <span className="eyebrow-mono text-xs">/connectivity</span>
-              <h4 className="text-lg font-bold text-[#3c3a39]">
+              <h4 className="text-lg font-bold text-ink">
                 Commute Times &amp; Walkability
               </h4>
             </div>
@@ -187,19 +187,19 @@ export default function SuburbReportPage({ params }: PageProps) {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
               <div className="p-4 bg-surface-light rounded-xl border border-ink-5">
                 <span className="text-xs font-mono text-ink-60 block">Train / Metro to CBD</span>
-                <span className="text-2xl font-bold font-mono text-[#3c3a39] block mt-1">
+                <span className="text-2xl font-bold font-mono text-ink block mt-1">
                   {suburb.commute.trainTimeMins} mins
                 </span>
               </div>
               <div className="p-4 bg-surface-light rounded-xl border border-ink-5">
                 <span className="text-xs font-mono text-ink-60 block">Driving Time</span>
-                <span className="text-2xl font-bold font-mono text-[#3c3a39] block mt-1">
+                <span className="text-2xl font-bold font-mono text-ink block mt-1">
                   {suburb.commute.drivingTimeMins} mins
                 </span>
               </div>
               <div className="p-4 bg-surface-light rounded-xl border border-ink-5">
                 <span className="text-xs font-mono text-ink-60 block">Cycling Commute</span>
-                <span className="text-2xl font-bold font-mono text-[#3c3a39] block mt-1">
+                <span className="text-2xl font-bold font-mono text-ink block mt-1">
                   {suburb.commute.bikeTimeMins} mins
                 </span>
               </div>
@@ -217,7 +217,7 @@ export default function SuburbReportPage({ params }: PageProps) {
             <div className="flex items-center justify-between mb-4">
               <div>
                 <span className="eyebrow-mono text-xs">/settlement history &amp; listings</span>
-                <h4 className="text-lg font-bold text-[#3c3a39]">
+                <h4 className="text-lg font-bold text-ink">
                   Properties in {suburb.name}
                 </h4>
               </div>
@@ -243,13 +243,13 @@ export default function SuburbReportPage({ params }: PageProps) {
                   <tbody className="divide-y divide-ink-5">
                     {suburbProperties.map((prop) => (
                       <tr key={prop.id} className="hover:bg-ink-5 transition-colors">
-                        <td className="py-2.5 px-3 font-semibold text-[#3c3a39]">
+                        <td className="py-2.5 px-3 font-semibold text-ink">
                           {prop.address}
                         </td>
                         <td className="py-2.5 px-3 font-mono text-ink-60">{prop.propertyType}</td>
                         <td className="py-2.5 px-3 font-mono">{prop.bedrooms}</td>
                         <td className="py-2.5 px-3 font-mono">{prop.bathrooms}</td>
-                        <td className="py-2.5 px-3 font-mono font-bold text-[#3c3a39]">
+                        <td className="py-2.5 px-3 font-mono font-bold text-ink">
                           {formatCurrency(prop.avmValue)}
                         </td>
                         <td className="py-2.5 px-3 font-mono text-accent-emerald font-semibold">
@@ -307,15 +307,15 @@ export default function SuburbReportPage({ params }: PageProps) {
           <div className="card-editorial p-4 bg-surface-light border border-ink-10 rounded-xl space-y-2 text-xs font-mono">
             <div className="flex justify-between items-center text-ink-60">
               <span>Boundary Classification:</span>
-              <span className="text-[#3c3a39] font-bold">Standard SAL / SA2</span>
+              <span className="text-ink font-bold">Standard SAL / SA2</span>
             </div>
             <div className="flex justify-between items-center text-ink-60">
               <span>ABS Land Area:</span>
-              <span className="text-[#3c3a39] font-bold">{suburb.summary.areaSqKm} km²</span>
+              <span className="text-ink font-bold">{suburb.summary.areaSqKm} km²</span>
             </div>
             <div className="flex justify-between items-center text-ink-60">
               <span>Estimated Population:</span>
-              <span className="text-[#3c3a39] font-bold">{suburb.summary.population.toLocaleString()} residents</span>
+              <span className="text-ink font-bold">{suburb.summary.population.toLocaleString()} residents</span>
             </div>
             <div className="flex justify-between items-center text-ink-60 pt-1 border-t border-ink-10">
               <span>Primary Zoning Control:</span>

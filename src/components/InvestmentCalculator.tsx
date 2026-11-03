@@ -42,11 +42,11 @@ export default function InvestmentCalculator({ defaultPrice, defaultWeeklyRent }
       <div className="mb-6 flex items-center justify-between">
         <div>
           <span className="eyebrow-mono text-xs">/financial modeling</span>
-          <h4 className="text-lg font-bold text-[#3c3a39]">
+          <h4 className="text-lg font-bold text-ink">
             Investor Cash Flow & Yield Calculator
           </h4>
         </div>
-        <div className="w-8 h-8 rounded-full bg-ink-5 flex items-center justify-center text-[#3c3a39]">
+        <div className="w-8 h-8 rounded-full bg-ink-5 flex items-center justify-center text-ink">
           <Calculator className="w-4 h-4" />
         </div>
       </div>
@@ -78,7 +78,7 @@ export default function InvestmentCalculator({ defaultPrice, defaultWeeklyRent }
                 type="number"
                 value={depositPct}
                 onChange={(e) => setDepositPct(Number(e.target.value))}
-                className="w-full p-2 bg-surface-light border border-ink-10 rounded-lg text-sm font-mono text-[#3c3a39]"
+                className="w-full p-2 bg-surface-light border border-ink-10 rounded-lg text-sm font-mono text-ink"
               />
             </div>
             <div>
@@ -90,7 +90,7 @@ export default function InvestmentCalculator({ defaultPrice, defaultWeeklyRent }
                 step="0.05"
                 value={interestRate}
                 onChange={(e) => setInterestRate(Number(e.target.value))}
-                className="w-full p-2 bg-surface-light border border-ink-10 rounded-lg text-sm font-mono text-[#3c3a39]"
+                className="w-full p-2 bg-surface-light border border-ink-10 rounded-lg text-sm font-mono text-ink"
               />
             </div>
           </div>
@@ -105,7 +105,7 @@ export default function InvestmentCalculator({ defaultPrice, defaultWeeklyRent }
                 step="25"
                 value={weeklyRent}
                 onChange={(e) => setWeeklyRent(Number(e.target.value))}
-                className="w-full p-2 bg-surface-light border border-ink-10 rounded-lg text-sm font-mono text-[#3c3a39]"
+                className="w-full p-2 bg-surface-light border border-ink-10 rounded-lg text-sm font-mono text-ink"
               />
             </div>
             <div>
@@ -117,7 +117,7 @@ export default function InvestmentCalculator({ defaultPrice, defaultWeeklyRent }
                 step="200"
                 value={annualHoldingCosts}
                 onChange={(e) => setAnnualHoldingCosts(Number(e.target.value))}
-                className="w-full p-2 bg-surface-light border border-ink-10 rounded-lg text-sm font-mono text-[#3c3a39]"
+                className="w-full p-2 bg-surface-light border border-ink-10 rounded-lg text-sm font-mono text-ink"
               />
             </div>
           </div>
@@ -133,7 +133,7 @@ export default function InvestmentCalculator({ defaultPrice, defaultWeeklyRent }
             <div className="grid grid-cols-2 gap-4 mb-4">
               <div className="p-3 bg-surface rounded-lg border border-ink-5">
                 <span className="text-[11px] font-mono text-ink-60 block">Gross Rental Yield</span>
-                <span className="text-lg font-bold font-mono text-[#3c3a39]">
+                <span className="text-lg font-bold font-mono text-ink">
                   {formatPercent(grossYield)}
                 </span>
               </div>
@@ -161,7 +161,7 @@ export default function InvestmentCalculator({ defaultPrice, defaultWeeklyRent }
                 </span>
               </div>
               <div className="flex justify-between pt-1.5 font-bold text-sm">
-                <span className="text-[#3c3a39]">Pre-Tax Annual Cash Flow</span>
+                <span className="text-ink">Pre-Tax Annual Cash Flow</span>
                 <span className={`font-mono ${annualCashFlow >= 0 ? "text-accent-emerald" : "text-accent-red"}`}>
                   {annualCashFlow >= 0 ? "+" : ""}${Math.round(annualCashFlow).toLocaleString()}/yr
                 </span>

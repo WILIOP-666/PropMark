@@ -20,7 +20,7 @@ export default function SuburbCard({ suburb }: SuburbCardProps) {
                 {suburb.summary.distanceToCbdKm}km CBD
               </span>
             </div>
-            <h3 className="text-xl font-bold text-[#3c3a39] tracking-tight group-hover:text-black">
+            <h3 className="text-xl font-bold text-ink tracking-tight group-hover:text-black">
               {suburb.name}
             </h3>
             <p className="text-xs text-ink-60 flex items-center gap-1 mt-0.5">
@@ -42,7 +42,7 @@ export default function SuburbCard({ suburb }: SuburbCardProps) {
         <div className="grid grid-cols-2 gap-3 py-3 border-y border-ink-10 mb-4 bg-surface-light rounded-lg p-2.5">
           <div>
             <span className="text-[11px] font-mono text-ink-60 block">Median House</span>
-            <span className="text-base font-bold text-[#3c3a39]">
+            <span className="text-base font-bold text-ink">
               {formatCurrency(suburb.market.medianHousePrice)}
             </span>
             <span className="text-[11px] text-accent-emerald flex items-center gap-0.5 font-medium">
@@ -52,7 +52,7 @@ export default function SuburbCard({ suburb }: SuburbCardProps) {
           </div>
           <div>
             <span className="text-[11px] font-mono text-ink-60 block">Gross Yield</span>
-            <span className="text-base font-bold text-[#3c3a39]">
+            <span className="text-base font-bold text-ink">
               {formatPercent(suburb.market.grossHouseYieldPct)}
             </span>
             <span className="text-[11px] text-ink-60 font-mono block">

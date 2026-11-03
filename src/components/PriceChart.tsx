@@ -40,7 +40,7 @@ export default function PriceChart({ series, suburbName }: PriceChartProps) {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
         <div>
           <span className="eyebrow-mono text-xs">/historical trajectory</span>
-          <h4 className="text-lg font-bold text-[#3c3a39]">
+          <h4 className="text-lg font-bold text-ink">
             Median Price Trend (2020 - 2026)
           </h4>
         </div>

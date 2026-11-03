@@ -40,7 +40,7 @@ export default function ApiEndpointCard({ endpoint }: ApiEndpointCardProps) {
           >
             {endpoint.method}
           </span>
-          <code className="text-sm font-mono font-bold text-[#3c3a39]">
+          <code className="text-sm font-mono font-bold text-ink">
             {endpoint.path}
           </code>
         </div>
@@ -49,7 +49,7 @@ export default function ApiEndpointCard({ endpoint }: ApiEndpointCardProps) {
         </span>
       </div>
 
-      <h5 className="font-bold text-base text-[#3c3a39] mb-1">
+      <h5 className="font-bold text-base text-ink mb-1">
         {endpoint.summary}
       </h5>
       <p className="text-xs text-ink-60 leading-relaxed mb-4">
@@ -71,7 +71,7 @@ export default function ApiEndpointCard({ endpoint }: ApiEndpointCardProps) {
             <tbody className="divide-y divide-ink-5">
               {endpoint.parameters.map((param, i) => (
                 <tr key={i} className="hover:bg-ink-5">
-                  <td className="py-2 px-3 font-mono font-medium text-[#3c3a39]">
+                  <td className="py-2 px-3 font-mono font-medium text-ink">
                     {param.name}
                   </td>
                   <td className="py-2 px-3 font-mono text-ink-60">{param.type}</td>
@@ -120,7 +120,7 @@ export default function ApiEndpointCard({ endpoint }: ApiEndpointCardProps) {
         </button>
 
         {expanded && (
-          <div className="p-4 bg-surface-light border border-ink-10 rounded-xl text-xs font-mono overflow-x-auto text-[#3c3a39] animate-in slide-in-from-top-1">
+          <div className="p-4 bg-surface-light border border-ink-10 rounded-xl text-xs font-mono overflow-x-auto text-ink animate-in slide-in-from-top-1">
             <pre>{JSON.stringify(endpoint.responseExample, null, 2)}</pre>
           </div>
         )}

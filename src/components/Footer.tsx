@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-lg bg-[#3c3a39] flex items-center justify-center text-[#fefefe] font-mono font-bold text-sm">
                 PM
               </div>
-              <span className="font-sans font-bold tracking-tight text-xl text-[#3c3a39]">
+              <span className="font-sans font-bold tracking-tight text-xl text-ink">
                 PROP MARK
               </span>
             </Link>

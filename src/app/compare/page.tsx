@@ -22,7 +22,7 @@ export default function CompareSuburbsPage() {
       {/* Header */}
       <div className="mb-10">
         <span className="eyebrow-mono text-xs">/comparative analysis</span>
-        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#3c3a39] mb-3">
+        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-ink mb-3">
           Side-by-Side Suburb Comparison Engine
         </h1>
         <p className="text-sm sm:text-base text-ink-60 max-w-3xl leading-relaxed">
@@ -39,7 +39,7 @@ export default function CompareSuburbsPage() {
             <select
               value={suburb1Slug}
               onChange={(e) => setSuburb1Slug(e.target.value)}
-              className="w-full p-2.5 bg-surface-light border border-ink-15 rounded-xl text-sm font-semibold text-[#3c3a39] focus:outline-none"
+              className="w-full p-2.5 bg-surface-light border border-ink-15 rounded-xl text-sm font-semibold text-ink focus:outline-none"
             >
               {SUBURBS_DATABASE.map((s) => (
                 <option key={s.id} value={s.slug}>
@@ -54,7 +54,7 @@ export default function CompareSuburbsPage() {
             <select
               value={suburb2Slug}
               onChange={(e) => setSuburb2Slug(e.target.value)}
-              className="w-full p-2.5 bg-surface-light border border-ink-15 rounded-xl text-sm font-semibold text-[#3c3a39] focus:outline-none"
+              className="w-full p-2.5 bg-surface-light border border-ink-15 rounded-xl text-sm font-semibold text-ink focus:outline-none"
             >
               {SUBURBS_DATABASE.map((s) => (
                 <option key={s.id} value={s.slug}>
@@ -69,7 +69,7 @@ export default function CompareSuburbsPage() {
             <select
               value={suburb3Slug}
               onChange={(e) => setSuburb3Slug(e.target.value)}
-              className="w-full p-2.5 bg-surface-light border border-ink-15 rounded-xl text-sm font-semibold text-[#3c3a39] focus:outline-none"
+              className="w-full p-2.5 bg-surface-light border border-ink-15 rounded-xl text-sm font-semibold text-ink focus:outline-none"
             >
               <option value="">-- None (2 Suburbs Comparison) --</option>
               {SUBURBS_DATABASE.map((s) => (
@@ -94,7 +94,7 @@ export default function CompareSuburbsPage() {
               {comparedSuburbs.map((sub) => (
                 <th key={sub.id} className="p-4 w-1/4">
                   <div className="eyebrow-mono text-[11px]">/{sub.state} • {sub.postcode}</div>
-                  <div className="text-lg font-bold text-[#3c3a39]">{sub.name}</div>
+                  <div className="text-lg font-bold text-ink">{sub.name}</div>
                   <div className="text-xs font-mono text-ink-60 mt-0.5">{sub.summary.distanceToCbdKm}km to CBD</div>
                 </th>
               ))}
@@ -117,7 +117,7 @@ export default function CompareSuburbsPage() {
             <tr>
               <td className="p-4 font-mono font-medium text-ink-60">Median House Price</td>
               {comparedSuburbs.map((sub) => (
-                <td key={sub.id} className="p-4 font-mono font-bold text-sm text-[#3c3a39]">
+                <td key={sub.id} className="p-4 font-mono font-bold text-sm text-ink">
                   {formatCurrency(sub.market.medianHousePrice)}
                 </td>
               ))}
@@ -137,7 +137,7 @@ export default function CompareSuburbsPage() {
             <tr>
               <td className="p-4 font-mono font-medium text-ink-60">Gross Rental Yield</td>
               {comparedSuburbs.map((sub) => (
-                <td key={sub.id} className="p-4 font-mono font-bold text-[#3c3a39] text-sm">
+                <td key={sub.id} className="p-4 font-mono font-bold text-ink text-sm">
                   {formatPercent(sub.market.grossHouseYieldPct)}
                   <span className="text-xs text-ink-40 block font-normal">${sub.market.medianHouseRentWeek}/wk</span>
                 </td>
@@ -168,7 +168,7 @@ export default function CompareSuburbsPage() {
             <tr className="bg-surface-tint/20">
               <td className="p-4 font-mono font-medium text-ink-60">Weekly Household Income</td>
               {comparedSuburbs.map((sub) => (
-                <td key={sub.id} className="p-4 font-mono font-bold text-[#3c3a39]">
+                <td key={sub.id} className="p-4 font-mono font-bold text-ink">
                   ${sub.demographics.medianHouseholdIncomeWeekly}
                 </td>
               ))}

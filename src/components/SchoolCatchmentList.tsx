@@ -11,7 +11,7 @@ export default function SchoolCatchmentList({ schools, suburbName }: SchoolCatch
     <div className="card-editorial p-6">
       <div className="mb-6">
         <span className="eyebrow-mono text-xs">/education & catchments</span>
-        <h4 className="text-lg font-bold text-[#3c3a39]">
+        <h4 className="text-lg font-bold text-ink">
           Schools & Academic Catchment Zones
         </h4>
         <p className="text-xs text-ink-60 mt-1">
@@ -23,12 +23,12 @@ export default function SchoolCatchmentList({ schools, suburbName }: SchoolCatch
         {schools.map((school, idx) => (
           <div key={idx} className="p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 hover:bg-ink-5 transition-colors">
             <div className="flex items-start gap-3">
-              <div className="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-[#3c3a39] border border-ink-10 shrink-0">
+              <div className="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-ink border border-ink-10 shrink-0">
                 <GraduationCap className="w-4 h-4 text-accent-blue" />
               </div>
               <div>
                 <div className="flex items-center gap-2">
-                  <h5 className="font-bold text-sm text-[#3c3a39]">{school.name}</h5>
+                  <h5 className="font-bold text-sm text-ink">{school.name}</h5>
                   {school.catchment && (
                     <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-mono font-medium bg-emerald-50 text-accent-emerald border border-emerald-200">
                       <CheckCircle2 className="w-3 h-3" />
@@ -52,7 +52,7 @@ export default function SchoolCatchmentList({ schools, suburbName }: SchoolCatch
             <div className="flex items-center gap-4 text-right self-end sm:self-center">
               <div>
                 <span className="text-[10px] font-mono text-ink-40 uppercase block">ICSEA Score</span>
-                <span className="text-sm font-bold font-mono text-[#3c3a39]">{school.icsea}</span>
+                <span className="text-sm font-bold font-mono text-ink">{school.icsea}</span>
               </div>
               <div>
                 <span className="text-[10px] font-mono text-ink-40 uppercase block">State Rank</span>

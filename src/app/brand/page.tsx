@@ -18,7 +18,7 @@ export default function BrandPage() {
     <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-12">
       <div className="mb-10 max-w-3xl">
         <span className="eyebrow-mono text-xs">/design system &amp; tokens</span>
-        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#3c3a39] mb-3">
+        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-ink mb-3">
           PROP MARK Brand Guidelines
         </h1>
         <p className="text-sm sm:text-base text-ink-60 leading-relaxed">
@@ -29,7 +29,7 @@ export default function BrandPage() {
       <div className="space-y-12">
         {/* Color Palette */}
         <div>
-          <h2 className="text-2xl font-bold text-[#3c3a39] mb-4">Color Palette &amp; Tokens</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4">Color Palette &amp; Tokens</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {colors.map((c, i) => (
               <div key={i} className="card-editorial p-4 flex flex-col justify-between">
@@ -38,7 +38,7 @@ export default function BrandPage() {
                     className="w-full h-16 rounded-lg mb-3 border border-ink-10 shadow-sm"
                     style={{ backgroundColor: c.hex }}
                   ></div>
-                  <h4 className="text-sm font-bold text-[#3c3a39]">{c.name}</h4>
+                  <h4 className="text-sm font-bold text-ink">{c.name}</h4>
                   <span className="font-mono text-xs text-ink-60 block mt-0.5">{c.hex}</span>
                 </div>
                 <div className="mt-3 pt-2 border-t border-ink-5 text-[11px] text-ink-40 font-mono">
@@ -51,13 +51,13 @@ export default function BrandPage() {
 
         {/* Typography */}
         <div className="card-editorial p-8">
-          <h2 className="text-2xl font-bold text-[#3c3a39] mb-4">Typography Standards</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4">Typography Standards</h2>
           <div className="space-y-6 text-sm text-ink-80">
             <div>
               <span className="font-mono text-xs text-ink-60 block mb-1">
                 Primary Body &amp; Headings Font
               </span>
-              <p className="text-2xl font-bold text-[#3c3a39]">
+              <p className="text-2xl font-bold text-ink">
                 Suisse Int&apos;l — Clean, type-design grade grotesque sans-serif.
               </p>
             </div>
@@ -65,7 +65,7 @@ export default function BrandPage() {
               <span className="font-mono text-xs text-ink-60 block mb-1">
                 Eyebrows, Path-Style Labels &amp; Code
               </span>
-              <p className="font-mono text-base text-[#3c3a39]">
+              <p className="font-mono text-base text-ink">
                 Suisse Int&apos;l Mono — Used for signature &quot;/slash-prefix&quot; eyebrows and financial metrics.
               </p>
             </div>

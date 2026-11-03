@@ -37,7 +37,7 @@ export default function AcademyPage() {
     <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-12">
       <div className="mb-10">
         <span className="eyebrow-mono text-xs">/educational guides</span>
-        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#3c3a39] mb-3">
+        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-ink mb-3">
           Prop Mark Investor Academy
         </h1>
         <p className="text-sm sm:text-base text-ink-60 max-w-2xl leading-relaxed">
@@ -53,7 +53,7 @@ export default function AcademyPage() {
                 <span>/{guide.category.toLowerCase()}</span>
                 <span>{guide.readTime}</span>
               </div>
-              <h3 className="text-xl font-bold text-[#3c3a39] mb-2">{guide.title}</h3>
+              <h3 className="text-xl font-bold text-ink mb-2">{guide.title}</h3>
               <p className="text-xs text-ink-60 leading-relaxed mb-6">
                 {guide.summary}
               </p>

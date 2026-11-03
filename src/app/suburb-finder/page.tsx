@@ -86,7 +86,7 @@ export default function SuburbFinderPage() {
       {/* Page Header */}
       <div className="mb-8">
         <span className="eyebrow-mono text-xs">/investment screener</span>
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#3c3a39] mb-2">
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-ink mb-2">
           Australian Suburb Screener &amp; Finder
         </h1>
         <p className="text-sm text-ink-60 max-w-2xl">
@@ -146,7 +146,7 @@ export default function SuburbFinderPage() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search..."
-                className="w-full bg-surface-light border border-ink-15 rounded-xl pl-9 pr-3 py-2 text-sm text-[#3c3a39] focus:outline-none focus:border-ink-80"
+                className="w-full bg-surface-light border border-ink-15 rounded-xl pl-9 pr-3 py-2 text-sm text-ink focus:outline-none focus:border-ink-80"
               />
             </div>
           </div>
@@ -177,7 +177,7 @@ export default function SuburbFinderPage() {
           <div>
             <div className="flex justify-between items-center mb-1.5">
               <label className="text-xs font-mono text-ink-60">Max Median Price</label>
-              <span className="text-xs font-mono font-bold text-[#3c3a39]">
+              <span className="text-xs font-mono font-bold text-ink">
                 {formatCurrency(maxPrice)}
               </span>
             </div>
@@ -214,7 +214,7 @@ export default function SuburbFinderPage() {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as any)}
-                className="w-full bg-surface-light border border-ink-15 rounded-xl px-2 py-1.5 text-xs text-[#3c3a39] focus:outline-none"
+                className="w-full bg-surface-light border border-ink-15 rounded-xl px-2 py-1.5 text-xs text-ink focus:outline-none"
               >
                 <option value="score">Prop Mark Score</option>
                 <option value="price_asc">Price: Low to High</option>
@@ -230,7 +230,7 @@ export default function SuburbFinderPage() {
       {/* Results Header */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-2">
-          <span className="text-sm font-bold text-[#3c3a39]">
+          <span className="text-sm font-bold text-ink">
             {filteredSuburbs.length} Suburbs Matching Criteria
           </span>
           <span className="text-xs font-mono text-ink-40">
@@ -292,12 +292,12 @@ export default function SuburbFinderPage() {
             <tbody className="divide-y divide-ink-5">
               {filteredSuburbs.map((suburb) => (
                 <tr key={suburb.id} className="hover:bg-ink-5 transition-colors">
-                  <td className="py-3 px-4 font-bold text-sm text-[#3c3a39]">
+                  <td className="py-3 px-4 font-bold text-sm text-ink">
                     {suburb.name}
                   </td>
                   <td className="py-3 px-4 font-mono text-ink-60">{suburb.postcode}</td>
                   <td className="py-3 px-4 font-mono font-medium">{suburb.state}</td>
-                  <td className="py-3 px-4 font-mono font-bold text-[#3c3a39]">
+                  <td className="py-3 px-4 font-mono font-bold text-ink">
                     {formatCurrency(suburb.market.medianHousePrice)}
                   </td>
                   <td className="py-3 px-4 font-mono text-accent-emerald font-semibold">

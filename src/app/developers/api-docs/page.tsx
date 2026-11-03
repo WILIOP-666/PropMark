@@ -30,7 +30,7 @@ export default function ApiDocsPage() {
           <span className="w-2 h-2 rounded-full bg-accent-blue animate-pulse"></span>
           <span>REST API v1.0 • OPENAPI 3.1 SPECIFICATION</span>
         </div>
-        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#3c3a39] mb-3">
+        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-ink mb-3">
           Developer API Documentation
         </h1>
         <p className="text-sm sm:text-base text-ink-60 max-w-3xl leading-relaxed">
@@ -42,17 +42,17 @@ export default function ApiDocsPage() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
         <div className="card-editorial p-6 lg:col-span-2">
           <span className="eyebrow-mono text-xs">/authentication</span>
-          <h3 className="text-lg font-bold text-[#3c3a39] mt-1 mb-2">
+          <h3 className="text-lg font-bold text-ink mt-1 mb-2">
             API Key &amp; Bearer Token Authorization
           </h3>
           <p className="text-xs text-ink-60 leading-relaxed mb-4">
-            All requests to the Prop Mark API must authenticate by providing your private API key in the standard HTTP <code className="bg-ink-10 px-1 py-0.5 rounded font-mono text-[#3c3a39]">Authorization</code> header.
+            All requests to the Prop Mark API must authenticate by providing your private API key in the standard HTTP <code className="bg-ink-10 px-1 py-0.5 rounded font-mono text-ink">Authorization</code> header.
           </p>
 
           <div className="p-3.5 bg-surface-light border border-ink-10 rounded-xl flex items-center justify-between font-mono text-xs">
             <div className="flex items-center gap-2 overflow-x-auto">
               <span className="text-ink-40">Bearer</span>
-              <span className="text-[#3c3a39] font-bold">pm_live_demo_984128f7a9</span>
+              <span className="text-ink font-bold">pm_live_demo_984128f7a9</span>
             </div>
             <button
               onClick={handleCopyKey}
@@ -67,7 +67,7 @@ export default function ApiDocsPage() {
         <div className="card-editorial p-6 flex flex-col justify-between">
           <div>
             <span className="eyebrow-mono text-xs">/sla &amp; limits</span>
-            <h3 className="text-lg font-bold text-[#3c3a39] mt-1 mb-2">
+            <h3 className="text-lg font-bold text-ink mt-1 mb-2">
               Performance Guarantees
             </h3>
             <ul className="space-y-2 text-xs text-ink-80">

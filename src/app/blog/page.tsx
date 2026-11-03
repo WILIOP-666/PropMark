@@ -30,7 +30,7 @@ export default function BlogPage() {
     <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-12">
       <div className="mb-10">
         <span className="eyebrow-mono text-xs">/research dispatches</span>
-        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#3c3a39] mb-3">
+        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-ink mb-3">
           Prop Mark Market Research &amp; Articles
         </h1>
         <p className="text-sm sm:text-base text-ink-60 max-w-2xl leading-relaxed">
@@ -49,7 +49,7 @@ export default function BlogPage() {
                 {post.date}
               </span>
             </div>
-            <h2 className="text-2xl font-bold text-[#3c3a39] mb-2">{post.title}</h2>
+            <h2 className="text-2xl font-bold text-ink mb-2">{post.title}</h2>
             <p className="text-sm text-ink-60 leading-relaxed mb-4 max-w-3xl">
               {post.snippet}
             </p>

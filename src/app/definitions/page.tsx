@@ -29,7 +29,7 @@ export default function DefinitionsPage() {
       {/* Header */}
       <div className="mb-10">
         <span className="eyebrow-mono text-xs">/property data encyclopedia</span>
-        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#3c3a39] mb-3">
+        <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-ink mb-3">
           Australian Real Estate Definitions &amp; Formulas
         </h1>
         <p className="text-sm sm:text-base text-ink-60 max-w-3xl leading-relaxed">
@@ -47,7 +47,7 @@ export default function DefinitionsPage() {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search definitions (e.g. Yield, AVM, ICSEA)..."
-              className="w-full bg-surface-light border border-ink-15 rounded-xl pl-9 pr-3 py-2 text-sm text-[#3c3a39] focus:outline-none focus:border-ink-80"
+              className="w-full bg-surface-light border border-ink-15 rounded-xl pl-9 pr-3 py-2 text-sm text-ink focus:outline-none focus:border-ink-80"
             />
           </div>
 
@@ -77,13 +77,13 @@ export default function DefinitionsPage() {
               <div className="flex items-center justify-between gap-2 mb-2">
                 <span className="eyebrow-mono text-xs">/{term.category.toLowerCase()}</span>
               </div>
-              <h3 className="text-lg font-bold text-[#3c3a39] mb-2">{term.term}</h3>
+              <h3 className="text-lg font-bold text-ink mb-2">{term.term}</h3>
               <p className="text-xs text-ink-80 leading-relaxed mb-4">
                 {term.definition}
               </p>
 
               {term.formula && (
-                <div className="p-3 bg-surface-light rounded-lg border border-ink-10 font-mono text-xs text-[#3c3a39] mb-3">
+                <div className="p-3 bg-surface-light rounded-lg border border-ink-10 font-mono text-xs text-ink mb-3">
                   <span className="text-[10px] text-ink-40 uppercase block mb-0.5">Formula</span>
                   <code>{term.formula}</code>
                 </div>

@@ -30,7 +30,7 @@ export default function PropertyFinderPage() {
       {/* Header */}
       <div className="mb-8">
         <span className="eyebrow-mono text-xs">/property database & avm</span>
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#3c3a39] mb-2">
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-ink mb-2">
           Australian Property Valuation &amp; CMA Explorer
         </h1>
         <p className="text-sm text-ink-60 max-w-2xl">
@@ -52,7 +52,7 @@ export default function PropertyFinderPage() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="e.g. 142 Bourke St, Surry Hills..."
-                className="w-full bg-surface-light border border-ink-15 rounded-xl pl-9 pr-3 py-2 text-sm text-[#3c3a39] focus:outline-none focus:border-ink-80"
+                className="w-full bg-surface-light border border-ink-15 rounded-xl pl-9 pr-3 py-2 text-sm text-ink focus:outline-none focus:border-ink-80"
               />
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function PropertyFinderPage() {
                   alt={prop.address}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute top-3 left-3 bg-[#fffcf6ee] backdrop-blur-sm px-2.5 py-1 rounded-full text-xs font-mono font-bold text-[#3c3a39]">
+                <div className="absolute top-3 left-3 bg-[#fffcf6ee] backdrop-blur-sm px-2.5 py-1 rounded-full text-xs font-mono font-bold text-ink">
                   {prop.propertyType}
                 </div>
                 <div className="absolute top-3 right-3 bg-emerald-50 text-accent-emerald border border-emerald-200 px-2.5 py-1 rounded-full text-xs font-mono font-bold flex items-center gap-1">
@@ -125,7 +125,7 @@ export default function PropertyFinderPage() {
                 <span className="eyebrow-mono text-xs block mb-1">
                   /{prop.suburb} • {prop.postcode}
                 </span>
-                <h3 className="text-lg font-bold text-[#3c3a39] mb-1">
+                <h3 className="text-lg font-bold text-ink mb-1">
                   {prop.address}
                 </h3>
                 <p className="text-xs text-ink-60 mb-4">
@@ -152,7 +152,7 @@ export default function PropertyFinderPage() {
                 <div className="space-y-1.5 text-xs">
                   <div className="flex justify-between items-center">
                     <span className="text-ink-60">Automated Valuation (AVM)</span>
-                    <span className="font-mono font-bold text-base text-[#3c3a39]">
+                    <span className="font-mono font-bold text-base text-ink">
                       {formatCurrency(prop.avmValue)}
                     </span>
                   </div>

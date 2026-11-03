@@ -18,7 +18,7 @@ export default function HomePage() {
           <span className="eyebrow-mono text-xs">/the property intelligence engine for australia</span>
         </div>
 
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#3c3a39] max-w-4xl leading-[1.08] mb-6">
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-ink max-w-4xl leading-[1.08] mb-6">
           Street-Level Property Data &amp; Growth Forecasting.
         </h1>
 
@@ -30,15 +30,15 @@ export default function HomePage() {
         <HeroSearch />
 
         {/* Live Macro Metrics Ticker */}
-        <div className="mt-16 w-full grid grid-cols-2 md:grid-cols-4 gap-4 p-5 bg-[#fffcf6] border border-ink-10 rounded-2xl shadow-subtle text-left">
+        <div className="mt-16 w-full grid grid-cols-2 md:grid-cols-4 gap-4 p-5 bg-surface border border-ink-10 rounded-2xl shadow-subtle text-left">
           <div className="p-3">
             <span className="eyebrow-mono text-[11px] block mb-1">/coverage</span>
-            <span className="text-2xl font-bold font-mono text-[#3c3a39]">15,400+</span>
+            <span className="text-2xl font-bold font-mono text-ink">15,400+</span>
             <span className="text-xs text-ink-60 block mt-0.5">Australian Suburbs Mapped</span>
           </div>
           <div className="p-3">
             <span className="eyebrow-mono text-[11px] block mb-1">/transactions</span>
-            <span className="text-2xl font-bold font-mono text-[#3c3a39]">28.4M</span>
+            <span className="text-2xl font-bold font-mono text-ink">28.4M</span>
             <span className="text-xs text-ink-60 block mt-0.5">Historical Settlement Records</span>
           </div>
           <div className="p-3">
@@ -56,11 +56,11 @@ export default function HomePage() {
 
       {/* Live Interactive Spatial GIS Map Showcase */}
       <section className="px-6 lg:px-12 max-w-[1440px] mx-auto w-full">
-        <div className="card-editorial p-6 lg:p-8 bg-[#fffcf6]">
+        <div className="card-editorial p-6 lg:p-8 bg-surface">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
             <div>
               <span className="eyebrow-mono text-xs">/live spatial map preview</span>
-              <h2 className="text-2xl sm:text-3xl font-bold text-[#3c3a39] tracking-tight">
+              <h2 className="text-2xl sm:text-3xl font-bold text-ink tracking-tight">
                 Street-Level Australian Spatial Intelligence Map
               </h2>
               <p className="text-xs text-ink-60 mt-1">
@@ -102,7 +102,7 @@ export default function HomePage() {
         <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-4 mb-8">
           <div>
             <span className="eyebrow-mono text-xs">/live market intelligence</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-[#3c3a39] tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-bold text-ink tracking-tight">
               High-Conviction Investment Suburbs
             </h2>
             <p className="text-sm text-ink-60 mt-1">
@@ -129,7 +129,7 @@ export default function HomePage() {
       <section className="px-6 lg:px-12 max-w-[1440px] mx-auto w-full">
         <div className="mb-10 text-center max-w-2xl mx-auto">
           <span className="eyebrow-mono text-xs">/under the hood</span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#3c3a39] tracking-tight mb-2">
+          <h2 className="text-2xl sm:text-3xl font-bold text-ink tracking-tight mb-2">
             Multi-Source Real Estate Reverse Engineering
           </h2>
           <p className="text-sm text-ink-60">
@@ -144,7 +144,7 @@ export default function HomePage() {
                 <Database className="w-5 h-5" />
               </div>
               <span className="eyebrow-mono text-xs">/valuation engine</span>
-              <h3 className="text-lg font-bold text-[#3c3a39] mt-1 mb-2">
+              <h3 className="text-lg font-bold text-ink mt-1 mb-2">
                 Automated Valuation Model (AVM)
               </h3>
               <p className="text-xs text-ink-60 leading-relaxed">
@@ -163,7 +163,7 @@ export default function HomePage() {
                 <ShieldCheck className="w-5 h-5" />
               </div>
               <span className="eyebrow-mono text-xs">/due diligence</span>
-              <h3 className="text-lg font-bold text-[#3c3a39] mt-1 mb-2">
+              <h3 className="text-lg font-bold text-ink mt-1 mb-2">
                 Environmental &amp; Civic Hazards
               </h3>
               <p className="text-xs text-ink-60 leading-relaxed">
@@ -182,7 +182,7 @@ export default function HomePage() {
                 <Layers className="w-5 h-5" />
               </div>
               <span className="eyebrow-mono text-xs">/statutory planning</span>
-              <h3 className="text-lg font-bold text-[#3c3a39] mt-1 mb-2">
+              <h3 className="text-lg font-bold text-ink mt-1 mb-2">
                 Council DAs &amp; LEP Zoning
               </h3>
               <p className="text-xs text-ink-60 leading-relaxed">
@@ -214,7 +214,7 @@ export default function HomePage() {
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/compare"
-                  className="btn-pill-dark bg-[#fffcf6] text-[#3c3a39] hover:bg-white text-xs font-semibold py-2.5 px-5"
+                  className="btn-pill-dark bg-surface text-ink hover:bg-white text-xs font-semibold py-2.5 px-5"
                 >
                   <span>Launch Comparison Engine</span>
                   <ArrowUpRight className="w-3.5 h-3.5" />
@@ -266,7 +266,7 @@ export default function HomePage() {
       <section className="px-6 lg:px-12 max-w-[1440px] mx-auto w-full text-center">
         <div className="p-10 bg-surface border border-ink-10 rounded-2xl flex flex-col items-center">
           <span className="eyebrow-mono text-xs mb-2">/start research</span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#3c3a39] mb-3">
+          <h2 className="text-2xl sm:text-3xl font-bold text-ink mb-3">
             Ready to find your next winning property?
           </h2>
           <p className="text-sm text-ink-60 max-w-xl mb-6">
