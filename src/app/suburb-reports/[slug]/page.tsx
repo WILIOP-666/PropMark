@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, MapPin, Users, TrendingUp, DollarSign, Calendar, ArrowUpRight, Share2, Printer, CheckCircle } from "lucide-react";
 import { SUBURBS_DATABASE } from "../../../lib/data/suburbsData";
+import { PROPERTIES_DATABASE } from "../../../lib/data/propertiesData";
 import { formatCurrency, formatPercent, getScoreColor } from "../../../lib/utils";
 import PriceChart from "../../../components/PriceChart";
 import ScoreRadar from "../../../components/ScoreRadar";
@@ -31,6 +32,10 @@ export default function SuburbReportPage({ params }: PageProps) {
   if (!suburb) {
     notFound();
   }
+
+  const suburbProperties = PROPERTIES_DATABASE.filter(
+    (p) => p.suburb.toLowerCase() === suburb.name.toLowerCase()
+  );
 
   return (
     <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-10">
@@ -201,6 +206,70 @@ export default function SuburbReportPage({ params }: PageProps) {
                 </span>
               </div>
             </div>
+          </div>
+
+          {/* Module 7: Recent Sales & Current Listings (Exact Microburbs Properties Table) */}
+          <div className="card-editorial p-6">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <span className="eyebrow-mono text-xs">/settlement history &amp; listings</span>
+                <h4 className="text-lg font-bold text-[#3c3a39]">
+                  Properties in {suburb.name}
+                </h4>
+              </div>
+              <span className="text-xs font-mono text-ink-60">
+                {suburbProperties.length > 0 ? `${suburbProperties.length} Properties Mapped` : "Verified REA Stock"}
+              </span>
+            </div>
+
+            {suburbProperties.length > 0 ? (
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-xs border border-ink-10 rounded-lg overflow-hidden">
+                  <thead className="bg-surface-light border-b border-ink-10 font-mono text-ink-60">
+                    <tr>
+                      <th className="py-2.5 px-3">Address</th>
+                      <th className="py-2.5 px-3">Type</th>
+                      <th className="py-2.5 px-3">Bd</th>
+                      <th className="py-2.5 px-3">Ba</th>
+                      <th className="py-2.5 px-3">Sale Price / AVM</th>
+                      <th className="py-2.5 px-3">Yield</th>
+                      <th className="py-2.5 px-3">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-ink-5">
+                    {suburbProperties.map((prop) => (
+                      <tr key={prop.id} className="hover:bg-ink-5 transition-colors">
+                        <td className="py-2.5 px-3 font-semibold text-[#3c3a39]">
+                          {prop.address}
+                        </td>
+                        <td className="py-2.5 px-3 font-mono text-ink-60">{prop.propertyType}</td>
+                        <td className="py-2.5 px-3 font-mono">{prop.bedrooms}</td>
+                        <td className="py-2.5 px-3 font-mono">{prop.bathrooms}</td>
+                        <td className="py-2.5 px-3 font-mono font-bold text-[#3c3a39]">
+                          {formatCurrency(prop.avmValue)}
+                        </td>
+                        <td className="py-2.5 px-3 font-mono text-accent-emerald font-semibold">
+                          {prop.grossYieldPct}%
+                        </td>
+                        <td className="py-2.5 px-3">
+                          <Link
+                            href={`/property-reports/${prop.slug}`}
+                            className="text-xs font-semibold text-accent-blue hover:underline flex items-center gap-0.5"
+                          >
+                            <span>Inspect</span>
+                            <ArrowUpRight className="w-3 h-3" />
+                          </Link>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <div className="p-4 bg-surface-light rounded-xl border border-ink-5 text-xs text-ink-60">
+                Detailed individual property records for {suburb.name} are available in the Property Valuation Explorer.
+              </div>
+            )}
           </div>
         </div>
 
