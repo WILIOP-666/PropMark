@@ -1,0 +1,315 @@
+[![Microburbs](https://www.microburbs.com.au/_next/image?url=%2Fimages%2Flogo-primary-2026.png&w=384&q=75)](https://www.microburbs.com.au/)
+Products
+[Suburb Reports](https://www.microburbs.com.au/suburb-reports)[Property Reports](https://www.microburbs.com.au/property-reports)[Suburb Finder](https://www.microburbs.com.au/suburb-finder)[Property Finder](https://www.microburbs.com.au/property-finder-intro)[API Access](https://www.microburbs.com.au/api-access)[AI Chat](https://www.microburbs.com.au/chat-intro)[Consulting](https://www.microburbs.com.au/consulting)[Free Tools](https://www.microburbs.com.au/tools)
+Resources
+[Insights](https://www.microburbs.com.au/insights)[Blog](https://www.microburbs.com.au/blog)[Podcasts and Videos](https://www.microburbs.com.au/podcast)[Data Definitions](https://www.microburbs.com.au/definitions)
+[Pricing](https://www.microburbs.com.au/pricing)
+LoginSignup
+[Home](https://www.microburbs.com.au/)›[Suburb reports](https://www.microburbs.com.au/suburb-reports)›Gosford
+![Gosford, NSW, Buildings near water with a dock](https://www.microburbs.com.au/cdn/suburb-vg300/gosford_nsw.jpg)
+Buildings near water with a dock
+The quick read on
+# Gosford
+NSW 2250 · Central Coast (NSW)
+What homes cost, how rents have moved, and a feel for the people who call it home. Median unit
+    $625,000
+latest suburb median Population
+    4,873
+ABS 2021 Postcode
+    2250
+Gosford, New South Wales
+[Market trends](https://www.microburbs.com.au/suburb-reports-lite/gosford-nsw-2250#market)[Safety](https://www.microburbs.com.au/suburb-reports-lite/gosford-nsw-2250#safety)[Who lives here](https://www.microburbs.com.au/suburb-reports-lite/gosford-nsw-2250#demographics)[Living here](https://www.microburbs.com.au/suburb-reports-lite/gosford-nsw-2250#local-guide)[Streets nearby](https://www.microburbs.com.au/suburb-reports-lite/gosford-nsw-2250#streets)
+## Property market insights for Gosford
+Median sale price and rental income of properties in Gosford NSW
+HouseUnit
+### Median price trend for houses
+Based on 2 sales in the preceding 12 months
+Up 0.3% over 12 months
+$1m$800k$600k20212022202420252026 2 bed
+    $1.05m
+### Median rent trend for houses
+Based on 24 rental listings in the preceding 12 months
+$675 per week
+Up 3.8% over 12 months
+$700$600$500$40020212023202420252026
+Market data updated November 2026.
+Gosford has a 12-month growth rate of 0.3% for houses and 11.6% for units.
+Two-bedroom houses have a median sale price of $1,050,000 in Gosford.
+If you're looking to lease, the median rent for houses in Gosford is $675 per week. The median house rent has increased 3.8% over the last 12 months.
+The median price of apartments and units for sale in Gosford is $625,000, which has increased 11.6% since the same time last year. One-bedroom apartments and units have a median sale price of $515,000, Two-bedroom apartments and units have a median sale price of $615,000, Three-bedroom apartments and units have a median sale price of $720,000 in Gosford. The median rent for units and apartments in Gosford is $650 per week and has increased 13.0% over the last 12 months.
+Crime and safety
+## Is Gosford safe?
+The overall rate for Gosford is **4,430 offences per 100,000 residents** — 29% above the Greater Sydney benchmark.
+That is the clearest suburb-wide answer. Open the detailed profile to see how the pattern changes across offence types and different parts of Gosford.
+[See the detailed Gosford crime profile →](https://www.microburbs.com.au/Crime-Disadvantage/Gosford)[How to read crime data](https://www.microburbs.com.au/research/crime-blog)
+Overall crime rate
+4,430
+offences per 100,000 residents
+29% aboveGreater Sydney
+GosfordGreater Sydney: 3,437
+Suburb-wide estimate from Microburbs' public crime model; it is not an address-level measure.
+The people behind the postcode
+## Who lives in Gosford?
+Gosford NSW 2250 is in New South Wales, within Greater Sydney.
+4,873 people call Gosford home, with an average of 1.9 people per household and a median household income of $1,421 a week.
+Public ABS 2021 Census figures. The bars compare the local share with the capital-region benchmark. Population
+    4,873 Median age
+    35 years Median mortgage
+    $1,665 / month 2021 household rent
+    $390 / week
+Above the benchmarkBelow the benchmarkIn lineGreater Sydney benchmark
+### Age profile
+Share of residents in each age band.
+Under 15**11.3%** Below
+15–34**38.5%** Above
+35–54**27.0%** Below
+55–74**18.7%** Below
+75 and over**4.6%** Below
+### Homes
+Share of occupied private dwellings.
+Separate houses**4.0%** Below
+Townhouses**6.7%** Below
+Apartments**88.0%** Above
+### Ownership
+Share of homes with a stated ownership or rental status.
+Owned outright**13.9%** Below
+Paying a mortgage**19.3%** Below
+Renting**66.7%** Above
+### Cars at home
+Vehicles available to occupied households.
+No car**14.2%** Above
+One car**60.0%** Above
+Two cars**21.9%** Below
+Three or more**4.1%** Below
+### Getting to work
+Selected ways residents worked or travelled on Census day.
+Worked from home**26.7%** Below
+Drove to work**39.5%** Above
+Train, tram or bus**5.9%** Above
+Walked or cycled**5.8%** Above
+### What stands out in Gosford
+26.7% of workers in Gosford worked from home on Census day — less common than across Greater Sydney.
+5.0% of Gosford residents were born in India.
+40.1% of people in Gosford described themselves as having no religion in the 2021 Census.
+A closer look at the Census
+## Questions people ask about Gosford
+Open any question for a plain-English reading of the public 2021 Census for Gosford NSW 2250.
+Is Gosford family-friendly?Age, family structure and household size describe the community families would be joining.+
+11.3% of Gosford's residents were children under 15 in the 2021 Census. That is well below the Greater Sydney average.
+1,186 family households lived in Gosford; 25.2% were couple families and 19.6% were one-parent families.
+30.8% of local families included children under 15. That is well below the Greater Sydney average.
+These are suburb-wide household figures, not school or childcare ratings.
+What is the age profile of Gosford?The balance between younger adults, families and older residents changes how a suburb feels day to day.+
+Gosford had 4,873 residents at the 2021 Census.
+42.0% of residents were aged 25 to 44.
+23.3% were 55 or older. That is somewhat below the Greater Sydney average.
+Age shares use the suburb’s total Census population.
+What kind of homes are in Gosford?The dwelling mix shows whether the suburb is mostly detached homes, townhouses or apartments.+
+Separate houses made up 4.0% of occupied private dwellings in Gosford.
+Townhouses and other attached homes represented 6.7% of occupied private dwellings.
+Flats and apartments accounted for 88.0% of occupied private dwellings.
+All three shares use occupied private dwellings as the denominator.
+Do people own or rent in Gosford?Tenure shows how many households own outright, have a mortgage or rent.+
+13.9% of households with a stated tenure owned their home outright. That is about half the Greater Sydney rate.
+19.3% were buying their home with a mortgage.
+66.7% rented their home. That is about twice the Greater Sydney rate.
+Tenure shares include households that stated one of these three arrangements.
+How large are households in Gosford?Household-size data shows the mix behind the suburb-wide average.+
+The average household in Gosford had 1.9 people.
+One-person households made up 43.9% of occupied homes. That is about twice the Greater Sydney rate.
+Two-person households represented 36.2%, while 7.8% had four or more usual residents.
+Household size counts usual residents in occupied homes.
+How do people get to work in Gosford?Census-day travel shows the balance between home, road, public transport and active travel.+
+26.7% of workers worked from home on Census day. That is well below the Greater Sydney average.
+39.5% drove a car as their only travel method. That is somewhat above the Greater Sydney average.
+5.9% used only a train, tram or bus, while 5.8% walked or cycled.
+Travel figures are a 2021 Census-day snapshot.
+How many cars do households have in Gosford?Vehicle availability helps describe the routines local households can support.+
+14.2% of occupied households had no motor vehicle available. That is somewhat above the Greater Sydney average.
+One-car households formed 60.0% of the total.
+26.0% of households had two or more vehicles.
+Vehicle counts refer to occupied households, not individual residents.
+Who's moving to Gosford, and who stays?Address history shows how settled or recently mobile residents were at the Census date.+
+25.0% were at the same address five years earlier, while 75.0% reported a different address.
+34.8% of residents were born outside Australia. That is somewhat below the Greater Sydney average.
+Mobility figures cover residents who answered the relevant Census question.
+What languages are spoken in Gosford?Language at home gives a direct view of the community’s everyday linguistic mix.+
+64.0% of residents used only English at home.
+28.4% used a language other than English at home.
+3.3% spoke Mandarin at home, 1.0% spoke Cantonese and 1.1% spoke Hindi.
+Home language is separate from English proficiency.
+Where were Gosford residents born?Birthplace adds another layer to the local story, separate from ancestry and language.+
+34.8% of Gosford's population was born outside Australia, while roughly 65.2% was born in Australia.
+2.7% of residents were born in China.
+5.0% were born in India, while Australian citizenship across the whole suburb stood at 71.6%.
+Birthplace, citizenship and ancestry describe different parts of identity.
+What ancestries shape Gosford?Ancestry responses show how residents describe family and cultural background.+
+English ancestry accounted for 30.2% of ancestry responses in Gosford.
+Australian ancestry made up 25.6% of responses.
+Chinese ancestry represented 5.5% of responses.
+People may nominate more than one ancestry, so these are shares of responses.
+What work do people do in Gosford?Occupation describes a person’s role; industry describes the sector employing them.+
+27.0% of employed residents worked in professional occupations. That is close to the Greater Sydney average.
+Managers accounted for 11.1% of employed residents, while clerical and administrative workers made up 12.6%.
+Health care and social assistance employed 23.2% of workers, and education and training employed 6.1%.
+Occupation and industry figures describe employed residents of the suburb.
+How active is the workforce in Gosford?Participation, employment pattern and unemployment describe the resident labour force.+
+The labour-force participation rate was 64.5%, compared with 60.0% across Greater Sydney.
+34.7% of residents aged 15 and over worked full time, while 19.1% worked part time.
+Unemployment was 5.3%, compared with 5.1% across Greater Sydney.
+Labour-force figures come from the 2021 Census.
+What does the health profile of Gosford show?Selected long-term health conditions help describe community service needs.+
+57.3% reported no selected long-term health condition.
+12.6% reported a long-term mental health condition, including depression or anxiety.
+8.4% reported asthma, 6.5% arthritis and 4.5% diabetes excluding gestational diabetes.
+These are self-reported suburb-wide Census figures, not address-level health risks.
+How educated is Gosford?Qualifications describe the study pathways represented among local residents.+
+29.2% of people in the qualifications table held a bachelor degree. That is somewhat below the Greater Sydney average.
+Postgraduate degrees accounted for 13.0% of qualification responses.
+Diploma-level qualifications represented 14.8%, while certificate-level qualifications represented 26.5%.
+Qualification categories are reported separately and are not school ratings.
+What do incomes and housing costs look like in Gosford?Census income and household payments give historical context for local living costs.+
+Median household income was $1,421 per week in the 2021 Census.
+The median monthly mortgage repayment reported by local households was $1,665.
+Occupied renting households reported a median rent of $390 per week.
+These household figures are from 2021; current sale and asking-rent medians appear in the market section.
+How does Gosford compare with Greater Sydney?A few clear differences place the suburb in its wider metropolitan context.+
+Working from home was 26.7% in Gosford, compared with 38.9% across Greater Sydney.
+Outright ownership was 13.9% locally and 28.6% across Greater Sydney. That is about half the Greater Sydney rate.
+Renting accounted for 66.7% in Gosford, against 37.1% across Greater Sydney.
+Capital-region comparisons use the same Census definitions and year.
+Three useful questions
+## A buyer’s quick guide to Gosford
+### Is Gosford expensive?
+There is not yet enough consistent market data for a dependable house median. The nearby suburb links make it easier to compare the wider market while local observations build.
+### Is Gosford good for families?
+The Census counted 1,186 local families, and 11.3% of residents were under 15. That describes the community; school quality, travel times and the right fit for a particular family need separate research.
+### What can I get for $1.5m in Gosford?
+2-bedroom houses have a median around $1,050,000, the closest bedroom benchmark we hold to a $1.5m budget. Individual homes can differ substantially with block size, renovation and location.
+Medians describe recorded market activity across the suburb; they are historical context, not a valuation or forecast for an individual home.
+Explore the area
+## Streets and suburbs around Gosford
+### 54 streets in Gosford
+Street-by-street reports are not published yet. The streets below are the ones this suburb covers.
+  * Albany Street North
+  * Baker Street
+  * Batley Street
+  * Batley Street North
+  * Beane Street
+  * Beane Street West
+  * Bent Street
+  * Birru Road
+  * Broadview Avenue
+  * Burns Crescent
+  * Cape Street South
+  * Central Coast Highway
+  * Dane Drive
+  * Donnison Street
+  * Donnison Street West
+  * Doughan Place
+  * Erina Street East
+  * Etna Street
+
+Show all 54 streetsShow fewer streets
+  * Faunce Street
+  * Faunce Street West
+  * Georgiana Terrace
+  * Gertrude Place
+  * Gertrude Street
+  * Glennie Street West
+  * Hargraves Street
+  * Henry Parry Drive
+  * Henry Wheeler Place
+  * Hills Street
+  * Holden Street
+  * John Whiteway Drive
+  * Joseph Lloyd Close
+  * Keevers Lane
+  * Kendall Street
+  * Kibble Street
+  * Kirrawee Road
+  * Mann Street
+  * Margin Street
+  * Masons Parade
+  * Mortimer Lane
+  * Mouat Lane
+  * Mulkarra Avenue
+  * Perina Road
+  * Racecourse Road
+  * Riou Street
+  * Showground Road
+  * Sinclair Street
+  * St George Street
+  * Tatura Avenue
+  * Terama Place
+  * Ward Street
+  * Watt Street
+  * Wilhelmina Street
+  * William Street
+  * Wollong Street
+
+
+### 12 suburbs surrounding Gosford
+Compare nearby suburb prices, rents and five-year market trends.
+  * [North Gosford 2250→](https://www.microburbs.com.au/suburb-reports-lite/north-gosford-nsw-2250)
+  * [West Gosford 2250→](https://www.microburbs.com.au/suburb-reports-lite/west-gosford-nsw-2250)
+  * [East Gosford 2250→](https://www.microburbs.com.au/suburb-reports-lite/east-gosford-nsw-2250)
+  * [Point Frederick 2250→](https://www.microburbs.com.au/suburb-reports-lite/point-frederick-nsw-2250)
+  * [Wyoming 2250→](https://www.microburbs.com.au/suburb-reports-lite/wyoming-nsw-2250)
+  * [Point Clare 2250→](https://www.microburbs.com.au/suburb-reports-lite/point-clare-nsw-2250)
+  * [Springfield (Central Coast - NSW) 2250→](https://www.microburbs.com.au/suburb-reports-lite/springfield-central-coast-nsw-nsw-2250)
+  * [Narara 2250→](https://www.microburbs.com.au/suburb-reports-lite/narara-nsw-2250)
+  * [Tascott 2250→](https://www.microburbs.com.au/suburb-reports-lite/tascott-nsw-2250)
+  * [Mount Elliot (NSW) 2250→](https://www.microburbs.com.au/suburb-reports-lite/mount-elliot-nsw-2250)
+  * [Green Point (Central Coast - NSW) 2251→](https://www.microburbs.com.au/suburb-reports-lite/green-point-central-coast-nsw-nsw-2251)
+  * [Erina 2250→](https://www.microburbs.com.au/suburb-reports-lite/erina-nsw-2250)
+
+
+Keep exploring
+## Is Gosford right for your search?
+Use the finders to compare places and properties, or open the full report when you need the street, risk, schools and growth research.
+[Compare suburbs](https://www.microburbs.com.au/suburb-finder)[Open the full report](https://www.microburbs.com.au/suburb-reports/Gosford)
+### Read the thinking
+  * [Why a median can mislead→](https://www.microburbs.com.au/research/median-mirage)
+  * [Browse property research→](https://www.microburbs.com.au/insights)
+  * [Find a property→](https://www.microburbs.com.au/property-finder)
+
+
+Figures update as new market and census data arrives. This suburb overview is general information, not a valuation or financial advice.
+[Microburbs](https://www.microburbs.com.au/)
+Australia's most comprehensive property data platform.
+[](https://www.linkedin.com/company/microburbs)[](https://twitter.com/microburbs)[](https://www.youtube.com/@microburbsau)[](https://www.instagram.com/microburbs_au)
+### Explore
+  * [Suburb Reports](https://www.microburbs.com.au/suburb-reports)
+  * [Region Reports](https://www.microburbs.com.au/region-reports)
+  * [Property Reports](https://www.microburbs.com.au/property-reports)
+  * [Property Finder](https://www.microburbs.com.au/property-finder-intro)
+  * [Suburb Finder](https://www.microburbs.com.au/suburb-finder)
+
+
+### Resources
+  * [Insights](https://www.microburbs.com.au/insights)
+  * [Guides](https://www.microburbs.com.au/p/guides)
+  * [Blog](https://www.microburbs.com.au/blog)
+  * [Academy](https://www.microburbs.com.au/academy)
+  * [Podcast](https://www.microburbs.com.au/podcast)
+  * [Data Definitions](https://www.microburbs.com.au/definitions)
+  * [FAQ](https://www.microburbs.com.au/faqs)
+
+
+### About
+  * [About Microburbs](https://www.microburbs.com.au/about)
+  * [Testimonials](https://www.microburbs.com.au/testimonials)
+  * [Contact Us](https://www.microburbs.com.au/contact)
+  * [Careers](https://www.microburbs.com.au/blog/jobpost)
+  * [Brand assets](https://www.microburbs.com.au/brand)
+
+
+### Legal
+  * [Terms of Use](https://www.microburbs.com.au/terms)
+  * [Privacy Policy](https://www.microburbs.com.au/privacy)
+  * [Disclaimer](https://www.microburbs.com.au/disclaimer)
+
+
+© 2026 Microburbs. All rights reserved.
+Back to Top
