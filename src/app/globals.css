@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #fefcf5;
+  --color-white: #fffcf6;
+  --color-white-tint: #eaeae2;
+  --color-light-gray: #f7f7f5;
+  --color-black: #3c3a39;
+  --color-black-rgb: 11, 9, 7;
+  --color-black-80: #0b0907cc;
+  --color-black-60: #0b090799;
+  --color-black-40: #0b090766;
+  --color-black-20: #0b090733;
+  --color-black-10: #0b09071a;
+  --color-black-5: #0b09070d;
+  
+  --color-primary-red: #ff272d;
+  --color-orange: #ff7300;
+  --color-yellow: #ffc753;
+  --color-primary-yellow: #fdc211;
+  --color-pink: #f49eff;
+  --color-lav: #817fff;
+  --color-primary-blue: #2677ff;
+  --color-light-blue: #aaf2fc;
+  --color-turquoise: #79deeb;
+  
+  --font-suisse: "Suisse Int'l", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Suisse Int'l Mono", SFMono-Regular, Consolas, monospace;
+
+  --spotlight-x: 50%;
+  --spotlight-y: 50%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-black);
+  font-family: var(--font-suisse);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mono eyebrow path-style labels */
+.eyebrow-mono {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: rgba(11, 9, 7, 0.65);
+  letter-spacing: -0.01em;
+}
+
+/* Editorial pill CTA button */
+.btn-pill-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #3c3a39;
+  color: #fefefe;
+  border-radius: 40px;
+  padding: 10px 22px;
+  font-size: 13.5px;
+  font-weight: 500;
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-pill-dark:hover {
+  background-color: #1a1918;
+  transform: translateY(-1px);
+}
+
+.btn-pill-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: transparent;
+  color: #3c3a39;
+  border: 1px solid rgba(11, 9, 7, 0.15);
+  border-radius: 40px;
+  padding: 9px 20px;
+  font-size: 13.5px;
+  font-weight: 500;
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-pill-ghost:hover {
+  background-color: rgba(11, 9, 7, 0.05);
+  border-color: rgba(11, 9, 7, 0.3);
+}
+
+/* Standard outlined card with subtle border */
+.card-editorial {
+  background-color: #fffcf6;
+  border: 1px solid rgba(11, 9, 7, 0.1);
+  border-radius: 14px;
+  padding: 24px;
+  transition: border-color 0.15s ease;
+}
+
+.card-editorial:hover {
+  border-color: rgba(11, 9, 7, 0.25);
+}
+
+/* Print-optimized layout for Buyer's Agent Due Diligence Reports */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+  }
+
+  .card-editorial {
+    border: 1px solid #cccccc !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+    margin-bottom: 20px;
+    background-color: #ffffff !important;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: #000000 !important;
+  }
+}
+
+/* Micro-interaction shifts */
+.group:hover .shift-arrow {
+  transform: translateX(3px);
+}
