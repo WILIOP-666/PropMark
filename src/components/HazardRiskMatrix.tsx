@@ -12,7 +12,7 @@ export default function HazardRiskMatrix({ hazards, suburbName }: HazardRiskMatr
     <div className="card-editorial p-4 sm:p-6">
       <div className="mb-5 sm:mb-6">
         <span className="eyebrow-mono text-xs">/due diligence &amp; hazards</span>
-        <h4 className="text-base sm:text-lg font-bold text-[#3c3a39]">
+        <h4 className="text-base sm:text-lg font-bold text-ink">
           Environmental, Structural &amp; Demographic Risks
         </h4>
         <p className="text-xs text-ink-60 mt-1">

@@ -3,20 +3,21 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Search, Menu, X, ArrowUpRight, BarChart3, Database, ShieldCheck, MapPin } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#fffcf6] border-b border-[#0b09071a]">
+    <header className="sticky top-0 z-50 bg-surface border-b border-ink-10 transition-colors">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
         {/* Brand Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-9 h-9 rounded-lg bg-[#3c3a39] flex items-center justify-center text-[#fefefe] font-mono font-bold text-base shadow-subtle group-hover:bg-[#1a1918] transition-colors">
+          <div className="w-9 h-9 rounded-lg bg-ink text-background flex items-center justify-center font-mono font-bold text-base shadow-subtle group-hover:opacity-90 transition-opacity">
             PM
           </div>
           <div className="flex flex-col">
-            <span className="font-sans font-bold tracking-tight text-xl text-[#3c3a39]">
+            <span className="font-sans font-bold tracking-tight text-xl text-ink">
               PROP MARK
             </span>
             <span className="font-mono text-[10px] text-ink-60 uppercase tracking-widest -mt-1">
@@ -29,37 +30,37 @@ export default function Navbar() {
         <nav className="hidden md:flex items-center gap-7">
           <Link
             href="/suburb-finder"
-            className="text-[14px] font-medium text-[#3c3a39] hover:text-black transition-colors"
+            className="text-[14px] font-medium text-ink hover:text-black dark:hover:text-white transition-colors"
           >
             Suburb Finder
           </Link>
           <Link
             href="/compare"
-            className="text-[14px] font-medium text-[#3c3a39] hover:text-black transition-colors"
+            className="text-[14px] font-medium text-ink hover:text-black dark:hover:text-white transition-colors"
           >
             Compare Markets
           </Link>
           <Link
             href="/property-finder"
-            className="text-[14px] font-medium text-[#3c3a39] hover:text-black transition-colors"
+            className="text-[14px] font-medium text-ink hover:text-black dark:hover:text-white transition-colors"
           >
             Property Explorer
           </Link>
           <Link
             href="/region-reports"
-            className="text-[14px] font-medium text-[#3c3a39] hover:text-black transition-colors"
+            className="text-[14px] font-medium text-ink hover:text-black dark:hover:text-white transition-colors"
           >
             Regions
           </Link>
           <Link
             href="/definitions"
-            className="text-[14px] font-medium text-[#3c3a39] hover:text-black transition-colors"
+            className="text-[14px] font-medium text-ink hover:text-black dark:hover:text-white transition-colors"
           >
             Data Dictionary
           </Link>
           <Link
             href="/pricing"
-            className="text-[14px] font-medium text-[#3c3a39] hover:text-black transition-colors"
+            className="text-[14px] font-medium text-ink hover:text-black dark:hover:text-white transition-colors"
           >
             Pricing
           </Link>
@@ -67,6 +68,7 @@ export default function Navbar() {
 
         {/* Right Actions */}
         <div className="hidden md:flex items-center gap-3">
+          <ThemeToggle />
           <Link
             href="/compare"
             className="btn-pill-ghost text-[13px] py-2 px-4"
@@ -83,18 +85,21 @@ export default function Navbar() {
         </div>
 
         {/* Mobile menu trigger */}
-        <button
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden p-2 text-[#3c3a39] hover:bg-ink-5 rounded-lg"
-          aria-label="Toggle Menu"
-        >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+        <div className="md:hidden flex items-center gap-2">
+          <ThemeToggle />
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="p-2 text-ink hover:bg-ink-5 rounded-lg"
+            aria-label="Toggle Menu"
+          >
+            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-ink-10 bg-[#fffcf6] px-6 py-5 flex flex-col gap-4 animate-in slide-in-from-top-2">
+        <div className="md:hidden border-t border-ink-10 bg-surface px-6 py-5 flex flex-col gap-4 animate-in slide-in-from-top-2">
           <Link
             href="/suburb-finder"
             onClick={() => setMobileMenuOpen(false)}

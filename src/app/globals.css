@@ -16,6 +16,12 @@
   --color-black-10: #0b09071a;
   --color-black-5: #0b09070d;
   
+  --card-bg: #fffcf6;
+  --card-border: rgba(11, 9, 7, 0.1);
+  --card-hover-border: rgba(11, 9, 7, 0.25);
+  --nav-bg: #fffcf6;
+  --eyebrow-color: rgba(11, 9, 7, 0.65);
+
   --color-primary-red: #ff272d;
   --color-orange: #ff7300;
   --color-yellow: #ffc753;
@@ -31,6 +37,27 @@
 
   --spotlight-x: 50%;
   --spotlight-y: 50%;
+}
+
+.dark {
+  --color-background: #141312;
+  --color-white: #1c1b18;
+  --color-white-tint: #272522;
+  --color-light-gray: #1f1e1a;
+  --color-black: #f5f3ec;
+  --color-black-rgb: 245, 243, 236;
+  --color-black-80: #f5f3eccc;
+  --color-black-60: #f5f3ec99;
+  --color-black-40: #f5f3ec66;
+  --color-black-20: #f5f3ec33;
+  --color-black-10: #f5f3ec1a;
+  --color-black-5: #f5f3ec0d;
+
+  --card-bg: #1c1b18;
+  --card-border: rgba(245, 243, 236, 0.12);
+  --card-hover-border: rgba(245, 243, 236, 0.28);
+  --nav-bg: #191816;
+  --eyebrow-color: rgba(245, 243, 236, 0.7);
 }
 
 * {
@@ -52,7 +79,7 @@ body {
   font-family: var(--font-mono);
   font-size: 13.5px;
   font-weight: 500;
-  color: rgba(11, 9, 7, 0.65);
+  color: var(--eyebrow-color);
   letter-spacing: -0.01em;
 }
 
@@ -62,8 +89,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background-color: #3c3a39;
-  color: #fefefe;
+  background-color: var(--color-black);
+  color: var(--color-background);
   border-radius: 40px;
   padding: 10px 22px;
   font-size: 13.5px;
@@ -74,7 +101,7 @@ body {
 }
 
 .btn-pill-dark:hover {
-  background-color: #1a1918;
+  opacity: 0.9;
   transform: translateY(-1px);
 }
 
@@ -84,8 +111,8 @@ body {
   justify-content: center;
   gap: 8px;
   background-color: transparent;
-  color: #3c3a39;
-  border: 1px solid rgba(11, 9, 7, 0.15);
+  color: var(--color-black);
+  border: 1px solid var(--card-border);
   border-radius: 40px;
   padding: 9px 20px;
   font-size: 13.5px;
@@ -96,21 +123,21 @@ body {
 }
 
 .btn-pill-ghost:hover {
-  background-color: rgba(11, 9, 7, 0.05);
-  border-color: rgba(11, 9, 7, 0.3);
+  background-color: var(--color-black-5);
+  border-color: var(--card-hover-border);
 }
 
 /* Standard outlined card with subtle border */
 .card-editorial {
-  background-color: #fffcf6;
-  border: 1px solid rgba(11, 9, 7, 0.1);
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 14px;
   padding: 24px;
-  transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease, background-color 0.2s ease;
 }
 
 .card-editorial:hover {
-  border-color: rgba(11, 9, 7, 0.25);
+  border-color: var(--card-hover-border);
 }
 
 /* Print-optimized layout for Buyer's Agent Due Diligence Reports */

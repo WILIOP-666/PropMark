@@ -22,8 +22,13 @@ export default function RootLayout({
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
           crossOrigin=""
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('propmark_theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark');}}catch(e){}})();`,
+          }}
+        />
       </head>
-      <body className="min-h-screen flex flex-col bg-[#fefcf5] text-[#3c3a39] antialiased">
+      <body className="min-h-screen flex flex-col bg-background text-ink antialiased transition-colors duration-200">
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />
