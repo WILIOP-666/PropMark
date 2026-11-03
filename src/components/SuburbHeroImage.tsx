@@ -71,7 +71,7 @@ export default function SuburbHeroImage({ suburb }: SuburbHeroImageProps) {
         alt={`${suburb.name}, ${suburb.state} — ${photo.caption}`}
         loading="eager"
         className="h-[220px] w-full object-cover sm:h-[300px] lg:h-[360px]"
-        src={photo.url}
+        src={`/api/suburb-image/${suburb.slug}`}
       />
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
       
